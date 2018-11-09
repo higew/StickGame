@@ -38,6 +38,13 @@ header #top a {
 	text-decoration: none;
 }
 
+header #top #logo {
+	background-image: url("../media/94065_d0628_FULL.jpg");
+	background-position: 0px -90px;
+	background-size: 100%;
+	width: 300px;
+}
+
 header #top #account {
 	padding: 20px;
 	background-color: white;
@@ -49,7 +56,7 @@ header #top #account {
 
 header #top #account:hover {
 	color: white;
-	background-color: #ED145B;
+	background-color: #E4002B;
 	transition: 1s;
 }
 
@@ -84,7 +91,7 @@ header #menu a {
 }
 
 header #menu a:hover {
-	color: #ED145B;
+	color: #E4002B;
 	transition: 1s;
 }
 
@@ -99,6 +106,7 @@ header #menu a:hover {
 	flex-direction: column;
 	justify-content: space-between;
 	width: 100%;
+	margin-bottom: 50px;
 }
 
 #actu h1 {
@@ -129,3 +137,92 @@ header #menu a:hover {
 }
 
 /* Fin de la section Actualités */
+
+/* Début de la section Histoire */
+
+#story {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	background-color: grey;
+	margin-bottom: 20px;
+}
+
+#story h1 {
+	padding: 30px;
+	margin-left: 30px;
+	font-size: 30px;
+}
+
+#story #contentActu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#story #contentActu .preview {
+	width: 300px;
+	height: 220px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#story #contentActu .preview .fakeImage {
+	background-color: black;
+	height: 100px;
+	width: 300px;
+}
+
+/* Fin de la section Histoire */
+
+/* Début de la section Classes */
+
+#class {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#class h1 {
+	padding: 30px;
+	margin-left: 30px;
+	font-size: 30px;
+}
+
+#class #contentActu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#class #contentActu .preview {
+	width: 300px;
+	height: 220px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#class #contentActu .preview .fakeImage {
+	background-color: black;
+	height: 100px;
+	width: 300px;
+}
+
+/* Fin de la section Classes */
+
+/* Début du footer */
+
+footer {
+	background-color: dimgray;
+	width: 100%;
+	height: 200px;
+}
+
+/* Fin du footer */
