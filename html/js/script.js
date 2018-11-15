@@ -1,11 +1,11 @@
-var num = 150; //number of pixels before modifying styles
+var num = 160; //number of pixels before modifying styles
 
 $(window).bind('scroll', function () {
     if ($(window).scrollTop() > num) {
-        $('#menu').addClass('fixed');
-        $('#menu').removeClass('base');
+        $('#menuGlobal').removeClass('hidden');
+        $('#menuBase').addClass('hidden');
     } else {
-        $('#menu').addClass('base');
-        $('#menu').removeClass('fixed');
+        $('#menuGlobal').addClass('hidden');
+        $('#menuBase').removeClass('hidden');
     }
 });
