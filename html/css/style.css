@@ -20,6 +20,13 @@ hr {
 	margin-left: 60px;
 }
 
+.anchor {
+	display: block;
+	height: 56px; /*same height as header*/
+	margin-top: -56px; /*same height as header*/
+	visibility: hidden;
+}
+
 /* Fin Classes Global */
 
 /* Début du header */
