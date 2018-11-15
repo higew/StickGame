@@ -1,4 +1,4 @@
-package com.bogoss.stickgame;
+package com.imie.stickgame;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
