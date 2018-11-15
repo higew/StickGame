@@ -7,8 +7,8 @@ import javax.persistence.Table;
 import com.imie.stickgame.database.DBItem;
 
 @Entity
-@Table(name="Battlefield")
-public class Battlefield extends DBItem {
+@Table(name="Effect")
+public class Effect extends DBItem {
 
 	@Column(name="name")
 	private String name;
@@ -61,7 +61,7 @@ public class Battlefield extends DBItem {
 		this.inkCost = inkCost;
 	}
 
-	public Battlefield() {
+	public Effect() {
 		super();
 	}
 }

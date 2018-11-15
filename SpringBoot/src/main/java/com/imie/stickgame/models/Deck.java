@@ -1,12 +1,14 @@
-package com.imie.stickgame.entity.library;
+package com.imie.stickgame.models;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
+import com.imie.stickgame.database.DBItem;
+
 @Entity
 @Table(name="deck")
-public class Deck {
+public class Deck extends DBItem {
 
     @Column(name="card")
     private String card;
