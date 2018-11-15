@@ -1,4 +1,4 @@
-package com.bogoss.stickgame;
+package com.imie.stickgame;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
