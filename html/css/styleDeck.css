@@ -1,10 +1,11 @@
-  .carousel {
+.carousel {
     margin: 0 auto;
     width:800px;
-    height: 300px;
+    height: 600px;
     display: relative;
   }
-  .carousel img {
+.card {
     display: hidden; /* hide images until carousel prepares them */
     cursor: pointer; /* not needed if you wrap carousel items in links */
   }
+

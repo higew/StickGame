@@ -34,10 +34,9 @@ hr {
 header {
     display: flex;
     flex-direction: column;
-  background-image: url("../media/okina-stage.gif");
-  background-position: 0px -350px;
+    background-position: 0px -350px;
     color: white;
-    height: 500px;
+    height: 200px;
     width: 100%;
 }
 
