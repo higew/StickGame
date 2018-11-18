@@ -223,8 +223,8 @@
             $(this)
               // Apply positioning and layering to the images
               .css({
-                'left': centerPosLeft,
-                'top': centerPosTop,
+               
+                
                 'visibility': 'visible',
                 'position': 'absolute',
                 'z-index': 0,
@@ -643,11 +643,11 @@
   $.fn.waterwheelCarousel.defaults = {
     // number tweeks to change apperance
     startingItem:               1,   // item to place in the center of the carousel. Set to 0 for auto
-    separation:                 175, // distance between items in carousel
+    separation:                 400, // distance between items in carousel
     separationMultiplier:       0.6, // multipled by separation distance to increase/decrease distance for each additional item
     horizonOffset:              0,   // offset each item from the "horizon" by this amount (causes arching)
     horizonOffsetMultiplier:    1,   // multipled by horizon offset to increase/decrease offset for each additional item
-    sizeMultiplier:             0.7, // determines how drastically the size of each item changes
+    sizeMultiplier:             0.6, // determines how drastically the size of each item changes
     opacityMultiplier:          0.8, // determines how drastically the opacity of each item changes
     horizon:                    0,   // how "far in" the horizontal/vertical horizon should be set from the container wall. 0 for auto
     flankingItems:              3,   // the number of items visible on either side of the center                  
@@ -655,7 +655,7 @@
     // animation
     speed:                      300,      // speed in milliseconds it will take to rotate from one to the next
     animationEasing:            'linear', // the easing effect to use when animating
-    quickerForFurther:          true,     // set to true to make animations faster when clicking an item that is far away from the center
+    quickerForFurther:          false,     // set to true to make animations faster when clicking an item that is far away from the center
     edgeFadeEnabled:            false,    // when true, items fade off into nothingness when reaching the edge. false to have them move behind the center image
     
     // misc

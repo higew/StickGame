@@ -1,8 +1,15 @@
 .carousel {
     margin: 0 auto;
-    width:800px;
-    height: 600px;
-    display: relative;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    
+
+
   }
 .card {
     display: hidden; /* hide images until carousel prepares them */
