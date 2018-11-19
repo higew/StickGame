@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 
 import javax.persistence.Table;
@@ -13,16 +14,12 @@ import com.imie.stickgame.database.DBItem;
 @Entity
 @Table(name="deck")
 public class Deck extends DBItem {
-
-    @Column(name="card")
+	@ManyToMany
     private ArrayList<Card> cards;
-    
 	@Column(name="name")
-    private String name;
-	
+    private String name;	
 	@ManyToOne()
     private Classes classes;
-	
 
     public ArrayList<Card> getCards() {
 		return cards;

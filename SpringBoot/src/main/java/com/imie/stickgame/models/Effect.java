@@ -17,7 +17,6 @@ public class Effect extends DBItem {
 	private String name;
 	@Column(name="inkCost")
 	private Integer inkCost;
-
 	@OneToMany(targetEntity=Card.class,mappedBy="effect")
 	private List<Card>cards;
 	

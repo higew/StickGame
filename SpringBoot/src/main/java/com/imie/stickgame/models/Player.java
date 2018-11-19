@@ -2,6 +2,7 @@ package com.imie.stickgame.models;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.ManyToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 import javax.persistence.Transient;
@@ -18,7 +19,7 @@ public class Player extends DBItem {
 	private String picture;
 	@Column(name="hp")
 	private Integer hp;
-	@OneToOne(targetEntity=Deck.class)
+	@ManyToMany
 	private Deck deck;
 	
 	@Transient
