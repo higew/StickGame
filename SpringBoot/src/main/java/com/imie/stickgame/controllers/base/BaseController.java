@@ -12,6 +12,8 @@ import com.imie.stickgame.database.DBItem;
 import com.imie.stickgame.dtos.base.BaseDeleteCriteriaDTO;
 import com.imie.stickgame.services.base.BaseService;
 
+import net.bytebuddy.asm.Advice.This;
+
 public abstract class BaseController<T extends DBItem> {
 
 	private static final String BASE_ATTRIBUT_LIST = "items";
@@ -32,7 +34,7 @@ public abstract class BaseController<T extends DBItem> {
 	@RequestMapping(value= {"/delete/{id}"}, method=RequestMethod.GET)
 	public String deleteId(Model model, @PathVariable Integer id) {
 		this.getBaseService().deleteById(id);
-		return "redirect:/"+this.getBaseURL()+"/index";
+		return "redirect:"+this.getBaseURL()+"/index";
 	}
 	
 	@RequestMapping(value= {"/delete"}, method=RequestMethod.GET)
@@ -57,7 +59,7 @@ public abstract class BaseController<T extends DBItem> {
 	@RequestMapping(value= {"/deletecriteria"}, method=RequestMethod.POST)
 	public String deleteCriteriaDelete(@ModelAttribute BaseDeleteCriteriaDTO<T> form) {
 		this.getBaseService().delete(form.getItems());
-		return "redirect:/"+this.getBaseURL()+"/delete";
+		return "redirect:"+this.getBaseURL()+"/delete";
 	}
 	
 	@RequestMapping(value= {"/find"}, method=RequestMethod.GET)
@@ -68,9 +70,9 @@ public abstract class BaseController<T extends DBItem> {
 	
 	@RequestMapping(value= {"/find"}, method=RequestMethod.POST)
 	public String findCriteriaSearch(Model model, @ModelAttribute T item) {
-		List<T> roles = this.getBaseService().findWithCriteria(item);
-		if (roles.size() > 0) {
-			model.addAttribute(BASE_ATTRIBUT_LIST,roles);
+		List<T> trek = this.getBaseService().findWithCriteria(item);
+		if (trek.size() > 0) {
+			model.addAttribute(BASE_ATTRIBUT_LIST,trek);
 		}else {
 			model.addAttribute("notFound","No match");
 		}
@@ -95,11 +97,11 @@ public abstract class BaseController<T extends DBItem> {
 	@RequestMapping(value= {"/edit"}, method=RequestMethod.POST)
 	public String editSave(@ModelAttribute T item) {
 		this.getBaseService().save(item);
-		return "redirect:/"+this.getBaseURL()+"/index";
+		return "redirect:"+this.getBaseURL()+"/index";
 	}
 	
 	@RequestMapping(value= {"/edit"}, method=RequestMethod.DELETE)
 	public String editDelete() {
-		return "redirect:/"+this.getBaseURL()+"/index";
+		return "redirect:"+this.getBaseURL()+"/index";
 	}
 }

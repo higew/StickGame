@@ -15,7 +15,7 @@ import com.imie.stickgame.models.Deck;
 @Repository
 public interface ClassesRepository extends BaseCRUDRepository<Classes> {
 
-	List<Card> findByname(String name);
-	List<Deck> findBynames(String name);
+	List<Card> findCardByName(String name);
+	List<Deck> findDeckByName(String name);
 	
 }

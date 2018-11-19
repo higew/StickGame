@@ -24,4 +24,6 @@ public class EffectService extends BaseService<Effect> {
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
+	
 }

@@ -2,9 +2,9 @@
 
 <form action="/item/find" method="POST">
     <div>Name</div>
-    <input type="text" name="card name" value="">
+    <input type="text" name="name" value="">
     <div>Ink Cost</div>
-    <input type="text" name="Card cost" value="">
+    <input type="text" name="inkCost" value="">
     <input type="submit" value="Add">
 </form>
 

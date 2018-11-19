@@ -2,7 +2,7 @@
 
 <form action="/delete" method="POST">
     <div>Nom de la carte</div>
-    <input type="text" name="classe name" value="">
+    <input type="text" name="name" value="">
     <input type="submit" value="Delete">
 </form> 
 

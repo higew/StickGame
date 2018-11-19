@@ -14,6 +14,7 @@ public class CardService extends BaseService<Card> {
 	@Autowired
 	private CardRepository cardRepository;
 
+
 	@Override
 	protected BaseCRUDRepository<Card> getCRUDRepository() {
 		return cardRepository;
@@ -21,7 +22,10 @@ public class CardService extends BaseService<Card> {
 
 	@Override
 	protected List<Card> setItemsByCriterias(Card item, List<Card> result) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		if (!item.getName().equals("") ){
+			result = this.cardRepository.findByName(item.getName());
+		}
+		return result;
 	}
 }
