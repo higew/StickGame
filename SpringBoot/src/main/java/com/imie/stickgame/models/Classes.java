@@ -4,7 +4,7 @@ import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
@@ -20,8 +20,12 @@ public class Classes extends DBItem {
 	private String name;
 	@Column(name="picture")
 	private String picture;
-	@OneToMany(targetEntity=Card.class,mappedBy="classes")
+	@OneToMany(mappedBy="classes")
 	private List<Card> cards;
+	@OneToMany(mappedBy="classes")
+	private List<Deck> deck; 
+		
+	
 	
 	public String getName() {
 		return name;

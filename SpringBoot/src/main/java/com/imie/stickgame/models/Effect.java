@@ -1,7 +1,10 @@
 package com.imie.stickgame.models;
 
+import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import com.imie.stickgame.database.DBItem;
@@ -14,6 +17,9 @@ public class Effect extends DBItem {
 	private String name;
 	@Column(name="inkCost")
 	private Integer inkCost;
+
+	@OneToMany(targetEntity=Card.class,mappedBy="effect")
+	private List<Card>cards;
 	
 	public String getName() {
 		return name;

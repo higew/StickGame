@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.ManyToOne;
 
-import org.assertj.core.internal.Classes;
+import javax.persistence.Table;
 
 import com.imie.stickgame.database.DBItem;
 
@@ -20,8 +20,9 @@ public class Deck extends DBItem {
 	@Column(name="name")
     private String name;
 	
-	@Column(name="classes")
+	@ManyToOne()
     private Classes classes;
+	
 
     public ArrayList<Card> getCards() {
 		return cards;

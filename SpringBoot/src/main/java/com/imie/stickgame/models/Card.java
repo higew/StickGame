@@ -3,9 +3,8 @@ package com.imie.stickgame.models;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
-import javax.persistence.Table;
 
-import org.assertj.core.internal.Classes;
+import javax.persistence.Table;
 
 import com.imie.stickgame.database.DBItem;
 
@@ -23,7 +22,7 @@ public class Card extends DBItem {
 	private Integer atk;
 	@Column(name="inkCost")
 	private Integer inkCost;
-	@Column(name="effect")
+	@ManyToOne()
 	private Effect effect;
 	
 	@ManyToOne()
