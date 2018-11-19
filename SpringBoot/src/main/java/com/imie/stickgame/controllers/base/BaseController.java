@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.imie.stickgame.database.DBItem;
+import com.imie.stickgame.dtos.base.BaseDeleteCriteriaDTO;
 import com.imie.stickgame.services.base.BaseService;
 
 public abstract class BaseController<T extends DBItem> {
@@ -31,12 +32,12 @@ public abstract class BaseController<T extends DBItem> {
 	@RequestMapping(value= {"/delete/{id}"}, method=RequestMethod.GET)
 	public String deleteId(Model model, @PathVariable Integer id) {
 		this.getBaseService().deleteById(id);
-		return "redirect:"+this.getBaseURL()+"/index";
+		return "redirect:/"+this.getBaseURL()+"/index";
 	}
 	
 	@RequestMapping(value= {"/delete"}, method=RequestMethod.GET)
 	public String deleteCriteria(Model model) {
-		model.addAttribute("pageName",this.getBasePageName()+" deletion criteria");
+		model.addAttribute("pageName",this.getBasePageName()+" suppression critere");
 		return this.getBaseURL()+"/delete";
 	}
 	
@@ -49,14 +50,14 @@ public abstract class BaseController<T extends DBItem> {
 			model.addAttribute("notFound","No match");
 		}
 		
-		model.addAttribute("pageName",this.getBasePageName()+" deletion criteria");
+		model.addAttribute("pageName",this.getBasePageName()+" suppression critere");
 		return this.getBaseURL()+"/delete";
 	}
 	
 	@RequestMapping(value= {"/deletecriteria"}, method=RequestMethod.POST)
 	public String deleteCriteriaDelete(@ModelAttribute BaseDeleteCriteriaDTO<T> form) {
 		this.getBaseService().delete(form.getItems());
-		return "redirect:"+this.getBaseURL()+"/delete";
+		return "redirect:/"+this.getBaseURL()+"/delete";
 	}
 	
 	@RequestMapping(value= {"/find"}, method=RequestMethod.GET)
@@ -94,11 +95,11 @@ public abstract class BaseController<T extends DBItem> {
 	@RequestMapping(value= {"/edit"}, method=RequestMethod.POST)
 	public String editSave(@ModelAttribute T item) {
 		this.getBaseService().save(item);
-		return "redirect:"+this.getBaseURL()+"/index";
+		return "redirect:/"+this.getBaseURL()+"/index";
 	}
 	
 	@RequestMapping(value= {"/edit"}, method=RequestMethod.DELETE)
 	public String editDelete() {
-		return "redirect:"+this.getBaseURL()+"/index";
+		return "redirect:/"+this.getBaseURL()+"/index";
 	}
 }

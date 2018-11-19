@@ -1,0 +1,235 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+  color: black;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	margin-top: -56px;
+	background-color: #f5f5f5;
+}
+
+/* Classes Global */
+
+hr {
+	border: 1px solid #E4002B;
+	background-color: #E4002B;
+	width: 500px;
+	margin-bottom: 40px;
+	margin-left: 60px;
+}
+
+.anchor {
+	display: block;
+	height: 56px; /*same height as header*/
+	margin-top: -56px; /*same height as header*/
+	visibility: hidden;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Fin Classes Global */
+
+/* Début du header */
+
+header {
+	display: flex;
+	flex-direction: column;
+  background-image: url("../media/okina-stage.gif");
+  background-position: 0px -350px;
+	color: white;
+	height: 500px;
+	width: 100%;
+}
+
+/* header {
+	display: flex;
+	flex-direction: column;
+  background-image: url("../media/stickman.gif");
+  background-size: 100%;
+	background-position: 0 -335px;
+	color: white;
+	height: 500px;
+	width: 100%;
+} */
+
+header #top {
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: auto;
+  margin-right: auto;
+	width: 1400px;
+}
+
+header #top a {
+	text-decoration: none;
+}
+
+header #top #logo {
+	background-image: url("../media/94065_d0628_FULL.jpg");
+	background-position: 0px -90px;
+	background-size: 100%;
+	width: 300px;
+}
+
+header #top #account {
+	padding: 20px;
+	background-color: white;
+	color: black;
+	border-radius: 20px;
+	padding: 20px;
+	transition: 1s;
+}
+
+header #top #account:hover {
+	color: white;
+	background-color: #E4002B;
+	transition: 1s;
+}
+
+/* Début du nav */
+
+/* C'est dégueulasse, ça me casse les couilles */
+
+/* Sticky Nav Visibility */
+
+.hidden {
+	visibility: hidden;
+}
+
+/* End Sticky Nav Visibility */
+
+/* Sticky Nav */
+
+.fixed {
+    position: sticky;
+    top: 0;
+		width: 100%;
+		z-index: 1;
+}
+
+/* Fin Sticky Nav */
+
+.base {
+	width: 1400px;
+	border-radius: 20px;
+}
+
+#menuBase {
+	padding: 20px;
+	background-color: #383838;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#menuBase ul {
+	list-style-type: none;
+}
+
+#menuBase ul li {
+	display: inline;
+	margin-right: 15px;
+}
+
+#menuBase a {
+	font-weight: bold;
+  color: white;
+	text-decoration: none;
+	transition: 1s;
+}
+
+#menuBase a:hover {
+	color: #E4002B;
+	transition: 1s;
+}
+
+#menuGlobal {
+	padding: 20px;
+	background-color: #383838;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#menuGlobal ul {
+	list-style-type: none;
+}
+
+#menuGlobal ul li {
+	display: inline;
+	margin-right: 15px;
+}
+
+#menuGlobal a {
+	font-weight: bold;
+  color: white;
+	text-decoration: none;
+}
+
+#menuGlobal a:hover {
+	color: #E4002B;
+	transition: 1s;
+}
+
+/* Fin du nav */
+
+/* Fin du header */
+
+/* Début du footer */
+
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #000000;
+	height: 150px;
+	width: 100%;
+}
+
+footer article p {
+	color: white;
+	text-transform: uppercase;
+}
+
+footer article p span {
+	color: #E4002B;
+	text-transform: uppercase;
+}
+
+/* Fin du footer */
+
+.menumodif {
+	color: grey;
+}
+
+.contMenu ul{
+	list-style-type: none;
+}

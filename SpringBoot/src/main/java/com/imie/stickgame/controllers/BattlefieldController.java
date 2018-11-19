@@ -12,7 +12,7 @@ import com.imie.stickgame.services.BattlefieldService;
 @RequestMapping(BattlefieldController.BASE_URL)
 public class BattlefieldController extends BaseController<Battlefield> {
 	
-	public static final String BASE_URL = "/Battlefields";
+	public static final String BASE_URL = "/battlefields";
 	private static final String BASE_PAGE_NAME = "Battlefields";
 	
 	@Autowired
