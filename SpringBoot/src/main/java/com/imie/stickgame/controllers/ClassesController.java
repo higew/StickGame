@@ -12,7 +12,7 @@ import com.imie.stickgame.services.base.BaseService;
 @Controller
 @RequestMapping(ClassesController.BASE_URL)
 public class ClassesController extends BaseController<Classes> {
-	
+
 	public static final String BASE_URL = "/classes";
 	private static final String BASE_PAGE_NAME = "Classes";
 	
