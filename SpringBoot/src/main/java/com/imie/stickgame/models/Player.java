@@ -2,7 +2,9 @@ package com.imie.stickgame.models;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 
 import com.imie.stickgame.database.DBItem;
 
@@ -15,11 +17,13 @@ public class Player extends DBItem {
 	@Column(name="picture")
 	private String picture;
 	@Column(name="hp")
-	private int hp;
-	@Column(name="atk")
-	private int atk;
-	@Column(name="inkCost")
-	private String inkCost;
+	private Integer hp;
+	@OneToOne(targetEntity=Deck.class)
+	private Deck deck;
+	
+	@Transient
+	private Battlefield battlefield;
+
 	
 	public String getName() {
 		return name;
@@ -37,31 +41,33 @@ public class Player extends DBItem {
 		this.picture = picture;
 	}
 
-	public int getHp() {
+	public Integer getHp() {
 		return hp;
 	}
 
-	public void setHp(int hp) {
+	public void setHp(Integer hp) {
 		this.hp = hp;
-	}
-
-	public int getAtk() {
-		return atk;
-	}
-
-	public void setAtk(int atk) {
-		this.atk = atk;
-	}
-
-	public String getInkCost() {
-		return inkCost;
-	}
-
-	public void setInkCost(String inkCost) {
-		this.inkCost = inkCost;
 	}
 
 	public Player() {
 		super();
 	}
+
+	public Deck getDeck() {
+		return deck;
+	}
+
+	public void setDeck(Deck deck) {
+		this.deck = deck;
+	}
+
+	public Battlefield getBattlefield() {
+		return battlefield;
+	}
+
+	public void setBattlefield(Battlefield battlefield) {
+		this.battlefield = battlefield;
+	}
+	
+	
 }

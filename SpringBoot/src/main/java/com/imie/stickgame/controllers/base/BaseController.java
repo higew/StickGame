@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.imie.stickgame.database.DBItem;
+import com.imie.stickgame.dtos.base.BaseDeleteCriteriaDTO;
 import com.imie.stickgame.services.base.BaseService;
 
 public abstract class BaseController<T extends DBItem> {
