@@ -24,3 +24,16 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+
+### Eclipse ###
+.classpath
+.gradle/
+./.project
+./.settings
+
+### Au cas ou ###
+../.idea/
+../.settings
+../project
+/bin/
+/gradle
