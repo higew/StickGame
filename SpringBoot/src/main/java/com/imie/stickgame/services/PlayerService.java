@@ -21,7 +21,11 @@ public class PlayerService extends BaseService<Player> {
 
 	@Override
 	protected List<Player> setItemsByCriterias(Player item, List<Player> result) {
-		// TODO Auto-generated method stub
-		return null;
+
+		if (!item.getName().equals("") ){
+			result = this.PlayerRepository.findByName(item.getName());
+		}
+		return result;
+		
 	}
 }
