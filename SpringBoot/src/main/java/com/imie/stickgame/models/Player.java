@@ -1,12 +1,12 @@
 package com.imie.stickgame.models;
 
-import java.util.Set;
 
-import javax.persistence.CascadeType;
+import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToMany;
-
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
@@ -26,26 +26,15 @@ public class Player extends DBItem {
 	private String picture;
 	@Column(name="hp")
 	private Integer hp;
-	
-	
-	@ManyToMany()
-	private Deck deck;
-	
-	//En TEst
-		/*
-	 @ManyToMany(cascade=CascadeType.ALL, mappedBy="players")  
-	    public Set<Deck> getDecks()  
-	    {  
-	        return getDecks();  
-	    }  
-	    public void setDecks(Set<Deck> deck)  
-	    {  
-	        this.Decks = decks;  
-	    }  
-	*/
+	@OneToMany
+	private List<Deck> decks;
 	    
 	@Transient
+	private Deck deck;
+	
+	@Transient
 	private Battlefield battlefield;
+
 
 	
 	public String getName() {
