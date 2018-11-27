@@ -1,18 +1,14 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/accueil.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <title>Accueil</title>
-    <script src="js/jQuery.js"></script>
-    <script src="js/jQueryUI.js"></script>
-    <script src="js/script.js" type="text/javascript"></script>
-  </head>
-  <body>
+<#import "/spring.ftl" as spring/>
+<link rel="stylesheet" type="text/css" 
+   href="<@spring.url '/css/default.css'/>"/>
+<link rel="stylesheet" type="text/css" 
+   href="<@spring.url '/css/home.css'/>"/>
+<link rel="stylesheet" type="text/css" 
+   href="<@spring.url '/css/reset.css'/>"/>
+<script src="<@spring.url 'javascript/jQuery.js'/>"></script>
+<script src="<@spring.url 'javascript/jQueryUI.js'/>"></script>
+<script src="<@spring.url 'javascript/script.js'/>" type="text/javascript"></script>
+     
     <nav id="menuGlobal" class="fixed hidden">
       <ul>
         <li><a href="#section1">Actualités</a></li>
@@ -25,7 +21,14 @@
     <header>
       <nav id="top">
         <a id="logo" href="#"></a>
-        <a id="account" href="#">Mon compte</a>
+        <div id="account" class="dropdown" href="#">Administration
+        	<div class="dropdown-content">
+    			<a href="/cards">Cards</a><br/>
+    			<a href="/classes">Classes</a></br>
+    			<a href="/effects">Effects</a><br/>
+    			<a href="/players">Players</a>
+  			</div>
+        </div>
       </nav>
       <nav id="menuBase" class="base">
         <ul>
@@ -135,5 +138,4 @@ Plebeiis de vicinitate coniunctis: postrema multitudo spadonum a senibus in puer
 				<p>Designed by <span>Jean-jean Jean</span></p>
 			</article>
     </footer>
-  </body>
-</html>
+ 
