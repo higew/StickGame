@@ -14,7 +14,6 @@ public class CardService extends BaseService<Card> {
 	@Autowired
 	private CardRepository cardRepository;
 
-
 	@Override
 	protected BaseCRUDRepository<Card> getCRUDRepository() {
 		return cardRepository;

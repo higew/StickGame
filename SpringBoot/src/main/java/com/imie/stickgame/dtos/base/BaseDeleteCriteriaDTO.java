@@ -2,9 +2,7 @@ package com.imie.stickgame.dtos.base;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import com.imie.stickgame.database.base.DBItem;
-
 
 public abstract class BaseDeleteCriteriaDTO <T extends DBItem> {
 

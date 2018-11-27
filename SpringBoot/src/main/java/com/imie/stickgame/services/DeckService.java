@@ -1,10 +1,8 @@
 package com.imie.stickgame.services;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.imie.stickgame.database.base.BaseCRUDRepository;
 import com.imie.stickgame.models.Deck;
 import com.imie.stickgame.database.DeckRepository;
@@ -29,7 +27,6 @@ public class DeckService extends BaseService<Deck> {
 			result = this.DeckRepository.findByName(item.getName());
 		}
 		return result;
-		
 	}
 
 	/**
@@ -45,6 +42,4 @@ public class DeckService extends BaseService<Deck> {
 	public void setDeckRepository(DeckRepository deckRepository) {
 		DeckRepository = deckRepository;
 	}
-	
-	
 }

@@ -26,6 +26,5 @@ public class PlayerService extends BaseService<Player> {
 			result = this.PlayerRepository.findByName(item.getName());
 		}
 		return result;
-		
 	}
 }

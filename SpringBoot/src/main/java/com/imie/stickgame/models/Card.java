@@ -1,22 +1,11 @@
 package com.imie.stickgame.models;
 
-
-
 import java.util.List;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
-
-
 import javax.persistence.ManyToOne;
-
 import javax.persistence.Table;
-
 import com.imie.stickgame.database.base.DBItem;
-
-
-
-
 
 @Entity
 @Table(name="Card")
@@ -34,7 +23,6 @@ public class Card extends DBItem {
 	private Integer inkCost;
 	@ManyToOne()
 	private Effect effect;
-	
 	@ManyToOne()
 	private Classes classes;
 	
@@ -77,8 +65,6 @@ public class Card extends DBItem {
 	public void setInkCost(Integer inkCost) {
 		this.inkCost = inkCost;
 	}
-	
-	
 
 	public Effect getEffect() {
 		return effect;
