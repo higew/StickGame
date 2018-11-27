@@ -17,5 +17,6 @@ public interface ClassesRepository extends BaseCRUDRepository<Classes> {
 
 	List<Card> findCardByName(String name);
 	List<Deck> findDeckByName(String name);
+	List<Classes> findByName(String name);
 	
 }

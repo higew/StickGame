@@ -1,12 +1,22 @@
 package com.imie.stickgame.models;
 
+
+
+import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
+
+
 import javax.persistence.ManyToOne;
 
 import javax.persistence.Table;
 
-import com.imie.stickgame.database.DBItem;
+import com.imie.stickgame.database.base.DBItem;
+
+
+
+
 
 @Entity
 @Table(name="Card")

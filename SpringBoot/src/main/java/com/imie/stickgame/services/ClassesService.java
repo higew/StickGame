@@ -25,8 +25,12 @@ public class ClassesService extends BaseService<Classes> {
 
 	@Override
 	protected List<Classes> setItemsByCriterias(Classes item, List<Classes> result) {
-		// TODO Auto-generated method stub
-		return null;
+
+		if (!item.getName().equals("") ){
+			result = this.classesRepository.findByName(item.getName());
+		}
+		return result;
+		
 	}
 
 }

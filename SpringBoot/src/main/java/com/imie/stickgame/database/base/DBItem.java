@@ -1,4 +1,4 @@
-package com.imie.stickgame.database;
+package com.imie.stickgame.database.base;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

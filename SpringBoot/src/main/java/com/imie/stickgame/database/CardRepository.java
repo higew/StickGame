@@ -11,4 +11,10 @@ public interface CardRepository extends BaseCRUDRepository<Card> {
 
 	List<Card> findByName(String name);
 
+	List<Card> findByHp(Integer hp);
+
+	List<Card> findByAtk(Integer atk);
+	
+	
+
 }

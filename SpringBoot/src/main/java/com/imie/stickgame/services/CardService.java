@@ -25,6 +25,10 @@ public class CardService extends BaseService<Card> {
 		
 		if (!item.getName().equals("") ){
 			result = this.cardRepository.findByName(item.getName());
+		} else if (!item.getHp().equals("")) {
+			result = this.cardRepository.findByHp(item.getHp());
+		} else if (!item.getAtk().equals("")) {
+			result = this.cardRepository.findByAtk(item.getAtk());
 		}
 		return result;
 	}

@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import com.imie.stickgame.database.DBItem;
+import com.imie.stickgame.database.base.DBItem;
+
 import com.imie.stickgame.database.base.BaseCRUDRepository;
 
 public abstract class BaseService<T extends DBItem> {
