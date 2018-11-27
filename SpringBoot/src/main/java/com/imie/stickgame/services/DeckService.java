@@ -24,8 +24,12 @@ public class DeckService extends BaseService<Deck> {
 
 	@Override
 	protected List<Deck> setItemsByCriterias(Deck item, List<Deck> result) {
-		// TODO Auto-generated method stub
-		return null;
+
+		if (!item.getName().equals("") ){
+			result = this.DeckRepository.findByName(item.getName());
+		}
+		return result;
+		
 	}
 
 	/**

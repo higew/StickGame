@@ -8,11 +8,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.imie.stickgame.database.DBItem;
+import com.imie.stickgame.database.base.DBItem;
+
 import com.imie.stickgame.dtos.base.BaseDeleteCriteriaDTO;
 import com.imie.stickgame.services.base.BaseService;
-
-import net.bytebuddy.asm.Advice.This;
 
 public abstract class BaseController<T extends DBItem> {
 

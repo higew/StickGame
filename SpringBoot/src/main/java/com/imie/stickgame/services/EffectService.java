@@ -21,8 +21,12 @@ public class EffectService extends BaseService<Effect> {
 
 	@Override
 	protected List<Effect> setItemsByCriterias(Effect item, List<Effect> result) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		if (!item.getName().equals("") ){
+			result = this.EffectRepository.findByName(item.getName());
+		}
+		return result;
+		
 	}
 	
 	
