@@ -6,7 +6,6 @@
 }
 
 body {
-	margin-top: -56px;
 	background-color: #f5f5f5;
 }
 
@@ -22,8 +21,8 @@ hr {
 
 .anchor {
 	display: block;
-	height: 56px; /*same height as header*/
-	margin-top: -56px; /*same height as header*/
+	height: 56px; /* Même taille que l'header */
+	margin-top: -56px; /* Même taille que l'header */
 	visibility: hidden;
 }
 
@@ -95,21 +94,15 @@ header #top #account:hover {
 
 /* C'est dégueulasse, ça me casse les couilles */
 
-/* Sticky Nav Visibility */
-
-.hidden {
-	visibility: hidden;
-}
-
-/* End Sticky Nav Visibility */
-
 /* Sticky Nav */
 
 .fixed {
     position: sticky;
     top: 0;
 		width: 100%;
-		z-index: 1;
+		z-index: 999;
+		transition-property: width;
+    transition-duration: 1s;
 }
 
 /* Fin Sticky Nav */
@@ -117,36 +110,12 @@ header #top #account:hover {
 .base {
 	width: 1400px;
 	border-radius: 20px;
-}
-
-#menuBase {
-	padding: 20px;
-	background-color: #383838;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#menuBase ul {
-	list-style-type: none;
-}
-
-#menuBase ul li {
-	display: inline;
-	margin-right: 15px;
-}
-
-#menuBase a {
-	font-weight: bold;
-  color: white;
-	text-decoration: none;
-	transition: 1s;
-}
-
-#menuBase a:hover {
-	color: #E4002B;
+	position: absolute;
+	top: 100px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 999;
 	transition: 1s;
 }
 

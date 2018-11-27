@@ -90,8 +90,8 @@
 }
 
 #story #contentStory .fakeImageStory {
-	background-image: url("../media/example1.jpg");
-	background-size: 100%;
+	background-image: url("../media/elon-musk.jpg");
+	background-size: 110%;
 	height: 250px;
 	width: 400px;
 }
