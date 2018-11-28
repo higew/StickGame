@@ -1,23 +1,8 @@
-/*!
- * Waterwheel Carousel
- * Version 2.3.0
- * https://www.bkosborne.com
- *
- * Copyright 2011-2013 Brian Osborne
- * Dual licensed under GPLv3 or MIT
- * Copies of the licenses have been distributed
- * with this plugin.
- *
- * Plugin written by Brian Osborne
- * for use with the jQuery JavaScript Framework
- * https://www.jquery.com
- */
-;(function ($) {
+(function ($) {
   'use strict';
 
   $.fn.waterwheelCarousel = function (startingOptions) {
 
-    // Adds support for intializing multiple carousels from the same selector group
     if (this.length > 1) {
       this.each(function() {
         $(this).waterwheelCarousel(startingOptions);
@@ -244,12 +229,6 @@
               .show();
           });
     }
-
-    /**
-     * All the items to the left and right of the center item need to be
-     * animated to their starting positions. This function will
-     * figure out what items go where and will animate them there
-     */
     function setupStarterRotation() {
       options.startingItem = (options.startingItem === 0) ? Math.round(data.totalItems / 2) : options.startingItem;
 
@@ -644,33 +623,33 @@
     // number tweeks to change apperance
     startingItem:               1,   // item to place in the center of the carousel. Set to 0 for auto
     separation:                 400, // distance between items in carousel
-    separationMultiplier:       0.6, // multipled by separation distance to increase/decrease distance for each additional item
+    separationMultiplier:       0.4, // multipled by separation distance to increase/decrease distance for each additional item
     horizonOffset:              0,   // offset each item from the "horizon" by this amount (causes arching)
     horizonOffsetMultiplier:    1,   // multipled by horizon offset to increase/decrease offset for each additional item
-    sizeMultiplier:             0.6, // determines how drastically the size of each item changes
-    opacityMultiplier:          0.8, // determines how drastically the opacity of each item changes
+    sizeMultiplier:             0.8, // determines how drastically the size of each item changes
+    opacityMultiplier:          1, // determines how drastically the opacity of each item changes
     horizon:                    0,   // how "far in" the horizontal/vertical horizon should be set from the container wall. 0 for auto
-    flankingItems:              3,   // the number of items visible on either side of the center                  
+    flankingItems:              10,   // the number of items visible on either side of the center                  
 
     // animation
     speed:                      300,      // speed in milliseconds it will take to rotate from one to the next
     animationEasing:            'linear', // the easing effect to use when animating
     quickerForFurther:          false,     // set to true to make animations faster when clicking an item that is far away from the center
-    edgeFadeEnabled:            false,    // when true, items fade off into nothingness when reaching the edge. false to have them move behind the center image
+    edgeFadeEnabled:           false,    // when true, items fade off into nothingness when reaching the edge. false to have them move behind the center image
     
     // misc
     linkHandling:               2,                 // 1 to disable all (used for facebox), 2 to disable all but center (to link images out)
     autoPlay:                   0,                 // indicate the speed in milliseconds to wait before autorotating. 0 to turn off. Can be negative
     orientation:                'horizontal',      // indicate if the carousel should be 'horizontal' or 'vertical'
     activeClassName:            'carousel-center', // the name of the class given to the current item in the center
-    keyboardNav:                false,             // set to true to move the carousel with the arrow keys
-    keyboardNavOverride:        true,              // set to true to override the normal functionality of the arrow keys (prevents scrolling)
+    keyboardNav:                true,             // set to true to move the carousel with the arrow keys
+    keyboardNavOverride:        false,              // set to true to override the normal functionality of the arrow keys (prevents scrolling)
     imageNav:                   true,              // clicking a non-center image will rotate that image to the center
 
     // preloader
     preloadImages:              true,  // disable/enable the image preloader. 
-    forcedImageWidth:           0,     // specify width of all images; otherwise the carousel tries to calculate it
-    forcedImageHeight:          0,     // specify height of all images; otherwise the carousel tries to calculate it
+    forcedImageWidth:           300,     // specify width of all images; otherwise the carousel tries to calculate it
+    forcedImageHeight:          450,     // specify height of all images; otherwise the carousel tries to calculate it
 
     // callback functions
     movingToCenter:             $.noop, // fired when an item is about to move to the center position
