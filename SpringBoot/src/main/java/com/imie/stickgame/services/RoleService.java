@@ -28,5 +28,9 @@ public class RoleService extends BaseService<Role>{
 	protected BaseCRUDRepository<Role> getCRUDRepository() {
 		return roleRepository;
 	}
+	
+	public List<Role> findByName(String name) {
+		return this.roleRepository.findByName(name);
+	}
 
 }

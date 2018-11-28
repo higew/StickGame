@@ -2,14 +2,14 @@
 <html>
   <head>
     <title tiles:fragment="title">Authentification</title>
-    <#include "/utils/bootstrap.ftl"/>
+
   </head>
   <body onload="document.f.username.focus();">
-    <h1>Spring Security Login (Freemarker)</h1>
+    <h1>Stick Game page d'Authentification</h1>
 
     <form action="/login" method="POST">
       <table>
-        <tr><td>User:</td><td><input type='text' name='${form_username}' value=''/></td></tr>
+        <tr><td>Email:</td><td><input type='text' name='${form_username}' value=''/></td></tr>
         <tr><td>Password:</td><td><input type='password' name='${form_password}' value=''/></td></tr>
         <input type="hidden"
             name="${_csrf.parameterName}"

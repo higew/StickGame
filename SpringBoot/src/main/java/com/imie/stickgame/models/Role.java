@@ -10,16 +10,14 @@ import javax.persistence.Table;
 
 import com.imie.stickgame.database.base.DBItem;
 
-
-
 @Entity
-@Table(name="role")
-public class Role extends DBItem{
-	
-	@Column(name="name")
+@Table(name = "role")
+public class Role extends DBItem {
+
+	@Column(name = "name")
 	private String name;
-	
-	@ManyToMany(targetEntity=User.class,mappedBy="roles")
+
+	@ManyToMany(targetEntity = User.class, mappedBy = "roles")
 	private List<User> users;
 
 	public String getName() {
@@ -34,7 +32,7 @@ public class Role extends DBItem{
 		this();
 		this.name = name;
 	}
-	
+
 	public Role() {
 		super();
 		this.users = new ArrayList<User>();

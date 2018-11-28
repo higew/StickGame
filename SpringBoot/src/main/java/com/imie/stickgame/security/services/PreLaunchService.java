@@ -21,7 +21,7 @@ public class PreLaunchService {
 	
 	public void createFirstAdmin() {
 		
-		Role role = new Role("ADMIN");
+		Role role = new Role("ROLE_ADMIN");
 		
 		this.serviceRole.save(role);
 		
@@ -29,6 +29,13 @@ public class PreLaunchService {
 		user.getRoles().add(role);
 		this.serviceUser.save(user);
 	
+	}
+
+	public void createUSER() {
+		Role role = new Role("ROLE_USER");
+		
+		this.serviceRole.save(role);
+		
 	}
 
 }

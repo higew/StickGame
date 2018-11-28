@@ -1,8 +1,6 @@
 package com.imie.stickgame.security.configurations;
 
 
-
-
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,6 +15,7 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 import com.imie.stickgame.security.controllers.LoginController;
 
@@ -55,7 +54,7 @@ public class SecurityConfigurations extends WebSecurityConfigurerAdapter {
 	protected void configure(HttpSecurity http) throws Exception {
 		http
 			.authorizeRequests()
-				.antMatchers("/", "/index", "/css/**", "/javascript/**")
+				.antMatchers("/", "/index", "/registration", "/css/**", "/javascript/**", "/media/**")
 					.permitAll()
 				.anyRequest()
 					.authenticated()
@@ -65,6 +64,10 @@ public class SecurityConfigurations extends WebSecurityConfigurerAdapter {
 					.usernameParameter(LoginController.FORM_USERNAME)
 					.passwordParameter(LoginController.FORM_PASSWORD)
 					.permitAll()
+			.and()
+				.logout()
+					.logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
+					.logoutSuccessUrl("/login")
 			.and()
 				.httpBasic()
 		;
