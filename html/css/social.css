@@ -1,0 +1,54 @@
+#wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 156px;
+  width: 100%;
+  height: 800px;
+  padding: 60px;
+}
+
+#wrapper #friendList {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  height: 100%;
+  background-color: #e5e5e5;
+}
+
+#wrapper #friendList .contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  height: 100px;
+  width: 305px;
+  background-color: white;
+  /* box-shadow: 8px 8px 0 rgba(137, 137, 137, 0.5); */
+}
+
+#wrapper #friendList .contact .avatar {
+  height: 75px;
+  width: 75px;
+  overflow: hidden;
+  border-radius: 75px;
+}
+
+#wrapper #friendList .contact .avatar img {
+  margin-left: -10px;
+  height: 75px;
+  border-radius: 75px;
+}
+
+#wrapper #friendList .contact .text {
+  width: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#wrapper #contentRight {
+  width: 80vw;
+  height: 100%;
+  border: 1px solid black;
+}
