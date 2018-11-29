@@ -1,12 +1,10 @@
 package com.imie.stickgame.models;
 
 import java.util.List;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
-
 import com.imie.stickgame.database.base.DBItem;
 
 @Entity
@@ -21,21 +19,20 @@ public class Classes extends DBItem {
 	private List<Card> cards;
 	@OneToMany(mappedBy="classes")
 	private List<Deck> deck; 
-		
-	
-	
+
 	public String getName() {
 		return name;
 	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
+
 	public String getPicture() {
 		return picture;
 	}
+
 	public void setPicture(String picture) {
 		this.picture = picture;
 	}
-	
-	
 }

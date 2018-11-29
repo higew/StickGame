@@ -32,9 +32,7 @@
 ./.settings
 
 ### Au cas ou ###
-/bin/
-/gradle
-/.classpath
-/.project
-        
-/.settings/
+.git/
+.settings/
+.classpath
+.project

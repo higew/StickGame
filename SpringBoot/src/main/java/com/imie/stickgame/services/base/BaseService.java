@@ -3,16 +3,14 @@ package com.imie.stickgame.services.base;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-
 import com.imie.stickgame.database.base.DBItem;
-
 import com.imie.stickgame.database.base.BaseCRUDRepository;
 
 public abstract class BaseService<T extends DBItem> {
 
 	protected abstract BaseCRUDRepository<T> getCRUDRepository();
 	protected abstract List<T> setItemsByCriterias(T item, List<T> result);
-	
+
 	public void save(T item) {
 		this.getCRUDRepository().save(item);
 	}

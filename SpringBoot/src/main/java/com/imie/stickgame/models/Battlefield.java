@@ -10,17 +10,16 @@ public class Battlefield {
 	public ArrayList<Card> getDiscardDeck() {
 		return discardDeck;
 	}
+	
 	public void setDiscardDeck(ArrayList<Card> discardDeck) {
 		this.discardDeck = discardDeck;
 	}
+	
 	public Card[] getMonsterZone() {
 		return monsterZone;
 	}
+	
 	public void setMonsterZone(Card[] monsterZone) {
 		this.monsterZone = monsterZone;
-	}
-    
-	public Battlefield() {
-		
 	}
 }

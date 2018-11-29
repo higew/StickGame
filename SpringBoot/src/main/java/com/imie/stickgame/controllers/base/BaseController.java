@@ -1,16 +1,13 @@
 package com.imie.stickgame.controllers.base;
 
 import java.util.List;
-
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-
 import com.imie.stickgame.database.base.DBItem;
-
 import com.imie.stickgame.dtos.base.BaseDeleteCriteriaDTO;
 import com.imie.stickgame.services.base.BaseService;
 

@@ -1,7 +1,6 @@
 package com.imie.stickgame.database;
 
 import java.util.List;
-
 import org.springframework.stereotype.Repository;
 import com.imie.stickgame.database.base.BaseCRUDRepository;
 import com.imie.stickgame.models.Card;
@@ -10,11 +9,6 @@ import com.imie.stickgame.models.Card;
 public interface CardRepository extends BaseCRUDRepository<Card> {
 
 	List<Card> findByName(String name);
-
 	List<Card> findByHp(Integer hp);
-
 	List<Card> findByAtk(Integer atk);
-	
-	
-
 }

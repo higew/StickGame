@@ -1,19 +1,12 @@
 package com.imie.stickgame.models;
 
-
 import java.util.List;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Transient;
-
-
-
 import com.imie.stickgame.database.base.DBItem;
-
-
 
 @Entity
 @Table(name="Player")
@@ -27,14 +20,10 @@ public class Player extends DBItem {
 	private Integer hp;
 	@OneToMany
 	private List<Deck> decks;
-	    
 	@Transient
 	private Deck deck;
-	
 	@Transient
 	private Battlefield battlefield;
-
-
 	
 	public String getName() {
 		return name;
@@ -60,10 +49,6 @@ public class Player extends DBItem {
 		this.hp = hp;
 	}
 
-	public Player() {
-		super();
-	}
-
 	public Deck getDeck() {
 		return deck;
 	}
@@ -79,6 +64,8 @@ public class Player extends DBItem {
 	public void setBattlefield(Battlefield battlefield) {
 		this.battlefield = battlefield;
 	}
-	
-	
+
+	public Player() {
+		super();
+	}
 }

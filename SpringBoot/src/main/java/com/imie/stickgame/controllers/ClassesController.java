@@ -4,7 +4,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-
 import com.imie.stickgame.controllers.base.BaseController;
 import com.imie.stickgame.models.Classes;
 import com.imie.stickgame.services.ClassesService;

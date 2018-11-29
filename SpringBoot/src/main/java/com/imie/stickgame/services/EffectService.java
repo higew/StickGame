@@ -21,13 +21,10 @@ public class EffectService extends BaseService<Effect> {
 
 	@Override
 	protected List<Effect> setItemsByCriterias(Effect item, List<Effect> result) {
-		
+
 		if (!item.getName().equals("") ){
 			result = this.EffectRepository.findByName(item.getName());
 		}
 		return result;
-		
 	}
-	
-	
 }
