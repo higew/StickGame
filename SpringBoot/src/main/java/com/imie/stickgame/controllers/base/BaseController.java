@@ -1,14 +1,12 @@
 package com.imie.stickgame.controllers.base;
 
 import java.util.List;
-
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-
-import com.imie.stickgame.database.DBItem;
+import com.imie.stickgame.database.base.DBItem;
 import com.imie.stickgame.dtos.base.BaseDeleteCriteriaDTO;
 import com.imie.stickgame.services.base.BaseService;
 
@@ -37,7 +35,7 @@ public abstract class BaseController<T extends DBItem> {
 	
 	@RequestMapping(value= {"/delete"}, method=RequestMethod.GET)
 	public String deleteCriteria(Model model) {
-		model.addAttribute("pageName",this.getBasePageName()+" deletion criteria");
+		model.addAttribute("pageName",this.getBasePageName()+" suppression critere");
 		return this.getBaseURL()+"/delete";
 	}
 	
@@ -50,7 +48,7 @@ public abstract class BaseController<T extends DBItem> {
 			model.addAttribute("notFound","No match");
 		}
 		
-		model.addAttribute("pageName",this.getBasePageName()+" deletion criteria");
+		model.addAttribute("pageName",this.getBasePageName()+" suppression critere");
 		return this.getBaseURL()+"/delete";
 	}
 	
@@ -68,9 +66,9 @@ public abstract class BaseController<T extends DBItem> {
 	
 	@RequestMapping(value= {"/find"}, method=RequestMethod.POST)
 	public String findCriteriaSearch(Model model, @ModelAttribute T item) {
-		List<T> roles = this.getBaseService().findWithCriteria(item);
-		if (roles.size() > 0) {
-			model.addAttribute(BASE_ATTRIBUT_LIST,roles);
+		List<T> trek = this.getBaseService().findWithCriteria(item);
+		if (trek.size() > 0) {
+			model.addAttribute(BASE_ATTRIBUT_LIST,trek);
 		}else {
 			model.addAttribute("notFound","No match");
 		}

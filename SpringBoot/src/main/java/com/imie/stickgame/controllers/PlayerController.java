@@ -11,10 +11,10 @@ import com.imie.stickgame.services.PlayerService;
 @Controller
 @RequestMapping(PlayerController.BASE_URL)
 public class PlayerController extends BaseController<Player> {
-	
-	public static final String BASE_URL = "/Players";
+
+	public static final String BASE_URL = "/players";
 	private static final String BASE_PAGE_NAME = "Players";
-	
+
 	@Autowired
 	private PlayerService PlayerService;
 

@@ -12,7 +12,7 @@ import com.imie.stickgame.services.CardService;
 @RequestMapping(CardController.BASE_URL)
 public class CardController extends BaseController<Card> {
 	
-	public static final String BASE_URL = "/Cards";
+	public static final String BASE_URL = "/cards";
 	private static final String BASE_PAGE_NAME = "Cards";
 	
 	@Autowired
