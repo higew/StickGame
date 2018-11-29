@@ -4,6 +4,9 @@
     <div>Nom de l'effet</div>
     <input type="text" name="name" value="">
     <input type="submit" value="Delete">
+    <input type="hidden"
+        name="${_csrf.parameterName}"
+        value="${_csrf.token}"/>
 </form> 
 
 <div><a href="/effects/index">Back</a></div>

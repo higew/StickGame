@@ -68,14 +68,14 @@ public abstract class BaseController<T extends DBItem> {
 		return "redirect:"+this.getBaseURL()+"/delete";
 	}
 	
-
+	@Secured({"ROLE_ADMIN","ROLE_USER"})
 	@RequestMapping(value= {"/find"}, method=RequestMethod.GET)
 	public String findCriteria(Model model) {
 		model.addAttribute("pageName",this.getBasePageName()+" find criteria");
 		return this.getBaseURL()+"/find";
 	}
 	
-
+	@Secured({"ROLE_ADMIN","ROLE_USER"})
 	@RequestMapping(value= {"/find"}, method=RequestMethod.POST)
 	public String findCriteriaSearch(Model model, @ModelAttribute T item) {
 		List<T> trek = this.getBaseService().findWithCriteria(item);

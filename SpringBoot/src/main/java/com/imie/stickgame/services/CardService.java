@@ -32,4 +32,5 @@ public class CardService extends BaseService<Card> {
 		}
 		return result;
 	}
+	
 }

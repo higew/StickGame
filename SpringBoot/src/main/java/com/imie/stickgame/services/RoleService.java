@@ -32,5 +32,5 @@ public class RoleService extends BaseService<Role>{
 	public List<Role> findByName(String name) {
 		return this.roleRepository.findByName(name);
 	}
-
+	
 }
