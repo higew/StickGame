@@ -1,6 +1,13 @@
 <#import "/spring.ftl" as spring/>
 <link rel="stylesheet" type="text/css" 
    href="<@spring.url '/css/default.css'/>"/>
+<link rel="stylesheet" type="text/css" 
+   href="<@spring.url '/css/home.css'/>"/>
+<link rel="stylesheet" type="text/css" 
+   href="<@spring.url '/css/reset.css'/>"/>
+<script src="<@spring.url 'javascript/jQuery.js'/>"></script>
+<script src="<@spring.url 'javascript/jQueryUI.js'/>"></script>
+<script src="<@spring.url 'javascript/script.js'/>" type="text/javascript"></script>
 
  <nav id="menuGlobal" class="fixed hidden">
       <ul>

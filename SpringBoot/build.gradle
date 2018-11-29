@@ -39,7 +39,6 @@ repositories {
 }
 
 dependencies {
-<<<<<<< HEAD
 	implementation('org.springframework.boot:spring-boot-starter-web')
 	
 	// View
@@ -53,7 +52,7 @@ dependencies {
 	// Security
 	compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '2.1.0.RELEASE'
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
-=======
+
     implementation 'com.google.guava:guava:22.0'
     testCompile group: 'junit', name: 'junit', version: '4.+'
     implementation('org.springframework.boot:spring-boot-starter-web')
@@ -241,7 +240,7 @@ task pmdTest(type: Pmd, overwrite: true) {
 }
 
 // add CPD to check
-check << {
+ 
   File outDir = new File('build/reports/pmd/')
   outDir.mkdirs()
   ant.taskdef(name: 'cpd', classname: 'net.sourceforge.pmd.cpd.CPDTask',
@@ -252,10 +251,9 @@ check << {
       include(name: '**/*.java')
     }
   }
-}
+
 
 task copyDeps(type: Copy) {
   from configurations.runtime
   into 'libs'
->>>>>>> master
 }
