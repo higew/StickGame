@@ -1,9 +1,9 @@
 package com.imie.stickgame.models;
 
+import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Transient;
@@ -25,7 +25,45 @@ public class Player extends DBItem {
 	private Deck deck;
 	@Transient
 	private Battlefield battlefield;
-	
+	@Transient
+	private ArrayList<Card> hand;
+	@Transient
+	private int ink;
+	@Transient
+    private int inkTurn;
+
+    public int getInkTurn() {
+        return inkTurn;
+    }
+
+    public void setInkTurn(int inkTurn) {
+        this.inkTurn = inkTurn;
+    }
+
+    public int getInk() {
+		return ink;
+	}
+
+	public void setInk(int ink) {
+		this.ink = ink;
+	}
+
+	public List<Deck> getDecks() {
+		return decks;
+	}
+
+	public void setDecks(List<Deck> decks) {
+		this.decks = decks;
+	}
+
+	public ArrayList<Card> getHand() {
+		return hand;
+	}
+
+	public void setHand(ArrayList<Card> hand) {
+		this.hand = hand;
+	}
+
 	public String getName() {
 		return name;
 	}
@@ -70,3 +108,6 @@ public class Player extends DBItem {
 		super();
 	}
 }
+
+// 4 cartes au début
+// Le joueur 1 commence a 1 de mana et le second joueur commence a 2
