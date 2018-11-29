@@ -92,4 +92,15 @@ public class Card extends DBItem {
 	public Card() {
 		super();
 	}
+
+	public Card(String name, String picture, Integer hp, Integer atk, Integer inkCost, Effect effect, Classes classes) {
+    	super();
+		this.name = name;
+		this.picture = picture;
+		this.hp = hp;
+		this.atk = atk;
+		this.inkCost = inkCost;
+		this.effect = effect;
+		this.classes = classes;
+	}
 }

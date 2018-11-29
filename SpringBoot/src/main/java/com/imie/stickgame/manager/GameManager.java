@@ -1,5 +1,6 @@
 package com.imie.stickgame.manager;
 
+import com.imie.stickgame.models.Deck;
 import com.imie.stickgame.models.Player;
 
 import java.util.Random;
@@ -13,6 +14,7 @@ public class GameManager {
 
     private static final int MAXINK = 10;
     private static final int MAXHANDSIZE = 7;
+    private static final int NBSTARTCARD = 4;
 
     public boolean isFirstPlayer() {
         return firstPlayer;
@@ -46,10 +48,10 @@ public class GameManager {
         this.player2 = player2;
     }
 
-    GameManager() {
+    GameManager(String player1, String player2, Deck deck1, Deck deck2) {
         this.playerManager = new PlayerManager();
-        this.player1 = new Player();
-        this.player2 = new Player();
+        this.player1 = new Player (player1, deck1);
+        this.player2 = new Player (player2, deck2);
     }
 
     public void decideFirst() {
@@ -80,6 +82,8 @@ public class GameManager {
 
     public void game() {
         decideFirst();
+        this.playerManager.draw(this.player1, NBSTARTCARD);
+        this.playerManager.draw(this.player2, NBSTARTCARD);
         while (this.player1.getHp() > 0 && this.player2.getHp() > 0) {
             if (this.firstPlayer == true) {
                 this.firstPlayer = false;
@@ -95,5 +99,3 @@ public class GameManager {
         }
     }
 }
-
-// Constructeurs etc pour avoir des valeurs dans les classes

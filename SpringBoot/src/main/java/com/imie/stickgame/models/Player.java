@@ -107,7 +107,17 @@ public class Player extends DBItem {
 	public Player() {
 		super();
 	}
+
+	public Player(String name, Deck deck) {
+        super();
+        this.name = name;
+        this.hp = 20;
+        this.deck = deck;
+        this.battlefield = new Battlefield();
+        this.hand = new ArrayList<Card>();
+        this.ink = 1;
+        this.inkTurn = 1;
+    }
 }
 
-// 4 cartes au début
-// Le joueur 1 commence a 1 de mana et le second joueur commence a 2
+// Pioche une carte à chaque tour ou le nombre de carte manquante pour retourner au max ?
