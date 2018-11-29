@@ -4,7 +4,7 @@
 
  <nav id="menuGlobal" class="fixed hidden">
       <ul>
-        <li><a href="#section1">Actualités</a></li>
+        <li><a href="#section1">ActualitÃ©s</a></li>
         <li><a href="#section2">Histoire</a></li>
         <li><a href="#section3">Classes</a></li>
         <li><a href="#section4">Cartes</a></li>
@@ -25,7 +25,7 @@
       </nav>
       <nav id="menuBase" class="base">
         <ul>
-          <li><a href="#section1">Actualités</a></li>
+          <li><a href="#section1">ActualitÃ©s</a></li>
           <li><a href="#section2">Histoire</a></li>
           <li><a href="#section3">Classes</a></li>
           <li><a href="#section4">Cartes</a></li>
