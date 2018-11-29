@@ -1,3 +1,26 @@
+/* Début du header */
+
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+  background-image: url("../media/okina-stage.gif");
+  background-position: 0px -350px;
+	color: white;
+	height: 500px;
+	width: 100%;
+}
+
+header h1 {
+	color: white;
+	font-size: 32px;
+	text-shadow: 2px 2px #383e42;
+	padding-top: 100px; 
+}
+
+/* Fin du header */
+
 /* Début de la section Actualités */
 
 #actu {
@@ -90,8 +113,8 @@
 }
 
 #story #contentStory .fakeImageStory {
-	background-image: url("../media/example1.jpg");
-	background-size: 100%;
+	background-image: url("../media/elon-musk.jpg");
+	background-size: 110%;
 	height: 250px;
 	width: 400px;
 }

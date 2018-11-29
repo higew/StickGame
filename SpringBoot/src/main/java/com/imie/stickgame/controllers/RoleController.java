@@ -1,27 +1,29 @@
 package com.imie.stickgame.controllers;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+
 import com.imie.stickgame.controllers.base.BaseController;
-import com.imie.stickgame.models.Player;
+import com.imie.stickgame.models.Role;
+import com.imie.stickgame.services.RoleService;
 import com.imie.stickgame.services.base.BaseService;
-import com.imie.stickgame.services.PlayerService;
 
 @Controller
-@RequestMapping(PlayerController.BASE_URL)
-public class PlayerController extends BaseController<Player> {
-
-	public static final String BASE_URL = "/players";
-	private static final String BASE_PAGE_NAME = "Players";
-
+@RequestMapping(RoleController.BASE_URL)
+public class RoleController extends BaseController<Role> {
+	
+	public static final String BASE_URL = "/roles";
+	private static final String BASE_PAGE_NAME = "Roles";
+	
 	@Autowired
-	private PlayerService PlayerService;
+	private RoleService roleService;
 
 	@Override
-	protected BaseService<Player> getBaseService() {
-		return PlayerService;
+	protected BaseService<Role> getBaseService() {
+		return roleService;
 	}
 
 	@Override
@@ -41,8 +43,10 @@ public class PlayerController extends BaseController<Player> {
 	}
 
 	@Override
-	protected void setupOtherFields(Player item) {
+	protected void setupOtherFields(Role item) {
 		// TODO Auto-generated method stub
 		
 	}
+
+
 }

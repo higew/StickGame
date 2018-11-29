@@ -11,6 +11,9 @@
     <input type="text" name="firstname" value="">
     <div>Lastname</div>
     <input type="text" name="lastname" value="">
+    <input type="hidden"
+            name="${_csrf.parameterName}"
+            value="${_csrf.token}"/>
     <input type="submit" value="Add">
 </form>
 </div>
