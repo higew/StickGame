@@ -28,54 +28,36 @@ hr {
 
 /* Fin Classes Global */
 
-/* Début du header */
+/* Début nav Top */
 
-header {
-	display: flex;
-	flex-direction: column;
-  background-image: url("../media/okina-stage.gif");
-  background-position: 0px -350px;
-	color: white;
-	height: 500px;
-	width: 100%;
-}
-
-/* header {
-	display: flex;
-	flex-direction: column;
-  background-image: url("../media/stickman.gif");
-  background-size: 100%;
-	background-position: 0 -335px;
-	color: white;
-	height: 500px;
-	width: 100%;
-} */
-
-header #top {
+#top {
+	position: absolute;
 	font-weight: bold;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-left: auto;
-  margin-right: auto;
+	left: 0;
+	top: 0;
+	right: 0;
+	margin: auto;
 	width: 1400px;
 }
 
-header #top a {
+#top a {
 	color: white;
 	text-decoration: none;
 }
 
-header #top #logo {
+#top #logo {
 	background-image: url("../media/94065_d0628_FULL.jpg");
 	background-position: 0px -90px;
 	background-size: 100%;
 	width: 300px;
 }
 
-header #top #account {
+#top #account {
 	padding: 20px;
 	background-color: white;
 	color: black;
@@ -84,13 +66,15 @@ header #top #account {
 	transition: 1s;
 }
 
-header #top #account:hover {
+#top #account:hover {
 	color: white;
 	background-color: #E4002B;
 	transition: 1s;
 }
 
-/* Début du nav */
+/* Fin Nav Top */
+
+/* Début du nav menuGlobal */
 
 /* C'est dégueulasse, ça me casse les couilles */
 
@@ -149,9 +133,7 @@ header #top #account:hover {
 	transition: 1s;
 }
 
-/* Fin du nav */
-
-/* Fin du header */
+/* Fin du nav menuGlobal */
 
 /* Début du footer */
 
