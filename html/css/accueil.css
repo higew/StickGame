@@ -1,3 +1,22 @@
+/* Classes Global */
+
+hr {
+	border: 1px solid #E4002B;
+	background-color: #E4002B;
+	width: 500px;
+	margin-bottom: 40px;
+	margin-left: 60px;
+}
+
+.anchor {
+	display: block;
+	height: 56px; /* Même taille que l'header */
+	margin-top: -56px; /* Même taille que l'header */
+	visibility: hidden;
+}
+
+/* Fin Classes Global */
+
 /* Début du header */
 
 header {
@@ -16,7 +35,7 @@ header h1 {
 	color: white;
 	font-size: 32px;
 	text-shadow: 2px 2px #383e42;
-	padding-top: 100px; 
+	padding-top: 100px;
 }
 
 /* Fin du header */
