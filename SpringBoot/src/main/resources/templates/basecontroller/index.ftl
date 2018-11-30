@@ -26,5 +26,14 @@
   .cheat {
     height: 200px;
   }
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 </style>
 <div class="cheat"></div>
+<div class="center">
