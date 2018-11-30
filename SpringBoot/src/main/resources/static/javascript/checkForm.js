@@ -6,12 +6,14 @@ function surligne(champ, erreur) {
 }
 
 function verifName(champ) {
-   if(champ.value.length < 2 || champ.value.length > 32) {
+  var regex = new RegExp(/^[a-zA-Z]{2,32}$/);
+   if(!regex.test(champ.value)) {
      console.log("Le champ Nom ou Prenom n'est pas valide");
       surligne(champ, true);
       return false;
    }
    else {
+     console.log("toto");
       surligne(champ, false);
       return true;
    }
