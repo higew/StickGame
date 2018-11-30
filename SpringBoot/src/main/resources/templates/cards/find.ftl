@@ -3,6 +3,9 @@
 
 <form action="/cards/find" method="POST">
 <#include "../cards/specific/emptyshowform.ftl"/>
+<input type="hidden"
+            name="${_csrf.parameterName}"
+            value="${_csrf.token}"/>
 <input type="submit" value="Search">
 </form>
 
@@ -16,5 +19,6 @@
     ${notFound}
 </#if>
 </div>
+
 
 <div><a href="/cards/index">Back</a></div>
