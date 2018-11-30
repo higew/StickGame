@@ -25,11 +25,5 @@
             <a href="/cards/delete/${i.getId()}">Delete</a>
         </div>
         
-        <div>
-        <label for="role">Role</label>
-        <select name="role" id="role" required>
-            <option <#if form.role == 'ROLE_USER'>selected</#if>USER</option>
-            <option <#if form.role == 'ROLE_ADMIN'>selected</#if>ADMIN</option>
-        </select>
-</div>
+
     </div>

@@ -132,3 +132,6 @@ Plebeiis de vicinitate coniunctis: postrema multitudo spadonum a senibus in puer
 				<p>Designed by <span>Jean-jean Jean</span></p>
 			</article>
     </footer>
+    <#if roles??>${roles}
+    <#else >notlog</#if>
+
