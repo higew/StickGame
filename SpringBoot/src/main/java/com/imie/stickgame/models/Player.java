@@ -1,5 +1,6 @@
 package com.imie.stickgame.models;
 
+import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -24,7 +25,45 @@ public class Player extends DBItem {
 	private Deck deck;
 	@Transient
 	private Battlefield battlefield;
-	
+	@Transient
+	private ArrayList<Card> hand;
+	@Transient
+	private int ink;
+	@Transient
+    private int inkTurn;
+
+    public int getInkTurn() {
+        return inkTurn;
+    }
+
+    public void setInkTurn(int inkTurn) {
+        this.inkTurn = inkTurn;
+    }
+
+    public int getInk() {
+		return ink;
+	}
+
+	public void setInk(int ink) {
+		this.ink = ink;
+	}
+
+	public List<Deck> getDecks() {
+		return decks;
+	}
+
+	public void setDecks(List<Deck> decks) {
+		this.decks = decks;
+	}
+
+	public ArrayList<Card> getHand() {
+		return hand;
+	}
+
+	public void setHand(ArrayList<Card> hand) {
+		this.hand = hand;
+	}
+
 	public String getName() {
 		return name;
 	}
@@ -68,4 +107,17 @@ public class Player extends DBItem {
 	public Player() {
 		super();
 	}
+
+	public Player(String name, Deck deck) {
+        super();
+        this.name = name;
+        this.hp = 20;
+        this.deck = deck;
+        this.battlefield = new Battlefield();
+        this.hand = new ArrayList<Card>();
+        this.ink = 1;
+        this.inkTurn = 1;
+    }
 }
+
+// Pioche une carte à chaque tour ou le nombre de carte manquante pour retourner au max ?

@@ -1,0 +1,90 @@
+.dropper {
+    margin: 10px 40px 10px 40px;
+    width: 550px;
+    height: 150px;
+    border: 1px solid #111;
+    border-radius: 10px;
+    transition: all 200ms linear;
+}
+
+.drop_hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8) inset;
+}
+
+.draggable {
+    display: inline-block;
+    margin: 20px 10px 10px 20px;
+    width: 80px;
+    height: 120px;
+    cursor: move;
+
+    transition: all 200ms linear;
+    user-select: none;
+}
+
+#plateau{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../media/stickbackground.jpg);
+  background-position: 0, 100px;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.deckToDraw, .defausse{
+  width: 80px;
+  height: 120px;
+}
+.boardContainer{
+  background-image: url(../media/fondCarreau.jpeg);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.triche{
+  margin: 20px 10px 10px 20px;
+  width: 80px;
+  height: 120px;
+}
+.main{
+  /* width: 100vw; */
+  /* background-image: url(../media/parchemin.jpeg); */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+.encrier{
+  height: 150px;
+}
+.defausse{
+  margin-left: 40px;
+}
+.deckToDraw{
+  margin-right: 40px;
+}
+.classe{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: -150px;
+    top: 20px;
+    border: solid 2px #e6c200;
+    background-color: #e6c200;
+    display: flex;
+    justify-content: center;
+}
+.classe img{
+  height: 100%;
+}
+.encre{
+  height: 50px;
+}
+.mana{
+  display: flex;
+  justify-content: space-around;
+}

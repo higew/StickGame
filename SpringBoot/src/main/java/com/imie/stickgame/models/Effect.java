@@ -37,4 +37,5 @@ public class Effect extends DBItem {
 	public Effect() {
 		super();
 	}
+
 }

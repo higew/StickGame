@@ -35,4 +35,8 @@ public class Classes extends DBItem {
 	public void setPicture(String picture) {
 		this.picture = picture;
 	}
+
+    public Classes() {
+        super();
+    }
 }

@@ -1,10 +1,7 @@
 package com.imie.stickgame.models;
 
-import java.util.List;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.ManyToOne;
-import javax.persistence.Table;
+import javax.persistence.*;
+
 import com.imie.stickgame.database.base.DBItem;
 
 @Entity
@@ -25,8 +22,18 @@ public class Card extends DBItem {
 	private Effect effect;
 	@ManyToOne()
 	private Classes classes;
-	
-	public String getName() {
+	@Transient
+    private int atkTemp;
+
+    public int getAtkTemp() {
+        return atkTemp;
+    }
+
+    public void setAtkTemp(int atkTemp) {
+        this.atkTemp = atkTemp;
+    }
+
+    public String getName() {
 		return name;
 	}
 
@@ -84,5 +91,16 @@ public class Card extends DBItem {
 
 	public Card() {
 		super();
+	}
+
+	public Card(String name, String picture, Integer hp, Integer atk, Integer inkCost, Effect effect, Classes classes) {
+    	super();
+		this.name = name;
+		this.picture = picture;
+		this.hp = hp;
+		this.atk = atk;
+		this.inkCost = inkCost;
+		this.effect = effect;
+		this.classes = classes;
 	}
 }
