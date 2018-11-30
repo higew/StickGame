@@ -1,8 +1,4 @@
-body *{
-  display: flex;
-}
-
-.dropper {
+s.dropper {
     margin: 10px 40px 10px 40px;
     width: 550px;
     height: 150px;
@@ -29,9 +25,10 @@ body *{
 #plateau{
   width: 100vw;
   height: 100vh;
-  /* background-image: url(../media/stickbackground.jpg); */
+  background-image: url(../media/stickbackground.jpg);
   background-position: 0, 100px;
   background-size: 100%;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -42,18 +39,24 @@ body *{
 }
 .boardContainer{
   background-image: url(../media/fondCarreau.jpeg);
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
+.triche{
+  margin: 20px 10px 10px 20px;
+  width: 80px;
+  height: 120px;
+}
 .main{
-   width: 80vw;
+  /* width: 100vw; */
   /* background-image: url(../media/parchemin.jpeg); */
+  display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
+  justify-content: center;
+  position: relative;
 }
 .encrier{
   height: 150px;
@@ -67,33 +70,21 @@ body *{
 .classe{
     height: 100px;
     width: 100px;
-    /* position: absolute;
+    position: absolute;
     left: -150px;
-    top: 20px; */
+    top: 20px;
     border: solid 2px #e6c200;
     background-color: #e6c200;
+    display: flex;
     justify-content: center;
 }
 .classe img{
   height: 100%;
 }
 .encre{
-  width: 50px;
+  height: 50px;
 }
 .mana{
-  height: 250px;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-self: flex-end;
-}
-.megaBoard{
-  width: 100vw;
   display: flex;
-  flex-direction: row;
-  justify-content: center;;
-  align-content: : center;
-}
-.superBoard{
-  flex-direction: column;
+  justify-content: space-around;
 }

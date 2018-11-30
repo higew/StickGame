@@ -1,13 +1,11 @@
 package com.imie.stickgame.models;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 
-import com.imie.stickgame.database.DBItem;
+import com.imie.stickgame.database.base.DBItem;
 
 @Entity
-@Table(name="card")
+@Table(name="Card")
 public class Card extends DBItem {
 
 	@Column(name="name")
@@ -15,13 +13,27 @@ public class Card extends DBItem {
 	@Column(name="picture")
 	private String picture;
 	@Column(name="hp")
-	private int hp;
+	private Integer hp;
 	@Column(name="atk")
-	private int atk;
+	private Integer atk;
 	@Column(name="inkCost")
-	private String inkCost;
-	
-	public String getName() {
+	private Integer inkCost;
+	@ManyToOne()
+	private Effect effect;
+	@ManyToOne()
+	private Classes classes;
+	@Transient
+    private int atkTemp;
+
+    public int getAtkTemp() {
+        return atkTemp;
+    }
+
+    public void setAtkTemp(int atkTemp) {
+        this.atkTemp = atkTemp;
+    }
+
+    public String getName() {
 		return name;
 	}
 
@@ -37,31 +49,58 @@ public class Card extends DBItem {
 		this.picture = picture;
 	}
 
-	public int getHp() {
+	public Integer getHp() {
 		return hp;
 	}
 
-	public void setHp(int hp) {
+	public void setHp(Integer hp) {
 		this.hp = hp;
 	}
 
-	public int getAtk() {
+	public Integer getAtk() {
 		return atk;
 	}
 
-	public void setAtk(int atk) {
+	public void setAtk(Integer atk) {
 		this.atk = atk;
 	}
 
-	public String getInkCost() {
+	public Integer getInkCost() {
 		return inkCost;
 	}
 
-	public void setInkCost(String inkCost) {
+	public void setInkCost(Integer inkCost) {
 		this.inkCost = inkCost;
+	}
+
+	public Effect getEffect() {
+		return effect;
+	}
+
+	public void setEffect(Effect effect) {
+		this.effect = effect;
+	}
+
+	public Classes getClasses() {
+		return classes;
+	}
+
+	public void setClasses(Classes classes) {
+		this.classes = classes;
 	}
 
 	public Card() {
 		super();
+	}
+
+	public Card(String name, String picture, Integer hp, Integer atk, Integer inkCost, Effect effect, Classes classes) {
+    	super();
+		this.name = name;
+		this.picture = picture;
+		this.hp = hp;
+		this.atk = atk;
+		this.inkCost = inkCost;
+		this.effect = effect;
+		this.classes = classes;
 	}
 }

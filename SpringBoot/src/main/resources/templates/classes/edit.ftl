@@ -2,8 +2,11 @@
 
 <form action="/item/find" method="POST">
     <div>Name</div>
-    <input type="text" name="card name" value="">
+    <input type="text" name="name" value="">
+    <input type="hidden"
+            name="${_csrf.parameterName}"
+            value="${_csrf.token}"/>
     <input type="submit" value="Add">
 </form>
 
-<div><a href="/cards/index">Back</a></div>
+<div><a href="/classes/index">Back</a></div>

@@ -1,22 +1,44 @@
 package com.imie.stickgame.models;
 
+import java.util.List;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
-
-import com.imie.stickgame.database.DBItem;
+import com.imie.stickgame.database.base.DBItem;
 
 @Entity
-@Table(name="deck")
+@Table(name = "deck")
 public class Deck extends DBItem {
 
-    @Column(name="card")
-    private String card;
+	@ManyToMany
+	private List<Card> cards;
+	@Column(name = "name")
+	private String name;
+	@ManyToOne
+	private Classes classes;
+	@ManyToOne
+	private Player player;
 
-    @Column(name="name")
-    private String name;
+	public List<Card> getCards() {
+		return cards;
+	}
 
-    @Column(name="classe")
-    private String classe;
+	public void setCards(List<Card> cards) {
+		this.cards = cards;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public Deck() {
+		super();
+	}
 
 }
