@@ -23,14 +23,14 @@ public class Application {
 	PreLaunchService service;
 	
 	
-	@Bean
-    public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
-        return new CommandLineRunner() {
-			public void run(String... args) throws Exception {
-				service.createFirstAdmin();
-				service.createUSER();
-			}
-		};
-   }
+//	@Bean
+//    public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
+//        return new CommandLineRunner() {
+//			public void run(String... args) throws Exception {
+//				service.createFirstAdmin();
+//				service.createUSER();
+//			}
+//		};
+//   }
 	 
 }
