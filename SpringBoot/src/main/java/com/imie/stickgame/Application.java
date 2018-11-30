@@ -19,10 +19,10 @@ public class Application {
 	
    
 	
-	@Autowired
-	PreLaunchService service;
-	
-	
+//	@Autowired
+//	PreLaunchService service;
+//	
+//	
 //	@Bean
 //    public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
 //        return new CommandLineRunner() {
