@@ -1,4 +1,46 @@
-/* Début de la section Actualités */
+/* Classes Global */
+
+hr {
+	border: 1px solid #E4002B;
+	background-color: #E4002B;
+	width: 500px;
+	margin-bottom: 40px;
+	margin-left: 60px;
+}
+
+.anchor {
+	display: block;
+	height: 56px; /* MÃªme taille que l'header */
+	margin-top: -56px; /* MÃªme taille que l'header */
+	visibility: hidden;
+}
+
+/* Fin Classes Global */
+
+/* DÃ©but du header */
+
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+  background-image: url("../media/okina-stage.gif");
+  background-position: 0px -350px;
+	color: white;
+	height: 500px;
+	width: 100%;
+}
+
+header h1 {
+	color: white;
+	font-size: 32px;
+	text-shadow: 2px 2px #383e42;
+	padding-top: 100px;
+}
+
+/* Fin du header */
+
+/* DÃ©but de la section ActualitÃ©s */
 
 #actu {
 	display: flex;
@@ -53,9 +95,9 @@
 	width: 300px;
 }
 
-/* Fin de la section Actualités */
+/* Fin de la section ActualitÃ©s */
 
-/* Début de la section Histoire */
+/* DÃ©but de la section Histoire */
 
 #story {
 	display: flex;
@@ -90,15 +132,15 @@
 }
 
 #story #contentStory .fakeImageStory {
-	background-image: url("../media/example1.jpg");
-	background-size: 100%;
+	background-image: url("../media/elon-musk.jpg");
+	background-size: 110%;
 	height: 250px;
 	width: 400px;
 }
 
 /* Fin de la section Histoire */
 
-/* Début de la section Classes */
+/* DÃ©but de la section Classes */
 
 #class {
 	display: flex;
@@ -161,7 +203,7 @@
 
 /* Fin de la section Classes */
 
-/* Début de la section Cartes */
+/* DÃ©but de la section Cartes */
 
 #card {
 	display: flex;
