@@ -31,8 +31,7 @@ public class User extends DBItem{
 	@Column(name = "password")
 	@Length(min = 5, message = "*Your password must have at least 5 characters")
 	@NotEmpty(message = "*Please provide your password")
-	//@Convert pour AES
-	//@Convert(converter=CryptoConverter.class)
+
 	private String password;
 
 	@Column(name = "active")
