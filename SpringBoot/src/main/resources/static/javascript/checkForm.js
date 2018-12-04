@@ -60,18 +60,16 @@ function comparePassword (champ){
   }
 }
 
-function verifForm(f)
-{
+function verifForm(f) {
    var firstnameOk = verifName(f.firstname);
    var lastnameOk = verifName(f.lastname);
    var mailOk = verifMail(f.email);
-   var passwordOk = verifPassword(f.password);
-   if(firstnameOk && lastnameOK && mailOk && passwordOk) {
-      console.log("Le formulaire est passé");
+   var passwordOk = verifPassword(f.pass1);
+
+   if(firstnameOk && lastnameOk && mailOk && passwordOk)
       return true;
-    }
-   else {
-      console.log("GTFO");
+   else
+   {
       alert("Veuillez remplir correctement tous les champs");
       return false;
    }
