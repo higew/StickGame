@@ -19,6 +19,7 @@ public class Application {
 	
    
 	
+
 	@Autowired
 	PreLaunchService service;
 	
@@ -32,5 +33,6 @@ public class Application {
 			}
 		};
    }
-	 
 }
+
+

@@ -56,6 +56,7 @@ public class SecurityConfigurations extends WebSecurityConfigurerAdapter {
 			.authorizeRequests()
 				.antMatchers("/", "/index", "/registration", "/css/**", "/javascript/**", "/media/**")
 					.permitAll()
+				//.antMatchers("/users/edit/**").access("hasRole('ROLE_ADMIN')")	
 				.anyRequest()
 					.authenticated()
 			.and()
@@ -78,5 +79,10 @@ public class SecurityConfigurations extends WebSecurityConfigurerAdapter {
 	public AuthenticationManager authenticationManagerBean() throws Exception {
 		return super.authenticationManagerBean();
 	}
+	
+//	@Bean
+//	GrantedAuthorityDefaults grantedAuthorityDefaults() {
+//	    return new GrantedAuthorityDefaults("ROLE_");
+//	}
 
 }
