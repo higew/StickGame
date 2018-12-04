@@ -1,12 +1,14 @@
 package com.imie.stickgame.database;
 
 import java.util.List;
+
+import com.imie.stickgame.models.BaseEffect;
 import org.springframework.stereotype.Repository;
 import com.imie.stickgame.database.base.BaseCRUDRepository;
 import com.imie.stickgame.models.Effect;
 
 @Repository
-public interface EffectRepository extends BaseCRUDRepository<Effect> {
+public interface BaseEffectRepository extends BaseCRUDRepository<BaseEffect> {
 
-	List<Effect> findByName(String name);
+	List<BaseEffect> findByEffectIdentifier(Integer effectIdentifier);
 }

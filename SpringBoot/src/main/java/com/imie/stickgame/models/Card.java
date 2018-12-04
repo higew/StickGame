@@ -1,12 +1,15 @@
 package com.imie.stickgame.models;
 
-import javax.persistence.*;
+
 
 import com.imie.stickgame.database.base.DBItem;
 
+import javax.persistence.*;
+
+
 @Entity
 @Table(name="Card")
-public class Card extends DBItem {
+public class Card extends DBItem  {
 
 	@Column(name="name")
 	private String name;
@@ -19,13 +22,23 @@ public class Card extends DBItem {
 	@Column(name="inkCost")
 	private Integer inkCost;
 	@ManyToOne()
-	private Effect effect;
+	private BaseEffect baseEffect;
 	@ManyToOne()
 	private Classes classes;
-	@Transient
+    @Transient
     private int atkTemp;
+	@Transient
+    private Effect effect;
 
-    public int getAtkTemp() {
+	public Effect getEffect() {
+		return effect;
+	}
+
+	public void setEffect(Effect effect) {
+		this.effect = effect;
+	}
+
+	public int getAtkTemp() {
         return atkTemp;
     }
 
@@ -73,12 +86,12 @@ public class Card extends DBItem {
 		this.inkCost = inkCost;
 	}
 
-	public Effect getEffect() {
-		return effect;
+	public BaseEffect getBaseEffect() {
+		return baseEffect;
 	}
 
-	public void setEffect(Effect effect) {
-		this.effect = effect;
+	public void setBaseEffect(BaseEffect baseEffect) {
+		this.baseEffect = baseEffect;
 	}
 
 	public Classes getClasses() {
@@ -93,14 +106,15 @@ public class Card extends DBItem {
 		super();
 	}
 
-	public Card(String name, String picture, Integer hp, Integer atk, Integer inkCost, Effect effect, Classes classes) {
+	public Card(String name, String picture, Integer hp, Integer atk, Integer inkCost, BaseEffect baseEffect, Classes
+			classes) {
     	super();
 		this.name = name;
 		this.picture = picture;
 		this.hp = hp;
 		this.atk = atk;
 		this.inkCost = inkCost;
-		this.effect = effect;
+		this.baseEffect = baseEffect;
 		this.classes = classes;
 	}
 }

@@ -9,6 +9,7 @@
 <script src="<@spring.url 'javascript/jQueryUI.js'/>"></script>
 <script src="<@spring.url 'javascript/script.js'/>" type="text/javascript"></script>
 
+
     <nav id="menuGlobal" class="base">
       <ul>
         <li><a href="#section1">Actualités</a></li>
@@ -132,6 +133,26 @@ Plebeiis de vicinitate coniunctis: postrema multitudo spadonum a senibus in puer
 				<p>Designed by <span>Jean-jean Jean</span></p>
 			</article>
     </footer>
-    <#if roles??>${roles}
-    <#else >notlog</#if>
+    
+		
+         
+ <#if roles??>
+        <#list roles as r>
+        ${r}              
+		 <#if "${r}" == "ROLE_ADMIN">
+		  It is Big Joe
+		</#if>
+		<#if "${r}" == "ROLE_USER">
+		  It is not Big Joe
+		</#if>
+     </#list>
+    </#if>
+    
+
+   
+   
+    
+
+
+
 

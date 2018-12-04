@@ -1,7 +1,12 @@
 package com.imie.stickgame.controllers.base;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import org.springframework.security.access.annotation.Secured;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.context.SecurityContext;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -22,11 +27,19 @@ public abstract class BaseController<T extends DBItem> {
 	protected abstract void setOtherAttributes(Model model);
 	protected abstract void setupOtherFields(T item);
 
+	@Secured({"ROLE_ADMIN","ROLE_USER"})
 	@RequestMapping(value= {"","/","/index"}, method=RequestMethod.GET)
 	public String index(Model model) {
 		model.addAttribute(BASE_ATTRIBUT_LIST,this.getBaseService().findAll());
 		model.addAttribute("pageName",this.getBasePageName()+" index");
 		model.addAttribute("baseUrl", this.getBaseURL());
+		ArrayList<String> roles = new ArrayList<>();
+        SecurityContext securityContext = SecurityContextHolder.getContext();
+		Collection<? extends GrantedAuthority> role = securityContext.getAuthentication().getAuthorities();
+        for (GrantedAuthority grantedAuthority : role) {
+            roles.add(grantedAuthority.getAuthority());
+        }
+        model.addAttribute("roles", roles);
 		return this.getBaseURL()+"/index";
 	}
 	

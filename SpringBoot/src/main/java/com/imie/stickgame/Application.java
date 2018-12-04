@@ -16,21 +16,19 @@ public class Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
-	
-   
-	
-//	@Autowired
-//	PreLaunchService service;
-//	
-//	
-//	@Bean
-//    public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
-//        return new CommandLineRunner() {
-//			public void run(String... args) throws Exception {
-//				service.createFirstAdmin();
-//				service.createUSER();
-//			}
-//		};
-//   }
-	 
+
+	@Autowired
+	PreLaunchService service;
+
+	@Bean
+    public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
+        return new CommandLineRunner() {
+			public void run(String... args) throws Exception {
+				service.createFirstAdmin();
+				service.createUSER();
+			}
+		};
+   }
 }
+
+
