@@ -1,90 +1,110 @@
-s.dropper {
-    margin: 10px 40px 10px 40px;
-    width: 550px;
-    height: 150px;
-    border: 1px solid #111;
-    border-radius: 10px;
-    transition: all 200ms linear;
+* {
+    box-sizing: border-box;
 }
-
-.drop_hover {
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8) inset;
+body {
+    margin: 0;
+    overflow-x: hidden;
 }
-
-.draggable {
-    display: inline-block;
-    margin: 20px 10px 10px 20px;
-    width: 80px;
-    height: 120px;
-    cursor: move;
-
-    transition: all 200ms linear;
-    user-select: none;
+body * {
+        display: flex;
 }
-
-#plateau{
-  width: 100vw;
+/*----------------------------- JEU --------------------------------------*/
+.gameContainer {
   height: 100vh;
-  background-image: url(../media/stickbackground.jpg);
-  background-position: 0, 100px;
-  background-size: 100%;
-  display: flex;
+  width: 100vw;
   flex-direction: column;
+  align-content: center;
+  justify-content: center;
   align-items: center;
 }
 
-.deckToDraw, .defausse{
-  width: 80px;
-  height: 120px;
-}
-.boardContainer{
-  background-image: url(../media/fondCarreau.jpeg);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.triche{
-  margin: 20px 10px 10px 20px;
-  width: 80px;
-  height: 120px;
-}
-.main{
-  /* width: 100vw; */
-  /* background-image: url(../media/parchemin.jpeg); */
-  display: flex;
+.side {
+  height: 20%;
+  width: 100%;
   flex-direction: row;
   justify-content: center;
-  position: relative;
 }
-.encrier{
-  height: 150px;
-}
-.defausse{
-  margin-left: 40px;
-}
-.deckToDraw{
-  margin-right: 40px;
-}
-.classe{
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    left: -150px;
-    top: 20px;
-    border: solid 2px #e6c200;
-    background-color: #e6c200;
-    display: flex;
-    justify-content: center;
-}
-.classe img{
+
+.discardContainer {
+  justify-content:space-around;
+  align-items: center;
   height: 100%;
+  width: 20%;
 }
-.encre{
-  height: 50px;
+
+.drawContainer {
+  height: 100%;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
 }
-.mana{
-  display: flex;
+
+.hand {
+  height: 100%;
+  width: 50%;
+  border: black 1px solid;
   justify-content: space-around;
+  align-items: center;
+
+}
+
+.handCards {
+  height: 70%;
+  width: 10%;
+  border: black 1px solid;
+}
+
+.side2{
+  height: 30%;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;;
+}
+.avatar{
+  height: 100%;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+#picture {
+  height: 100%;
+  width: 150px;
+  margin-left: -100px;
+  border: black 1px solid;
+}
+
+.board{
+  width: 50%;
+  height: 100%;
+  border: black 1px solid;
+}
+
+.mana {
+  height: 100%;
+  width: 20%;
+  padding-left: 20px;
+  justify-content:flex-start;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.inkStain {
+  height: 40px;
+  width: 40px;
+  border: black 1px solid;
+}
+
+.draw {
+  height: 60%;
+  width: 25%;
+  border: black 1px solid;
+}
+
+.discard {
+  height: 60%;
+  width: 25%;
+  border: black 1px solid;
 }
