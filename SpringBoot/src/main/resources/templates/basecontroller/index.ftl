@@ -11,7 +11,7 @@
 
 <nav id="menuGlobal" class="base">
   <ul>
-    <li><a href="/index">Accueil</a></li>
+    <li><a href="/">Accueil</a></li>
     <li><a href="#section1">Actualités</a></li>
     <li><a href="#section2">Histoire</a></li>
     <li><a href="#section3">Classes</a></li>
@@ -38,3 +38,5 @@
 </style>
 <div class="cheat"></div>
 <div class="center">
+
+

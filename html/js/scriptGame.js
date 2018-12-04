@@ -6,7 +6,7 @@
 
     applyDragEvents: function(element) {
 
-      element.draggable = true;
+      element.cardPict = true;
 
       var dndHandler = this; // Cette variable est nécessaire pour que l'événement « dragstart » ci-dessous accède facilement au namespace « dndHandler »
 
@@ -21,11 +21,11 @@
 
       dropper.addEventListener('dragover', function(e) {
         e.preventDefault(); // On autorise le drop d'éléments
-        this.className = 'dropper drop_hover'; // Et on applique le style adéquat à notre zone de drop quand un élément la survole
+        this.className = 'cardBoard drop_hover'; // Et on applique le style adéquat à notre zone de drop quand un élément la survole
       });
 
       dropper.addEventListener('dragleave', function() {
-        this.className = 'dropper'; // On revient au style de base lorsque l'élément quitte la zone de drop
+        this.className = 'cardBoard'; // On revient au style de base lorsque l'élément quitte la zone de drop
       });
 
       var dndHandler = this; // Cette variable est nécessaire pour que l'événement « drop » ci-dessous accède facilement au namespace « dndHandler »
@@ -36,11 +36,11 @@
           draggedElement = dndHandler.draggedElement, // Récupération de l'élément concerné
           clonedElement = draggedElement.cloneNode(true); // On créé immédiatement le clone de cet élément
 
-        while (target.className.indexOf('dropper') == -1) { // Cette boucle permet de remonter jusqu'à la zone de drop parente
+        while (target.className.indexOf('cardBoard') == -1) { // Cette boucle permet de remonter jusqu'à la zone de drop parente
           target = target.parentNode;
         }
 
-        target.className = 'dropper'; // Application du style par défaut
+        target.className = 'cardBoard'; // Application du style par défaut
 
         clonedElement = target.appendChild(clonedElement); // Ajout de l'élément cloné à la zone de drop actuelle
         dndHandler.applyDragEvents(clonedElement); // Nouvelle application des événements qui ont été perdus lors du cloneNode()
@@ -53,14 +53,14 @@
 
   };
 
-  var elements = document.querySelectorAll('.draggable'),
+  var elements = document.querySelectorAll('.cardPict'),
     elementsLen = elements.length;
 
   for (var i = 0; i < elementsLen; i++) {
     dndHandler.applyDragEvents(elements[i]); // Application des paramètres nécessaires aux éléments déplaçables
   }
 
-  var droppers = document.querySelectorAll('.dropper'),
+  var droppers = document.querySelectorAll('.cardBoard'),
     droppersLen = droppers.length;
 
   for (var i = 0; i < droppersLen; i++) {
