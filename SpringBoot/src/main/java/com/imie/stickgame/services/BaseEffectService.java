@@ -24,7 +24,7 @@ public class BaseEffectService extends BaseService<BaseEffect> {
 	protected List<BaseEffect> setItemsByCriterias(BaseEffect item, List<BaseEffect> result) {
 
 		if (!item.getDescription().equals("") ){
-			result = this.BaseEffectRepository.findByName(item.getDescription());
+			result = this.BaseEffectRepository.findByEffectIdentifier(item.getEffectIdentifier());
 		}
 		return result;
 	}

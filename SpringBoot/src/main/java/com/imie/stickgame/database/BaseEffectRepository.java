@@ -10,5 +10,5 @@ import com.imie.stickgame.models.Effect;
 @Repository
 public interface BaseEffectRepository extends BaseCRUDRepository<BaseEffect> {
 
-	List<BaseEffect> findByName(String name);
+	List<BaseEffect> findByEffectIdentifier(Integer effectIdentifier);
 }
