@@ -1,6 +1,8 @@
 package com.imie.stickgame.manager;
 
 import com.imie.stickgame.models.Deck;
+import com.imie.stickgame.models.EffectBuilder;
+import com.imie.stickgame.models.Phase;
 import com.imie.stickgame.models.Player;
 
 import java.util.Random;
@@ -8,9 +10,11 @@ import java.util.Random;
 public class GameManager {
 
     private PlayerManager playerManager;
+    private EffectBuilder effectBuilder;
     private Player player1;
     private Player player2;
     private boolean firstPlayer;
+    private Phase phase;
 
     private static final int MAXINK = 10;
     private static final int MAXHANDSIZE = 7;

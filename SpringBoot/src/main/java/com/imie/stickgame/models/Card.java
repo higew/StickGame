@@ -6,8 +6,8 @@ import com.imie.stickgame.database.base.DBItem;
 
 @Entity
 @Table(name="Card")
-public class Card extends DBItem {
-
+public class Card extends DBItem  {
+// implements Effect
 	@Column(name="name")
 	private String name;
 	@Column(name="picture")
@@ -19,7 +19,7 @@ public class Card extends DBItem {
 	@Column(name="inkCost")
 	private Integer inkCost;
 	@ManyToOne()
-	private Effect effect;
+	private BaseEffect effect;
 	@ManyToOne()
 	private Classes classes;
 	@Transient
@@ -73,11 +73,11 @@ public class Card extends DBItem {
 		this.inkCost = inkCost;
 	}
 
-	public Effect getEffect() {
+	public BaseEffect getEffect() {
 		return effect;
 	}
 
-	public void setEffect(Effect effect) {
+	public void setEffect(BaseEffect effect) {
 		this.effect = effect;
 	}
 
@@ -93,7 +93,8 @@ public class Card extends DBItem {
 		super();
 	}
 
-	public Card(String name, String picture, Integer hp, Integer atk, Integer inkCost, Effect effect, Classes classes) {
+	public Card(String name, String picture, Integer hp, Integer atk, Integer inkCost, BaseEffect effect, Classes
+			classes) {
     	super();
 		this.name = name;
 		this.picture = picture;
