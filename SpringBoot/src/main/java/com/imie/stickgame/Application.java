@@ -19,18 +19,18 @@ public class Application {
 	
    
 	
-//	@Autowired
-//	PreLaunchService service;
-//	
-//	
-//	@Bean
-//    public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
-//        return new CommandLineRunner() {
-//			public void run(String... args) throws Exception {
-//				service.createFirstAdmin();
-//				service.createUSER();
-//			}
-//		};
-//   }
+	@Autowired
+	PreLaunchService service;
+	
+	
+	@Bean
+    public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
+        return new CommandLineRunner() {
+			public void run(String... args) throws Exception {
+				service.createFirstAdmin();
+				service.createUSER();
+			}
+		};
+   }
 	 
 }
