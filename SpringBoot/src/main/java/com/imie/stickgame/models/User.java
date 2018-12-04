@@ -31,8 +31,7 @@ public class User extends DBItem{
 	@Column(name = "password")
 	@Length(min = 5, message = "*Your password must have at least 5 characters")
 	@NotEmpty(message = "*Please provide your password")
-	//@Convert pour AES
-	//@Convert(converter=CryptoConverter.class)
+
 	private String password;
 
 	@Column(name = "active")
@@ -49,6 +48,9 @@ public class User extends DBItem{
 
 	@ManyToMany()
 	private List<Role> roles;
+	
+	@ManyToMany
+	private List<Message> messages;
 
 	public String getFirstname() {
 		return firstname;
@@ -117,5 +119,16 @@ public class User extends DBItem{
 		super();
 		this.roles = new ArrayList<Role>();
 	}
+
+
+
+
+//	public List<Message> getMessages() {
+//		return messages;
+//	}
+//
+//	public void setMessages(List<Message> messages) {
+//		this.messages = messages;
+//	}
 
 }
