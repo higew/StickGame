@@ -16,7 +16,7 @@ public class BaseEffect extends DBItem {
     private Integer effectIdentifier;
     @Column(name="description")
     private String description;
-    @OneToMany(targetEntity=Card.class,mappedBy="effect")
+    @OneToMany(targetEntity=Card.class,mappedBy="baseEffect")
     private List<Card> cards;
     @Column(name="effectPhase")
     private EffectPhase effectPhase;

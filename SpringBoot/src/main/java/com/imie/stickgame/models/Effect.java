@@ -4,5 +4,5 @@ import java.util.ArrayList;
 
 public interface Effect {
     EffectPhase getEffectPhase();
-    void doEffect(ArrayList<Card> card, Card currCard);
+    void doEffect(Player player, Player ennemy, Card currCard);
 }

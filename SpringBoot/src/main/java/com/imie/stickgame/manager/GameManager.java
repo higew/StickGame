@@ -1,7 +1,6 @@
 package com.imie.stickgame.manager;
 
 import com.imie.stickgame.models.Deck;
-import com.imie.stickgame.models.EffectBuilder;
 import com.imie.stickgame.models.Phase;
 import com.imie.stickgame.models.Player;
 
