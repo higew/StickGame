@@ -43,6 +43,11 @@ public class PreLaunchService {
 		
 		this.serviceRole.save(role);
 		
+		//Ajout pour les tests a effacer
+		User user = new User("antoine@antoine.fr", "antoine", 1, "antoine", "antoine");
+		user.getRoles().add(role);
+		this.serviceUser.save(user);
+		
 	}
 
 }
