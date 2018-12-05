@@ -13,8 +13,8 @@ import com.imie.stickgame.services.base.BaseService;
 @RequestMapping(BaseEffectController.BASE_URL)
 public class BaseEffectController extends BaseController<BaseEffect> {
 	
-	public static final String BASE_URL = "/baseeffects";
-	private static final String BASE_PAGE_NAME = "BaseEffects";
+	public static final String BASE_URL = "/effects";
+	private static final String BASE_PAGE_NAME = "Effects";
 	
 	@Autowired
 	private BaseEffectService BaseEffectService;
