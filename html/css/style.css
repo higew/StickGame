@@ -32,8 +32,8 @@ body {
 }
 
 #top #logo {
-	background-image: url("../media/94065_d0628_FULL.jpg");
-	background-position: 0px -90px;
+	background-image: url("../media/stickbackground.jpg");
+	background-position: 0px -70px;
 	background-size: 100%;
 	width: 300px;
 }
@@ -43,7 +43,6 @@ body {
 	background-color: white;
 	color: black;
 	border-radius: 20px;
-	padding: 20px;
 	transition: 1s;
 }
 

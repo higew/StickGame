@@ -17,7 +17,6 @@ h1 {
 }
 
 .deckLive {
-  overflow: auto;
     height: 660px;
     background-color: #383838;
     display: flex;
@@ -38,4 +37,10 @@ h1 {
     /* hide images until carousel prepares them */
     cursor: pointer;
     /* not needed if you wrap carousel items in links */
+}
+
+#apercu {
+  height: 100px;
+  width: 100px;
+  border: 1px black solid;
 }

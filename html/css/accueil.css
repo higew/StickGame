@@ -22,13 +22,13 @@ hr {
 header {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
-  background-image: url("../media/okina-stage.gif");
-  background-position: 0px -350px;
+  /* background-image: url("../media/fondGame.png"); */
 	color: white;
 	height: 500px;
 	width: 100%;
+	margin-top: 100px;
 }
 
 header h1 {
@@ -36,6 +36,38 @@ header h1 {
 	font-size: 32px;
 	text-shadow: 2px 2px #383e42;
 	padding-top: 100px;
+}
+
+#boutons{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 700px;
+}
+
+.bouton {
+	padding: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	border-radius: 20px;
+	transition: 1s;
+	text-decoration: none;
+}
+
+.bouton:hover {
+	color: white ;
+	background-color: black;
+	transition: 1s;
+}
+
+#titre{
+	font-family: 'Indie Flower', cursive;
+	color: black;
+	font-size: 100px;
 }
 
 /* Fin du header */
@@ -132,8 +164,9 @@ header h1 {
 }
 
 #story #contentStory .fakeImageStory {
-	background-image: url("../media/elon-musk.jpg");
-	background-size: 110%;
+	background-image: url("../media/stickbackground.jpg");
+	background-size: 160%;
+	background-position: center;;
 	height: 250px;
 	width: 400px;
 }
@@ -205,7 +238,7 @@ header h1 {
 
 /* Début de la section Cartes */
 
-#card {
+#cards {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -214,21 +247,23 @@ header h1 {
 	padding-bottom: 50px;
 }
 
-#card h1 {
+#cards h1 {
 	color: white;
 	padding: 30px;
 	margin-left: 30px;
 	font-size: 30px;
 }
 
+.card {
+		border-radius: 10%;
+}
+
 .carousel {
-    margin: 0 auto;
-    width: 10vw;
-    height: 500px;
+    width: 60%;
+    height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    z-index: 0;
 }
 /* Fin de la section Cartes */
