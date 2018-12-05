@@ -40,5 +40,4 @@ public class Deck extends DBItem {
 	public Deck() {
 		super();
 	}
-
 }

@@ -43,8 +43,13 @@ public class UserValidator {
 		}
 
         ValidationUtils.rejectIfEmptyOrWhitespace(errors, "password", "NotEmpty");
-            if (!user.getPassword().matches(regex_password)) {
-                errors.rejectValue("password", "NotValid.userForm.password");
-        }
+            if (user.getPassword() != null) {
+            	if (!user.getPassword().matches(regex_password)) {
+                errors.rejectValue("password", "NotValid.userForm.password");  
+            	}
+            }
+            else {
+                	 errors.rejectValue("password", "NotValid.userForm.password");
+             }          
     }
 }

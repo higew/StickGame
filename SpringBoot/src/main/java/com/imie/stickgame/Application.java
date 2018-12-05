@@ -26,6 +26,7 @@ public class Application {
 			public void run(String... args) throws Exception {
 				service.createFirstAdmin();
 				service.createUSER();
+				service.createFirstCardsDeck(); 
 			}
 		};
    }
