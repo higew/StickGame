@@ -16,8 +16,12 @@
         <li><a href="#section2">Histoire</a></li>
         <li><a href="#section3">Classes</a></li>
         <li><a href="#section4">Cartes</a></li>
-        <li><a href="/logout">Logout<a/><li>
-		    <li><a href="/registration">Register<a/><li>
+        <#list roles as r>
+        <#if "${r}" != "ROLE_ANONYMOUS">
+			 <li><a href="/logout">Logout<a/><li>
+		</#if>
+        </#list>
+		 <li><a href="/registration">Register<a/><li>
       </ul>
       <a href="#">Wiki</a>
     </nav>

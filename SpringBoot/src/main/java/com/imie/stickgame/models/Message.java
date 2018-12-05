@@ -5,8 +5,6 @@ import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.ManyToMany;
-import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
@@ -22,12 +20,9 @@ public class Message extends DBItem {
 	@Column(name = "date")
 	private Date date;
 
-//	@ManyToOne
-//	private List<Conversation> conversations;
-	
 	@OneToMany(mappedBy = "messages")
 	private List<User> users;
-
+	
 	public String getLabel() {
 		return label;
 	}
@@ -43,21 +38,4 @@ public class Message extends DBItem {
 	public void setDate(Date date) {
 		this.date = date;
 	}
-
-//	public List<Message> getMessages() {
-//		return messages;
-//	}
-//
-//	public void setMessages(List<Message> messages) {
-//		this.messages = messages;
-//	}
-
-//	public List<Conversation> getConversations() {
-//		return conversations;
-//	}
-//
-//	public void setConversations(List<Conversation> conversations) {
-//		this.conversations = conversations;
-//	}
-
 }

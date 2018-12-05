@@ -51,6 +51,12 @@ public class User extends DBItem{
 	
 	@ManyToMany
 	private List<Message> messages;
+	
+	@ManyToMany
+	private List<Conversation> conversations;
+	
+	@ManyToMany
+	private List<User> users;
 
 	public String getFirstname() {
 		return firstname;
@@ -119,16 +125,4 @@ public class User extends DBItem{
 		super();
 		this.roles = new ArrayList<Role>();
 	}
-
-
-
-
-//	public List<Message> getMessages() {
-//		return messages;
-//	}
-//
-//	public void setMessages(List<Message> messages) {
-//		this.messages = messages;
-//	}
-
 }

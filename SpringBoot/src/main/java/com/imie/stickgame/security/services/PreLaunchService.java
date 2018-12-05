@@ -39,6 +39,9 @@ public class PreLaunchService {
 //	    return query.setParameter("name", name).getSingleResult();
 //	  } 
 	
+	/**
+	 * Creation Role_Admin ainsi qu'un administrateur par default.
+	 */
 	public void createFirstAdmin() {
 		
 		Role role = new Role("ROLE_ADMIN");
@@ -51,6 +54,9 @@ public class PreLaunchService {
 	
 	}
 
+	/**
+	 * Creation d'un utilisateur par default.
+	 */
 	public void createUSER() {
 		Role role = new Role("ROLE_USER");
 		
@@ -63,6 +69,9 @@ public class PreLaunchService {
 		
 	}
 	
+	/**
+	 * Creation d'une liste de 30 cartes et d'un deck par default.
+	 */
 	public void createFirstCardsDeck() {
 		
 		//(name, picture, hp, atk, inCost, baseEffect, classes)
