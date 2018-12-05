@@ -47,7 +47,7 @@ function verifPassword(champ){
 }
 
 function comparePassword (champ){
-  var pass1 = document.getElementById('pass1');
+  var pass1 = document.getElementById('password');
   var pass2 = document.getElementById('pass2');
   if (pass1.value != pass2.value) {
      alert("Les 2 password ne sont pas identiques.");
@@ -64,7 +64,7 @@ function verifForm(f) {
    var firstnameOk = verifName(f.firstname);
    var lastnameOk = verifName(f.lastname);
    var mailOk = verifMail(f.email);
-   var passwordOk = verifPassword(f.pass1);
+   var passwordOk = verifPassword(f.password);
 
    if(firstnameOk && lastnameOk && mailOk && passwordOk)
       return true;
