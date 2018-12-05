@@ -51,10 +51,10 @@ public class GameManager {
         this.player2 = player2;
     }
 
-    GameManager(String player1, String player2, Deck deck1, Deck deck2) {
+    GameManager(String player1, String player2, Deck deck1, Deck deck2, String picture1, String picture2) {
         this.playerManager = new PlayerManager();
-        this.player1 = new Player (player1, deck1);
-        this.player2 = new Player (player2, deck2);
+        this.player1 = new Player (player1, deck1, picture1);
+        this.player2 = new Player (player2, deck2, picture2);
     }
 
     public void decideFirst() {

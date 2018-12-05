@@ -19,7 +19,7 @@ public class Deck extends DBItem {
 	@ManyToOne
 	private Classes classes;
 	@ManyToOne
-	private Player player;
+	private User user;
 
 	public List<Card> getCards() {
 		return cards;

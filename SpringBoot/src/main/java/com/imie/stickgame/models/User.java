@@ -3,10 +3,7 @@ package com.imie.stickgame.models;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.ManyToMany;
-import javax.persistence.Table;
+import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 
@@ -42,15 +39,14 @@ public class User extends DBItem{
 //	 */
 	@Column(name = "firstname")
 	private String firstname;
-
 	@Column(name = "lastname")
 	private String lastname;
-
 	@ManyToMany()
 	private List<Role> roles;
-	
 	@ManyToMany
 	private List<Message> messages;
+	@OneToMany
+	private List<Deck> decks;
 
 	public String getFirstname() {
 		return firstname;
