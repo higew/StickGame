@@ -8,10 +8,6 @@
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <title>Deck</title>
-        <script src="js/jQuery.js"></script>
-        <script src="js/jQueryUI.js"></script>
-        <script src="js/script.js" type="text/javascript"></script>
-        <script src="js/scriptDeck.js" type="text/javascript"></script>
     </head>
     <nav id="menuGlobal" class="fixed hidden">
         <ul>
@@ -29,54 +25,25 @@
     <header>
     </header>
     <body>
-        <div class="containerCarousel">
-            <h1>Séléctionnez vos cartes</h1>
-            <div class="carousel">
-                <img src="https://images-na.ssl-images-amazon.com/images/I/A1ncWOeYJqL._SY679_.jpg" alt="Image 1" class="card" />
-                <img src="https://images-na.ssl-images-amazon.com/images/I/91WcV%2B7cALL._SY679_.jpg" alt="Image 2" class="card" />
-                <img src="https://images-na.ssl-images-amazon.com/images/I/A1pyBlnV%2BsL._SY679_.jpg" alt="Image 3" class="card" />
-                <img src="https://images-na.ssl-images-amazon.com/images/I/71jY8vt05tL._SY679_.jpg" alt="Image 4" class="card" />
-                <img src="https://images-na.ssl-images-amazon.com/images/I/71A1nuPA7QL._SY679_.jpg" alt="Image 5" class="card" />
-                <img src="https://images-na.ssl-images-amazon.com/images/I/71A1nuPA7QL._SY679_.jpg" alt="Image 6" class="card" />
-                <img src="https://images-na.ssl-images-amazon.com/images/I/A1ncWOeYJqL._SY679_.jpg" alt="Image 1" class="card" />
-                <img src="https://images-na.ssl-images-amazon.com/images/I/91WcV%2B7cALL._SY679_.jpg" alt="Image 7" class="card" />
-                <img src="https://images-na.ssl-images-amazon.com/images/I/71A1nuPA7QL._SY679_.jpg" alt="Image 8" class="card" />
-                <img src="https://images-na.ssl-images-amazon.com/images/I/A1ncWOeYJqL._SY679_.jpg" alt="Image 1" class="card" />
-            </div>
-            <div><button id="btn1">Ajouter au deck</button></div>
+        <h1>Séléctionnez vos cartes</h1>
+        <div class="deckLive">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/A1ncWOeYJqL._SY679_.jpg" alt="Image 1" class="cardDeck" draggable="true"/>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/91WcV%2B7cALL._SY679_.jpg" alt="Image 2" class="cardDeck" draggable="true"/>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/A1pyBlnV%2BsL._SY679_.jpg" alt="Image 3" class="cardDeck" draggable="true"/>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71jY8vt05tL._SY679_.jpg" alt="Image 4" class="cardDeck" draggable="true"/>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71A1nuPA7QL._SY679_.jpg" alt="Image 5" class="cardDeck" draggable="true"/>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71A1nuPA7QL._SY679_.jpg" alt="Image 6" class="cardDeck" draggable="true"/>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/A1ncWOeYJqL._SY679_.jpg" alt="Image 1" class="cardDeck" draggable="true"/>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/91WcV%2B7cALL._SY679_.jpg" alt="Image 7" class="cardDeck" draggable="true"/>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71A1nuPA7QL._SY679_.jpg" alt="Image 8" class="cardDeck" draggable="true"/>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/A1ncWOeYJqL._SY679_.jpg" alt="Image 1" class="cardDeck" draggable="true"/>
         </div>
         <h1>Votre deck</h1>
         <div class="deckLive">
-            <img src="https://images-na.ssl-images-amazon.com/images/I/A1ncWOeYJqL._SY679_.jpg" alt="Image 1" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/91WcV%2B7cALL._SY679_.jpg" alt="Image 2" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/A1pyBlnV%2BsL._SY679_.jpg" alt="Image 3" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/71jY8vt05tL._SY679_.jpg" alt="Image 4" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/71A1nuPA7QL._SY679_.jpg" alt="Image 5" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/71A1nuPA7QL._SY679_.jpg" alt="Image 6" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/91WcV%2B7cALL._SY679_.jpg" alt="Image 7" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/71A1nuPA7QL._SY679_.jpg" alt="Image 8" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/A1ncWOeYJqL._SY679_.jpg" alt="Image 1" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/91WcV%2B7cALL._SY679_.jpg" alt="Image 2" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/A1pyBlnV%2BsL._SY679_.jpg" alt="Image 3" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/71jY8vt05tL._SY679_.jpg" alt="Image 4" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/71A1nuPA7QL._SY679_.jpg" alt="Image 5" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/71A1nuPA7QL._SY679_.jpg" alt="Image 6" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/91WcV%2B7cALL._SY679_.jpg" alt="Image 7" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/A1ncWOeYJqL._SY679_.jpg" alt="Image 1" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/91WcV%2B7cALL._SY679_.jpg" alt="Image 2" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/A1pyBlnV%2BsL._SY679_.jpg" alt="Image 3" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/71jY8vt05tL._SY679_.jpg" alt="Image 4" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/71A1nuPA7QL._SY679_.jpg" alt="Image 5" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/71A1nuPA7QL._SY679_.jpg" alt="Image 6" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/91WcV%2B7cALL._SY679_.jpg" alt="Image 7" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/71A1nuPA7QL._SY679_.jpg" alt="Image 8" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/A1ncWOeYJqL._SY679_.jpg" alt="Image 1" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/91WcV%2B7cALL._SY679_.jpg" alt="Image 2" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/A1pyBlnV%2BsL._SY679_.jpg" alt="Image 3" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/71jY8vt05tL._SY679_.jpg" alt="Image 4" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/71A1nuPA7QL._SY679_.jpg" alt="Image 5" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/71A1nuPA7QL._SY679_.jpg" alt="Image 6" class="cardDeck" />
-            <img src="https://images-na.ssl-images-amazon.com/images/I/91WcV%2B7cALL._SY679_.jpg" alt="Image 7" class="cardDeck" />
         </div>
     </body>
+    <script src="js/jQuery.js"></script>
+    <script src="js/jQueryUI.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    <script src="js/scriptDeck.js" type="text/javascript"></script>
 </html>
