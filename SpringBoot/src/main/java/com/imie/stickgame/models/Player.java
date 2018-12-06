@@ -9,7 +9,7 @@ import javax.persistence.Table;
 import javax.persistence.Transient;
 import com.imie.stickgame.database.base.DBItem;
 
-public class Player {
+public class Player extends DBItem {
 
     private static final int INKSTART = 1;
 
@@ -18,7 +18,7 @@ public class Player {
 	private Integer hp;
 	private Deck deck;
 	private Battlefield battlefield;
-	private ArrayList<Card> hand;
+	private List<Card> hand;
 	private int ink;
     private int inkTurn;
 
@@ -38,11 +38,11 @@ public class Player {
 		this.ink = ink;
 	}
 
-	public ArrayList<Card> getHand() {
+	public List<Card> getHand() {
 		return hand;
 	}
 
-	public void setHand(ArrayList<Card> hand) {
+	public void setHand(List<Card> hand) {
 		this.hand = hand;
 	}
 
