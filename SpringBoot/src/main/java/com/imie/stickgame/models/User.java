@@ -3,14 +3,14 @@ package com.imie.stickgame.models;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.ManyToMany;
+import javax.persistence.Table;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 
 import org.hibernate.validator.constraints.Length;
-
-
-import com.imie.stickgame.models.Role;
 import com.imie.stickgame.database.base.DBItem;
 
 @Entity
@@ -45,8 +45,12 @@ public class User extends DBItem{
 	private List<Role> roles;
 	@ManyToMany
 	private List<Message> messages;
-	@OneToMany
-	private List<Deck> decks;
+	
+//	@ManyToMany
+//	private List<Conversation> conversations;
+	
+//	@ManyToMany(cascade = CascadeType.ALL)
+//  @JoinColumn(name = "user_id")
 
 	public String getFirstname() {
 		return firstname;
@@ -115,16 +119,4 @@ public class User extends DBItem{
 		super();
 		this.roles = new ArrayList<Role>();
 	}
-
-
-
-
-//	public List<Message> getMessages() {
-//		return messages;
-//	}
-//
-//	public void setMessages(List<Message> messages) {
-//		this.messages = messages;
-//	}
-
 }

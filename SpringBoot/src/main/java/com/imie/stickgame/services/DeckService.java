@@ -16,8 +16,7 @@ public class DeckService extends BaseService<Deck> {
 
 	@Override
 	protected BaseCRUDRepository<Deck> getCRUDRepository() {
-		// TODO Auto-generated method stub
-		return null;
+		return DeckRepository;
 	}
 
 	@Override

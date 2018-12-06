@@ -14,7 +14,6 @@ import org.springframework.security.config.annotation.authentication.builders.Au
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-import org.springframework.security.config.core.GrantedAuthorityDefaults;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
@@ -57,7 +56,6 @@ public class SecurityConfigurations extends WebSecurityConfigurerAdapter {
 			.authorizeRequests()
 				.antMatchers("/", "/index", "/registration", "/css/**", "/javascript/**", "/media/**")
 					.permitAll()
-				//.antMatchers("/users/edit/**").access("hasRole('ROLE_ADMIN')")	
 				.anyRequest()
 					.authenticated()
 			.and()
@@ -69,7 +67,7 @@ public class SecurityConfigurations extends WebSecurityConfigurerAdapter {
 			.and()
 				.logout()
 					.logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
-					.logoutSuccessUrl("/login")
+					.logoutSuccessUrl("/index")
 			.and()
 				.httpBasic()
 		;
@@ -80,10 +78,4 @@ public class SecurityConfigurations extends WebSecurityConfigurerAdapter {
 	public AuthenticationManager authenticationManagerBean() throws Exception {
 		return super.authenticationManagerBean();
 	}
-	
-//	@Bean
-//	GrantedAuthorityDefaults grantedAuthorityDefaults() {
-//	    return new GrantedAuthorityDefaults("ROLE_");
-//	}
-
 }

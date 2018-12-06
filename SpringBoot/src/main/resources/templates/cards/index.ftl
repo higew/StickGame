@@ -6,17 +6,15 @@
 
 <div class="contMenu">
 <ul>
- <#if roles??>
         <#list roles as r>           
 		 <#if "${r}" == "ROLE_ADMIN">
 		  <li><a class="menumodif" href="/cards/edit/">Create New</a></li>
 		  <li><a class="menumodif" href="/cards/delete/">Delete</a></div></li>
 		</#if>
-		<#if "${r}" == "ROLE_USER">
+		<#if "${r}" != "ROLE_ANONYMOUS">
 		 <li><a class="menumodif" href="/cards/find/">Find</a></li>
 		</#if>
      </#list>
-    </#if>
 </ul>
 </div>
 

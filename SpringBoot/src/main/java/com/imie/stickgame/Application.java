@@ -5,11 +5,14 @@ import com.imie.stickgame.firebase.models.FirebaseGamePlayer;
 import com.imie.stickgame.manager.GameManager;
 import com.imie.stickgame.models.Deck;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.Bean;
 import java.io.IOException;
 
 @SpringBootApplication
+@EnableAutoConfiguration
 public class Application {
 
 	public static void main(String[] args) {
@@ -32,6 +35,7 @@ public class Application {
         System.out.println("2");
 	}
 
+
 //	@Autowired
 //	PreLaunchService service;
 //
@@ -40,10 +44,10 @@ public class Application {
 //        return new CommandLineRunner() {
 //			public void run(String... args) throws Exception {
 //				service.createFirstAdmin();
-//				service.createUSER();
+//				service.createRoleUser();
+//				service.createFirstCardsDeck();
 //			}
 //		};
 //   }
+
 }
-
-

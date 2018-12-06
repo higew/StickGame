@@ -11,7 +11,7 @@
     <div>Email *</div>
     <input type="text" id="email" name="email" value="" onblur="verifMail(this)" required>
     <div>Password *</div>
-    <input type="password" name="pass1" value="" id="pass1" onblur="verifPassword(this)" required>
+    <input type="password" name="password" value="" id="password" onblur="verifPassword(this)" required>
     <div>Password confirm *</div>
     <input type="password" name="passwordconfirm" value="" id="pass2" onblur="comparePassword(this)" required>
     <input type="hidden"
