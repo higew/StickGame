@@ -12,7 +12,7 @@ import com.imie.stickgame.database.base.DBItem;
 @Table(name = "conversation")
 public class Conversation extends DBItem {
 	
-	@OneToMany(mappedBy = "conversations")
-	private List<User> users;
+//	@OneToMany(mappedBy = "conversations")
+//	private List<User> users;
 	
 }

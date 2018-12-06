@@ -47,6 +47,7 @@ public class PreLaunchService {
 		Role role = new Role("ROLE_ADMIN");
 		
 		this.serviceRole.save(role);
+
 		
 		User user = new User("admin@admin.admin", "admin", 1, "stick", "game");
 		user.getRoles().add(role);
@@ -55,15 +56,15 @@ public class PreLaunchService {
 	}
 
 	/**
-	 * Creation d'un utilisateur par default.
+	 * Creation du role utilisateur
 	 */
-	public void createUSER() {
+	public void createRoleUser() {
 		Role role = new Role("ROLE_USER");
 		
 		this.serviceRole.save(role);
 		
-		//Ajout pour les tests a effacer
-		User user = new User("antoine@antoine.fr", "antoine", 1, "antoine", "antoine");
+		//Ajout d'un utilisateur pour les tests
+		User user = new User("user@user.fr", "user", 1, "user", "user");
 		user.getRoles().add(role);
 		this.serviceUser.save(user);
 		

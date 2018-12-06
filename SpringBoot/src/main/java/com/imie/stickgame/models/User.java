@@ -6,6 +6,7 @@ import java.util.List;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
@@ -52,11 +53,11 @@ public class User extends DBItem{
 	@ManyToMany
 	private List<Message> messages;
 	
-	@ManyToMany
-	private List<Conversation> conversations;
+//	@ManyToMany
+//	private List<Conversation> conversations;
 	
-	@ManyToMany
-	private List<User> users;
+//	@ManyToMany(cascade = CascadeType.ALL)
+//  @JoinColumn(name = "user_id")
 
 	public String getFirstname() {
 		return firstname;

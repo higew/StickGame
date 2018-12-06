@@ -143,12 +143,6 @@ Plebeiis de vicinitate coniunctis: postrema multitudo spadonum a senibus in puer
  <#if roles??>
         <#list roles as r>
         ${r}              
-		 <#if "${r}" == "ROLE_ADMIN">
-		  It is Big Joe
-		</#if>
-		<#if "${r}" == "ROLE_USER">
-		  It is not Big Joe
-		</#if>
      </#list>
     </#if>
     

@@ -1,5 +1,5 @@
 package com.imie.stickgame.controllers;
 
-public class MessageController {
+public class SocialController {
 
 }
