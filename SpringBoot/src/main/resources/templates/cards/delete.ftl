@@ -7,8 +7,6 @@
             name="${_csrf.parameterName}"
             value="${_csrf.token}"/>
     <input type="submit" value="Delete">
-</form> 
-
-
+</form>
 
 <div><a href="/cards/index">Back</a></div>
