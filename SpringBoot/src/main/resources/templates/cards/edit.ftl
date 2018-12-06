@@ -9,7 +9,7 @@
     <input type="text" name="atk" value="">
     <div>Ink Cost</div>
     <input type="text" name="inkCost" value="">
-       <input type="hidden"
+    <input type="hidden"
             name="${_csrf.parameterName}"
             value="${_csrf.token}"/>
     <input type="submit" value="Add">
