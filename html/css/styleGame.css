@@ -63,7 +63,7 @@ body * {
   position: relative;
 }
 
-.cardPict {
+.cardPict, .cardPict2 {
   height: 100%;
   width: 100%;
 }
@@ -123,7 +123,7 @@ body * {
   border: black 1px solid;
 }
 
-.cardBoard {
+.cardBoard, .cardboard2 {
   width: 20%;
   height: 100%;
   border: black 1px solid;
