@@ -1,11 +1,8 @@
 package com.imie.stickgame.models;
 
-
-
 import com.imie.stickgame.database.base.DBItem;
 
 import javax.persistence.*;
-
 
 @Entity
 @Table(name="Card")

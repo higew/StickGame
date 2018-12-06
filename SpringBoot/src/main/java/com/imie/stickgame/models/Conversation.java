@@ -13,15 +13,15 @@ import com.imie.stickgame.database.base.DBItem;
 @Table(name = "conversation")
 public class Conversation extends DBItem {
 	
-//	@OneToMany
-//	private List<Message> messages;
-//
-//	public List<Message> getMessages() {
-//		return messages;
-//	}
-//
-//	public void setMessages(List<Message> messages) {
-//		this.messages = messages;
-//	}
+	@OneToMany
+	private List<Message> messages;
+
+	public List<Message> getMessages() {
+		return messages;
+	}
+
+	public void setMessages(List<Message> messages) {
+		this.messages = messages;
+	}
 
 }

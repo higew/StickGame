@@ -13,12 +13,12 @@ public class Battlefield {
 	}
 	
 	public List<Card> getMonsterZone() {
-		return monsterZone;
+	    return monsterZone;
 	}
 
 	public Battlefield() {
-	    this.discardDeck = new ArrayList<Card>();
-	    this.monsterZone = new ArrayList<Card>();
+	    this.discardDeck = new ArrayList<>();
+	    this.monsterZone = new ArrayList<>();
     }
 }
 

@@ -42,5 +42,4 @@ public class Deck extends DBItem {
 		super();
 		this.cards = new ArrayList<>();
 	}
-
 }
