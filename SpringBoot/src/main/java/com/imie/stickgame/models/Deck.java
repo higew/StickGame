@@ -1,5 +1,6 @@
 package com.imie.stickgame.models;
 
+import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -19,7 +20,7 @@ public class Deck extends DBItem {
 	@ManyToOne
 	private Classes classes;
 	@ManyToOne
-	private Player player;
+	private User user;
 
 	public List<Card> getCards() {
 		return cards;
@@ -39,6 +40,6 @@ public class Deck extends DBItem {
 	
 	public Deck() {
 		super();
+		this.cards = new ArrayList<>();
 	}
-
 }

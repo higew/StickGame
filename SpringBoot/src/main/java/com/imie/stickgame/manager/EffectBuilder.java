@@ -2,10 +2,8 @@ package com.imie.stickgame.manager;
 
 // Agit comme un manager d'effets
 
-import com.imie.stickgame.manager.PlayerManager;
 import com.imie.stickgame.models.*;
-
-import java.util.ArrayList;
+import com.imie.stickgame.models.enumPhase.EffectPhase;
 
 public class EffectBuilder {
 

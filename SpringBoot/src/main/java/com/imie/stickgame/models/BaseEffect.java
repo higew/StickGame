@@ -1,11 +1,13 @@
 package com.imie.stickgame.models;
 
 import com.imie.stickgame.database.base.DBItem;
+import com.imie.stickgame.models.enumPhase.EffectPhase;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -43,5 +45,15 @@ public class BaseEffect extends DBItem {
 
     public void setCards(List<Card> cards) {
         this.cards = cards;
+    }
+
+    public BaseEffect(Integer effectIdentifier, String description, EffectPhase effectPhase) {
+        this.effectIdentifier = effectIdentifier;
+        this.description = description;
+        this.effectPhase = effectPhase;
+        this.cards = new ArrayList<>();
+    }
+
+    public BaseEffect() {
     }
 }

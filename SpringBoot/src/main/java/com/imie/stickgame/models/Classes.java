@@ -39,4 +39,10 @@ public class Classes extends DBItem {
     public Classes() {
         super();
     }
+
+    public Classes(String name, String picture) {
+	    super();
+        this.name = name;
+        this.picture = picture;
+    }
 }

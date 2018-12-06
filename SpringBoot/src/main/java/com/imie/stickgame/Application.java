@@ -1,21 +1,40 @@
 package com.imie.stickgame;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.CommandLineRunner;
+import com.imie.stickgame.firebase.FirebaseOpenHelper;
+import com.imie.stickgame.firebase.models.FirebaseGamePlayer;
+import com.imie.stickgame.manager.GameManager;
+import com.imie.stickgame.models.Deck;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Service;
-
-import com.imie.stickgame.security.services.PreLaunchService;
+import java.io.IOException;
 
 @SpringBootApplication
+@EnableAutoConfiguration
 public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+        SpringApplication.run(Application.class, args);
+
+
+        //FirebaseGamePlayer firebaseGamePlayer = new FirebaseGamePlayer();
+        /*GameManager gameManager = new GameManager("Brice", "Antoine", new Deck(), new Deck(),
+                "../StickGame/html/media/profilBrice.jpeg", "../StickGame/html/media/profilAntoine.jpeg");
+        gameManager.game();
+
+        System.out.println("1");*/
+        /*try {
+            FirebaseOpenHelper.getInstance().getDatabase().getReference("games/").child(firebaseGamePlayer.toString()
+            ).setValueAsync(firebaseGamePlayer);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }*/
+        //db.getReference("notifications").setValueAsync(new GameManagerDTO());
+        System.out.println("2");
 	}
+
 
 //	@Autowired
 //	PreLaunchService service;
@@ -25,10 +44,10 @@ public class Application {
 //        return new CommandLineRunner() {
 //			public void run(String... args) throws Exception {
 //				service.createFirstAdmin();
-//				service.createUSER();
+//				service.createRoleUser();
+//				service.createFirstCardsDeck();
 //			}
 //		};
 //   }
+
 }
-
-

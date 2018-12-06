@@ -1,6 +1,6 @@
 package com.imie.stickgame.models;
 
-import java.util.ArrayList;
+import com.imie.stickgame.models.enumPhase.EffectPhase;
 
 public interface Effect {
     EffectPhase getEffectPhase();

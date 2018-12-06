@@ -1,23 +1,24 @@
 package com.imie.stickgame.models;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Battlefield {
 
-    private ArrayList<Card> discardDeck;
-    private Card[] monsterZone;
+    private List<Card> discardDeck;
+    private List<Card> monsterZone;
     
-	public ArrayList<Card> getDiscardDeck() {
+	public List<Card> getDiscardDeck() {
 		return discardDeck;
 	}
 	
-	public Card[] getMonsterZone() {
-		return monsterZone;
+	public List<Card> getMonsterZone() {
+	    return monsterZone;
 	}
 
 	public Battlefield() {
-	    this.discardDeck = new ArrayList<Card>();
-	    this.monsterZone = new Card[5];
+	    this.discardDeck = new ArrayList<>();
+	    this.monsterZone = new ArrayList<>();
     }
 }
 
