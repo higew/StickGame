@@ -20,11 +20,11 @@ public class DefaultErrorsController {
 		ModelAndView modelAndView = new ModelAndView();
 		
 		if (ex instanceof AccessDeniedException || ex instanceof Unauthorized) {
-			modelAndView.setViewName("/errors/403");
+			modelAndView.setViewName("/error/403");
 		}else if (ex instanceof NotFound) {
-			modelAndView.setViewName("/errors/404");	
+			modelAndView.setViewName("/error/404");	
 		}else if (ex instanceof InternalServerError) {
-			modelAndView.setViewName("/errors/500");	
+			modelAndView.setViewName("/error/500");	
 		} 
 //		else {
 //			modelAndView.setViewName("/errors/500");
