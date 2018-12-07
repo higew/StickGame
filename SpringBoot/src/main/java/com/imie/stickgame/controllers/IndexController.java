@@ -3,6 +3,10 @@ package com.imie.stickgame.controllers;
 import java.util.ArrayList;
 import java.util.Collection;
 
+import com.imie.stickgame.firebase.models.FirebaseGamePlayer;
+import com.imie.stickgame.models.Card;
+import com.imie.stickgame.services.CardService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContext;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -14,7 +18,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class IndexController {
 
-	
 	@RequestMapping(value= {"","/","/index"}, method=RequestMethod.GET)
 	public String index(Model model) {
 		ArrayList<String> roles = new ArrayList<>();
@@ -24,7 +27,8 @@ public class IndexController {
             roles.add(grantedAuthority.getAuthority());
         }
         model.addAttribute("roles", roles);
-		return "/index";
+
+        return "/index";
 	}
 
 }

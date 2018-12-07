@@ -31,5 +31,8 @@ public class CardService extends BaseService<Card> {
 		}
 		return result;
 	}
-	
+
+	public List<Card> findByName(String name) {
+		return this.cardRepository.findByName(name);
+	}
 }
