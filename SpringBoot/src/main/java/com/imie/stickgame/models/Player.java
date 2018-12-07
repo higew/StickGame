@@ -12,6 +12,7 @@ import com.imie.stickgame.database.base.DBItem;
 public class Player extends DBItem {
 
     private static final int INKSTART = 1;
+    private static final int HPSTART = 20;
 
 	private String name;
 	private String picture;
@@ -94,7 +95,7 @@ public class Player extends DBItem {
         super();
         this.name = name;
         this.picture = picture;
-        this.hp = 20;
+        this.hp = HPSTART;
         this.deck = deck;
         this.battlefield = new Battlefield();
         this.hand = new ArrayList<>();

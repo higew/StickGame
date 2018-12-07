@@ -149,7 +149,7 @@
 			</article>
     </footer>
 
-
+<p>Session: <#if connection??> ${connection} </#if> </p>
 
  <#if roles??>
         <#list roles as r>

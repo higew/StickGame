@@ -3,9 +3,12 @@ package com.imie.stickgame.models;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
 import javax.persistence.ManyToMany;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
@@ -46,11 +49,13 @@ public class User extends DBItem{
 	@ManyToMany
 	private List<Message> messages;
 	
-//	@ManyToMany
-//	private List<Conversation> conversations;
+	@OneToMany
+	private List<Conversation> conversations;
 	
-//	@ManyToMany(cascade = CascadeType.ALL)
-//  @JoinColumn(name = "user_id")
+
+	@ManyToMany(cascade = CascadeType.ALL)
+    @JoinColumn(name = "user_id")
+	private List<User> users;
 
 	public String getFirstname() {
 		return firstname;
