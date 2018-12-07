@@ -26,6 +26,9 @@ public class BaseEffectService extends BaseService<BaseEffect> {
 		if (!item.getEffectIdentifier().equals("") ){
 			result = this.BaseEffectRepository.findByEffectIdentifier(item.getEffectIdentifier());
 		}
+		if (!item.getDescription().equals("") ){
+			result = this.BaseEffectRepository.findByDescription(item.getDescription());
+		}
 		return result;
 	}
 }

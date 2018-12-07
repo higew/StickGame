@@ -2,10 +2,8 @@ package com.imie.stickgame;
 
 import com.imie.stickgame.firebase.FirebaseOpenHelper;
 import com.imie.stickgame.firebase.models.FirebaseGamePlayer;
-import com.imie.stickgame.manager.GameManager;
-import com.imie.stickgame.models.Deck;
-import com.imie.stickgame.models.Player;
 import com.imie.stickgame.security.services.PreLaunchService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
