@@ -138,7 +138,7 @@ Plebeiis de vicinitate coniunctis: postrema multitudo spadonum a senibus in puer
 			</article>
     </footer>
     
-		
+<p>Session: <#if connection??> ${connection} </#if> </p>		
          
  <#if roles??>
         <#list roles as r>

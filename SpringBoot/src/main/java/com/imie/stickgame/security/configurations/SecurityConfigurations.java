@@ -14,9 +14,11 @@ import org.springframework.security.config.annotation.authentication.builders.Au
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
+import com.imie.stickgame.security.CustomAuthenticationSuccessHandler;
 import com.imie.stickgame.security.controllers.LoginController;
 
 @Configuration
@@ -53,16 +55,20 @@ public class SecurityConfigurations extends WebSecurityConfigurerAdapter {
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http
-			.authorizeRequests()
-				.antMatchers("/", "/index", "/registration", "/css/**", "/javascript/**", "/media/**")
-					.permitAll()
-				.anyRequest()
-					.authenticated()
+		.sessionManagement()
+		.sessionCreationPolicy(SessionCreationPolicy.IF_REQUIRED)
+			.and()
+				.authorizeRequests()
+					.antMatchers("/", "/index", "/registration", "/css/**", "/javascript/**", "/media/**","/error/**")
+						.permitAll()
+					.anyRequest()
+						.authenticated()
 			.and()
 				.formLogin()
 					.loginPage(LoginController.LOGIN)
 					.usernameParameter(LoginController.FORM_USERNAME)
 					.passwordParameter(LoginController.FORM_PASSWORD)
+					.successHandler(new CustomAuthenticationSuccessHandler())
 					.permitAll()
 			.and()
 				.logout()

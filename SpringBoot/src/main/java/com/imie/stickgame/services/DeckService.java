@@ -19,13 +19,8 @@ public class DeckService extends BaseService<Deck> {
 		return DeckRepository;
 	}
 
-	@Override
-	protected List<Deck> setItemsByCriterias(Deck item, List<Deck> result) {
-
-		if (!item.getName().equals("") ){
-			result = this.DeckRepository.findByName(item.getName());
-		}
-		return result;
+	public Deck findByName(String name) {
+		return this.DeckRepository.findByName(name);
 	}
 
 	/**
@@ -40,5 +35,11 @@ public class DeckService extends BaseService<Deck> {
 	 */
 	public void setDeckRepository(DeckRepository deckRepository) {
 		DeckRepository = deckRepository;
+	}
+
+	@Override
+	protected List<Deck> setItemsByCriterias(Deck item, List<Deck> result) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

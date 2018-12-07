@@ -50,6 +50,7 @@ public class Application {
 				service.createFirstAdmin();
 				service.createRoleUser();
 				service.createFirstCardsDeck();
+				service.insertSessionDatabase();
 			}
 		};
    }
