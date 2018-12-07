@@ -15,6 +15,11 @@ hr {
 	visibility: hidden;
 }
 
+.cheatingClass {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
 /* Fin Classes Global */
 
 /* Début du header */
@@ -24,8 +29,9 @@ header {
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-  background-image: url("../media/okina-stage.gif");
-  background-position: 0px -350px;
+  background-image: url("../media/stage2.gif");
+  background-position: 0px -200px;
+	background-size: 100%;
 	color: white;
 	height: 500px;
 	width: 100%;
@@ -45,7 +51,7 @@ header h1 {
 #actu {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	width: 100%;
 	margin-bottom: 50px;
 }
@@ -102,7 +108,7 @@ header h1 {
 #story {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	width: 100%;
 	background-color: #383838;
 	margin-bottom: 20px;
@@ -145,7 +151,7 @@ header h1 {
 #class {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	width: 100%;
 	margin-bottom: 50px;
 }
@@ -208,7 +214,7 @@ header h1 {
 #card {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	width: 100%;
 	background-color: #383838;
 	padding-bottom: 50px;
