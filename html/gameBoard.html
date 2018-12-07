@@ -8,18 +8,7 @@
   <link rel="stylesheet" href="css/jquery-ui.css">
   <link rel="stylesheet" href="css/styleGame.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js%22%3E"></script>
-  <script>
-    var config = {
-      apiKey: "AIzaSyDF5kudIsloz3Z-71VSc1ckz1e-FUYDdTI",
-      authDomain: "stick-game.firebaseapp.com",
-      databaseURL: "https://stick-game.firebaseio.com/",
-      projectId: "stick-game",
-      storageBucket: "stick-game.appspot.com",
-      messagingSenderId: "624366143716"
-    };
-    firebase.initializeApp(config);
-  </script>
+  <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
 </head>
 
 <body>
@@ -27,30 +16,33 @@
     <div class="side" name="opponentside">
       <div class="avatar">
         <div class="picture">
-          <img src="media/profilBrice.jpeg" alt="Brice" class="avatarPict">
+          <img src="media/profilBrice.jpeg" alt="Brice" class="avatarPict">s
+        </div>
+        <div class="hp">
+          <p id="hp1">20</p>
         </div>
       </div>
       <div class="hand">
-        <div class="handCards">
-          <img src="media/dosCarte2.png" draggable="true" class="cardPict" alt="">
+        <div class="handCards2">
+          <img src="media/dosCarteY.png" draggable="true" class="cardPict" id="cardPict11" alt="">
         </div>
-        <div class="handCards">
-          <img src="media/dosCarte2.png" draggable="true" class="cardPict" alt="">
+        <div class="handCards2">
+          <img src="media/dosCarteY.png" draggable="true" class="cardPict" id="cardPict12" alt="">
         </div>
-        <div class="handCards">
-          <img src="media/dosCarte2.png" draggable="true" class="cardPict" alt="">
+        <div class="handCards2">
+          <img src="media/dosCarteY.png" draggable="true" class="cardPict" id="cardPict13" alt="">
         </div>
-        <div class="handCards">
-          <img src="media/dosCarte2.png" draggable="true" class="cardPict" alt="">
+        <div class="handCards2">
+          <img src="media/dosCarteY.png" draggable="true" class="cardPict" id="cardPict14" alt="">
         </div>
-        <div class="handCards">
-          <img src="media/dosCarte2.png" draggable="true" class="cardPict" alt="">
+        <div class="handCards2">
+          <img src="media/dosCarteY.png" draggable="true" class="cardPict" id="cardPict15" alt="">
         </div>
-        <div class="handCards">
-          <img src="media/dosCarte2.png" draggable="true" class="cardPict" alt="">
+        <div class="handCards2">
+          <img src="media/dosCarteY.png" draggable="true" class="cardPict" id="cardPict16" alt="">
         </div>
-        <div class="handCards">
-          <img src="media/dosCarte2.png" draggable="true" class="cardPict" alt="">
+        <div class="handCards2">
+          <img src="media/dosCarteY.png" draggable="true" class="cardPict" id="cardPict17" alt="">
         </div>
       </div>
       <div class="mana">
@@ -90,7 +82,7 @@
     <div class="side2" name="opponentSide2">
       <div class="discardContainer">
         <div class="discard">
-            <img src="media/dosDiscard2.png" class="discardPict" alt=""/>
+          <img src="media/card9.jpg" class="discardPict" alt="" />
         </div>
       </div>
       <div class="board">
@@ -107,7 +99,7 @@
       </div>
       <div class="drawContainer">
         <div class="draw">
-          <img src="media/dosCarte2.png" class="drawPict" alt=""/>
+          <img src="media/dosCarteY.png" class="drawPict" alt="" />
         </div>
       </div>
     </div>
@@ -115,7 +107,7 @@
     <div class="side2" name="playerSide2">
       <div class="discardContainer">
         <div class="discard">
-          <img src="media/dosDiscard.png" class="discardPict" alt=""/>
+          <img src="media/card8.jpg" class="discardPict" alt="" />
         </div>
       </div>
       <div class="board">
@@ -132,7 +124,7 @@
       </div>
       <div class="drawContainer">
         <div class="draw">
-          <img src="media/dosCarte.png" class="drawPict" alt=""/>
+          <img src="media/dosCarteY.png" class="drawPict" alt="" />
         </div>
       </div>
     </div>
@@ -140,30 +132,33 @@
     <div class="side" name="playerSide">
       <div class="avatar">
         <div class="picture">
-          <img src="media/profilAntoine.jpeg" alt="Antoine" class="avatarPict">
+          <img src="media/cat.jpg" alt="Antoine" class="avatarPict">
+        </div>
+        <div>
+          <p class="hp" id="hp2">20</p>
         </div>
       </div>
       <div class="hand">
         <div class="handCards">
-          <img src="media/card1.png" draggable="true" class="cardPict2" alt="">
+          <img src="media/card1.png" draggable="true" class="cardPict2" id="cardPict21" alt="">
         </div>
         <div class="handCards">
-          <img src="media/card1.png" draggable="true" class="cardPict2" alt="">
+          <img src="media/card2.png" draggable="true" class="cardPict2" id="cardPict22" alt="">
         </div>
         <div class="handCards">
-          <img src="media/card1.png" draggable="true" class="cardPict2" alt="">
+          <img src="media/card3.jpg" draggable="true" class="cardPict2" id="cardPict23" alt="">
         </div>
         <div class="handCards">
-          <img src="media/card1.png" draggable="true" class="cardPict2" alt="">
+          <img src="media/card6.jpg" draggable="true" class="cardPict2" id="cardPict24" alt="">
         </div>
         <div class="handCards">
-          <img src="media/card1.png" draggable="true" class="cardPict2" alt="">
+          <img src="media/card4.jpg" draggable="true" class="cardPict2" id="cardPict25" alt="">
         </div>
         <div class="handCards">
-          <img src="media/card1.png" draggable="true" class="cardPict2" alt="">
+          <img src="media/card5.jpg" draggable="true" class="cardPict2" id="cardPict26" alt="">
         </div>
         <div class="handCards">
-          <img src="media/card1.png" draggable="true" class="cardPict2" alt="">
+          <img src="media/card7.jpg" draggable="true" class="cardPict2" id="cardPict27" alt="">
         </div>
       </div>
       <div class="mana">
@@ -202,7 +197,9 @@
   </div>
 </body>
 
-<script src="js/scriptGame.js" type="text/javascript"></script>
 <script src="js/scriptGame2.js" type="text/javascript"></script>
+<script src="js/firebaseJeu.js" type="text/javascript"></script>
+<script src="js/jQuery.js" type="text/javascript"></script>
+<script src="js/jQueryUI.js" type="text/javascript"></script>
 
 </html>

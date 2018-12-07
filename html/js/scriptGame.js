@@ -36,9 +36,9 @@
           draggedElement = dndHandler.draggedElement, // Récupération de l'élément concerné
           clonedElement = draggedElement.cloneNode(true); // On créé immédiatement le clone de cet élément
 
-        while (target.className.indexOf('cardBoard') == -1) { // Cette boucle permet de remonter jusqu'à la zone de drop parente
-          target = target.parentNode;
-        }
+        // while (target.className.indexOf('cardBoard') == -1) { // Cette boucle permet de remonter jusqu'à la zone de drop parente
+        //   target = target.parentNode;
+        // }
 
         target.className = 'cardBoard'; // Application du style par défaut
 
@@ -63,7 +63,7 @@
   var droppers = document.querySelectorAll('.cardBoard'),
     droppersLen = droppers.length;
 
-  for (var i = 0; i < droppersLen; i++) {
+  for (var i = 0; i < 1; i++) {
     dndHandler.applyDropEvents(droppers[i]); // Application des événements nécessaires aux zones de drop
   }
 
