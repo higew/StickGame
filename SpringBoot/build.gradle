@@ -68,7 +68,20 @@ dependencies {
     // Security
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '2.1.0.RELEASE'
     
+    // Session
+	compile('org.springframework.session:spring-session-jdbc')
+    
     testImplementation('org.springframework.boot:spring-boot-starter-test')
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.1.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.1.1'
+    compile 'org.junit.jupiter:junit-jupiter-api'
+}
+
+test {
+    useJUnitPlatform()
 }
 
 test {

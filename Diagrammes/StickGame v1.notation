@@ -726,14 +726,6 @@
     <element xmi:type="uml:Class" href="StickGame%20v1.uml#_ftAiAOgqEeiflKyhNUkymA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ftYVe-gqEeiflKyhNUkymA" x="2220" y="300"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_ftlJwOgqEeiflKyhNUkymA" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="_ftlJwegqEeiflKyhNUkymA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ftlJw-gqEeiflKyhNUkymA" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_aumuUOgqEeiflKyhNUkymA"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ftlJwugqEeiflKyhNUkymA" x="1409" y="203"/>
-  </children>
   <children xmi:type="notation:Shape" xmi:id="_7LcNEOgqEeiflKyhNUkymA" type="Interface_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_7Lc0IOgqEeiflKyhNUkymA" type="Interface_NameLabel"/>
     <children xmi:type="notation:DecorationNode" xmi:id="_7Lc0IegqEeiflKyhNUkymA" type="Interface_FloatingNameLabel">
@@ -873,14 +865,6 @@
     </children>
     <element xmi:type="uml:Interface" href="StickGame%20v1.uml#__B2d8OgqEeiflKyhNUkymA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="__B_A4OgqEeiflKyhNUkymA" x="691" y="800"/>
-  </children>
-  <children xmi:type="notation:Shape" xmi:id="__CD5UugqEeiflKyhNUkymA" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="__CD5U-gqEeiflKyhNUkymA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="__CD5VegqEeiflKyhNUkymA" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Interface" href="StickGame%20v1.uml#_7LURQOgqEeiflKyhNUkymA"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__CD5VOgqEeiflKyhNUkymA" x="4240" y="640"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_NpwigugrEeiflKyhNUkymA" type="Class_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_NpwihOgrEeiflKyhNUkymA" type="Class_NameLabel"/>
@@ -1035,14 +1019,6 @@
     </children>
     <element xmi:type="uml:Class" href="StickGame%20v1.uml#_OworA-grEeiflKyhNUkymA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Owx1BugrEeiflKyhNUkymA" x="100" y="1100"/>
-  </children>
-  <children xmi:type="notation:Shape" xmi:id="_Owx1IugrEeiflKyhNUkymA" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="_Owx1I-grEeiflKyhNUkymA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Owx1JegrEeiflKyhNUkymA" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_NpdnkugrEeiflKyhNUkymA"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Owx1JOgrEeiflKyhNUkymA" x="1120" y="1840"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_Q0ziMOgrEeiflKyhNUkymA" type="Class_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_Q0ziMugrEeiflKyhNUkymA" type="Class_NameLabel"/>
@@ -1219,14 +1195,6 @@
     </children>
     <element xmi:type="uml:Class" href="StickGame%20v1.uml#_Q0NsVegrEeiflKyhNUkymA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q0ziRegrEeiflKyhNUkymA" x="760" y="1000"/>
-  </children>
-  <children xmi:type="notation:Shape" xmi:id="_Q0ziYegrEeiflKyhNUkymA" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="_Q0ziYugrEeiflKyhNUkymA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Q0ziZOgrEeiflKyhNUkymA" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#__BnNYOgqEeiflKyhNUkymA"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q0ziY-grEeiflKyhNUkymA" x="4160" y="800"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_Sk8DF-grEeiflKyhNUkymA" type="Class_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_Sk8DGegrEeiflKyhNUkymA" type="Class_NameLabel"/>
@@ -1514,45 +1482,77 @@
     <element xmi:type="uml:Class" href="StickGame%20v1.uml#_Tpt50OgrEeiflKyhNUkymA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TqA01egrEeiflKyhNUkymA" x="860" y="1540"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_TqA08egrEeiflKyhNUkymA" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="_TqA08ugrEeiflKyhNUkymA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_TqA09OgrEeiflKyhNUkymA" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_SkVmIOgrEeiflKyhNUkymA"/>
+  <children xmi:type="notation:Shape" xmi:id="_Ico28_n-EeiRCfEE-ivQmA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_Ico29Pn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Ico29vn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_aumuUOgqEeiflKyhNUkymA"/>
     </styles>
     <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TqA08-grEeiflKyhNUkymA" x="2744" y="1652"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ico29fn-EeiRCfEE-ivQmA" x="1520"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_TqA1EOgrEeiflKyhNUkymA" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="_TqA1EegrEeiflKyhNUkymA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_TqA1E-grEeiflKyhNUkymA" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Interface" href="StickGame%20v1.uml#__B2d8OgqEeiflKyhNUkymA"/>
+  <children xmi:type="notation:Shape" xmi:id="_IfNCzPn-EeiRCfEE-ivQmA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_IfNCzfn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_IfNCz_n-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="StickGame%20v1.uml#_7LURQOgqEeiflKyhNUkymA"/>
     </styles>
     <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TqA1EugrEeiflKyhNUkymA" x="3700" y="800"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IfNCzvn-EeiRCfEE-ivQmA" x="1240" y="640"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_TqA1L-grEeiflKyhNUkymA" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="_TqA1MOgrEeiflKyhNUkymA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_TqA1MugrEeiflKyhNUkymA" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_Qz6xYegrEeiflKyhNUkymA"/>
+  <children xmi:type="notation:Shape" xmi:id="_IfhL2fn-EeiRCfEE-ivQmA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_IfhL2vn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_IfhL3Pn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#__BnNYOgqEeiflKyhNUkymA"/>
     </styles>
     <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TqA1MegrEeiflKyhNUkymA" x="1768" y="1676"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IfhL2_n-EeiRCfEE-ivQmA" x="1160" y="800"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_TqA1TugrEeiflKyhNUkymA" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="_TqA1T-grEeiflKyhNUkymA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_TqA1UegrEeiflKyhNUkymA" name="BASE_ELEMENT">
+  <children xmi:type="notation:Shape" xmi:id="_If0Gyfn-EeiRCfEE-ivQmA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_If0Gyvn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_If0GzPn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:Interface" href="StickGame%20v1.uml#__BuiIOgqEeiflKyhNUkymA"/>
     </styles>
     <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TqA1UOgrEeiflKyhNUkymA" x="3680" y="940"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_If0Gy_n-EeiRCfEE-ivQmA" x="760" y="620"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_TqKl0egrEeiflKyhNUkymA" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="_TqKl0ugrEeiflKyhNUkymA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_TqKl1OgrEeiflKyhNUkymA" name="BASE_ELEMENT">
+  <children xmi:type="notation:Shape" xmi:id="_IgHBs_n-EeiRCfEE-ivQmA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_IgHBtPn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_IgHBtvn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="StickGame%20v1.uml#__B2d8OgqEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IgHBtfn-EeiRCfEE-ivQmA" x="891" y="800"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_IgQyufn-EeiRCfEE-ivQmA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_IgQyuvn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_IgQyvPn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_NpdnkugrEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IgQyu_n-EeiRCfEE-ivQmA" x="440" y="800"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_IhKKk_n-EeiRCfEE-ivQmA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_IhKKlPn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_IhKKlvn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_Qz6xYegrEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IhKKlfn-EeiRCfEE-ivQmA" x="1380" y="980"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Ihm2g_n-EeiRCfEE-ivQmA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_Ihm2hPn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Ihm2hvn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_Q0NsVegrEeiflKyhNUkymA"/>
     </styles>
     <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TqKl0-grEeiflKyhNUkymA" x="1788" y="1696"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ihm2hfn-EeiRCfEE-ivQmA" x="960" y="1000"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Ih5xfPn-EeiRCfEE-ivQmA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_Ih5xffn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Ih5xf_n-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_SkVmIOgrEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ih5xfvn-EeiRCfEE-ivQmA" x="320" y="1480"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_RmCKweQNEeiqHpUkZzAjuw" name="diagram_compatibility_version" stringValue="1.4.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_RmCKwuQNEeiqHpUkZzAjuw"/>
@@ -1699,94 +1699,94 @@
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vMIKQOQrEeisFacG0dJzlw" id="(0.5970149253731343,0.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vMIKQeQrEeisFacG0dJzlw" id="(0.4975124378109453,1.0)"/>
   </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_ftlw0OgqEeiflKyhNUkymA" type="StereotypeCommentLink" source="_awiA8OgqEeiflKyhNUkymA" target="_ftlJwOgqEeiflKyhNUkymA">
-    <styles xmi:type="notation:FontStyle" xmi:id="_ftlw0egqEeiflKyhNUkymA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ftlw1egqEeiflKyhNUkymA" name="BASE_ELEMENT">
+  <edges xmi:type="notation:Connector" xmi:id="_Ico29_n-EeiRCfEE-ivQmA" type="StereotypeCommentLink" source="_awiA8OgqEeiflKyhNUkymA" target="_Ico28_n-EeiRCfEE-ivQmA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Ico2-Pn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Ico2_Pn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_aumuUOgqEeiflKyhNUkymA"/>
     </styles>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ftlw0ugqEeiflKyhNUkymA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ftlw0-gqEeiflKyhNUkymA"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ftlw1OgqEeiflKyhNUkymA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ico2-fn-EeiRCfEE-ivQmA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ico2-vn-EeiRCfEE-ivQmA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ico2-_n-EeiRCfEE-ivQmA"/>
   </edges>
-  <edges xmi:type="notation:Connector" xmi:id="__CD5VugqEeiflKyhNUkymA" type="StereotypeCommentLink" source="_7LcNEOgqEeiflKyhNUkymA" target="__CD5UugqEeiflKyhNUkymA">
-    <styles xmi:type="notation:FontStyle" xmi:id="__CD5V-gqEeiflKyhNUkymA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="__CD5W-gqEeiflKyhNUkymA" name="BASE_ELEMENT">
+  <edges xmi:type="notation:Connector" xmi:id="_IfWMsPn-EeiRCfEE-ivQmA" type="StereotypeCommentLink" source="_7LcNEOgqEeiflKyhNUkymA" target="_IfNCzPn-EeiRCfEE-ivQmA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IfWMsfn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_IfWMtfn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:Interface" href="StickGame%20v1.uml#_7LURQOgqEeiflKyhNUkymA"/>
     </styles>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__CD5WOgqEeiflKyhNUkymA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__CD5WegqEeiflKyhNUkymA"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__CD5WugqEeiflKyhNUkymA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IfWMsvn-EeiRCfEE-ivQmA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IfWMs_n-EeiRCfEE-ivQmA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IfWMtPn-EeiRCfEE-ivQmA"/>
   </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_Owx1JugrEeiflKyhNUkymA" type="StereotypeCommentLink" source="_NpwigugrEeiflKyhNUkymA" target="_Owx1IugrEeiflKyhNUkymA">
-    <styles xmi:type="notation:FontStyle" xmi:id="_Owx1J-grEeiflKyhNUkymA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Owx1K-grEeiflKyhNUkymA" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_NpdnkugrEeiflKyhNUkymA"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Owx1KOgrEeiflKyhNUkymA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Owx1KegrEeiflKyhNUkymA"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Owx1KugrEeiflKyhNUkymA"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_Q0ziZegrEeiflKyhNUkymA" type="StereotypeCommentLink" source="__B9ysOgqEeiflKyhNUkymA" target="_Q0ziYegrEeiflKyhNUkymA">
-    <styles xmi:type="notation:FontStyle" xmi:id="_Q0ziZugrEeiflKyhNUkymA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Q0ziaugrEeiflKyhNUkymA" name="BASE_ELEMENT">
+  <edges xmi:type="notation:Connector" xmi:id="_IfhL3fn-EeiRCfEE-ivQmA" type="StereotypeCommentLink" source="__B9ysOgqEeiflKyhNUkymA" target="_IfhL2fn-EeiRCfEE-ivQmA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IfhL3vn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_IfhL4vn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#__BnNYOgqEeiflKyhNUkymA"/>
     </styles>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Q0ziZ-grEeiflKyhNUkymA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Q0ziaOgrEeiflKyhNUkymA"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Q0ziaegrEeiflKyhNUkymA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IfhL3_n-EeiRCfEE-ivQmA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IfhL4Pn-EeiRCfEE-ivQmA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IfhL4fn-EeiRCfEE-ivQmA"/>
   </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_TqA09egrEeiflKyhNUkymA" type="StereotypeCommentLink" source="_Sk8DF-grEeiflKyhNUkymA" target="_TqA08egrEeiflKyhNUkymA">
-    <styles xmi:type="notation:FontStyle" xmi:id="_TqA09ugrEeiflKyhNUkymA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_TqA0-ugrEeiflKyhNUkymA" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_SkVmIOgrEeiflKyhNUkymA"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TqA09-grEeiflKyhNUkymA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TqA0-OgrEeiflKyhNUkymA"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TqA0-egrEeiflKyhNUkymA"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_TqA1FOgrEeiflKyhNUkymA" type="StereotypeCommentLink" source="__B_A3-gqEeiflKyhNUkymA" target="_TqA1EOgrEeiflKyhNUkymA">
-    <styles xmi:type="notation:FontStyle" xmi:id="_TqA1FegrEeiflKyhNUkymA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_TqA1GegrEeiflKyhNUkymA" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Interface" href="StickGame%20v1.uml#__B2d8OgqEeiflKyhNUkymA"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TqA1FugrEeiflKyhNUkymA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TqA1F-grEeiflKyhNUkymA"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TqA1GOgrEeiflKyhNUkymA"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_TqA1M-grEeiflKyhNUkymA" type="StereotypeCommentLink" source="_Q0ziMOgrEeiflKyhNUkymA" target="_TqA1L-grEeiflKyhNUkymA">
-    <styles xmi:type="notation:FontStyle" xmi:id="_TqA1NOgrEeiflKyhNUkymA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_TqA1OOgrEeiflKyhNUkymA" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_Qz6xYegrEeiflKyhNUkymA"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TqA1NegrEeiflKyhNUkymA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TqA1NugrEeiflKyhNUkymA"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TqA1N-grEeiflKyhNUkymA"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_TqA1UugrEeiflKyhNUkymA" type="StereotypeCommentLink" source="__B-Z0ugqEeiflKyhNUkymA" target="_TqA1TugrEeiflKyhNUkymA">
-    <styles xmi:type="notation:FontStyle" xmi:id="_TqA1U-grEeiflKyhNUkymA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_TqA1V-grEeiflKyhNUkymA" name="BASE_ELEMENT">
+  <edges xmi:type="notation:Connector" xmi:id="_If0Gzfn-EeiRCfEE-ivQmA" type="StereotypeCommentLink" source="__B-Z0ugqEeiflKyhNUkymA" target="_If0Gyfn-EeiRCfEE-ivQmA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_If0Gzvn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_If0G0vn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:Interface" href="StickGame%20v1.uml#__BuiIOgqEeiflKyhNUkymA"/>
     </styles>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TqA1VOgrEeiflKyhNUkymA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TqA1VegrEeiflKyhNUkymA"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TqA1VugrEeiflKyhNUkymA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_If0Gz_n-EeiRCfEE-ivQmA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_If0G0Pn-EeiRCfEE-ivQmA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_If0G0fn-EeiRCfEE-ivQmA"/>
   </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_TqKl1egrEeiflKyhNUkymA" type="StereotypeCommentLink" source="_Q0ziROgrEeiflKyhNUkymA" target="_TqKl0egrEeiflKyhNUkymA">
-    <styles xmi:type="notation:FontStyle" xmi:id="_TqKl1ugrEeiflKyhNUkymA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_TqKl2ugrEeiflKyhNUkymA" name="BASE_ELEMENT">
+  <edges xmi:type="notation:Connector" xmi:id="_IgHBt_n-EeiRCfEE-ivQmA" type="StereotypeCommentLink" source="__B_A3-gqEeiflKyhNUkymA" target="_IgHBs_n-EeiRCfEE-ivQmA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IgHBuPn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_IgHBvPn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="StickGame%20v1.uml#__B2d8OgqEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IgHBufn-EeiRCfEE-ivQmA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IgHBuvn-EeiRCfEE-ivQmA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IgHBu_n-EeiRCfEE-ivQmA"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IgQyvfn-EeiRCfEE-ivQmA" type="StereotypeCommentLink" source="_NpwigugrEeiflKyhNUkymA" target="_IgQyufn-EeiRCfEE-ivQmA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IgQyvvn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_IgQywvn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_NpdnkugrEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IgQyv_n-EeiRCfEE-ivQmA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IgQywPn-EeiRCfEE-ivQmA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IgQywfn-EeiRCfEE-ivQmA"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IhKKl_n-EeiRCfEE-ivQmA" type="StereotypeCommentLink" source="_Q0ziMOgrEeiflKyhNUkymA" target="_IhKKk_n-EeiRCfEE-ivQmA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IhKKmPn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_IhKKnPn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_Qz6xYegrEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IhKKmfn-EeiRCfEE-ivQmA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IhKKmvn-EeiRCfEE-ivQmA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IhKKm_n-EeiRCfEE-ivQmA"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Ihm2h_n-EeiRCfEE-ivQmA" type="StereotypeCommentLink" source="_Q0ziROgrEeiflKyhNUkymA" target="_Ihm2g_n-EeiRCfEE-ivQmA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Ihm2iPn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Ihm2jPn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_Q0NsVegrEeiflKyhNUkymA"/>
     </styles>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TqKl1-grEeiflKyhNUkymA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TqKl2OgrEeiflKyhNUkymA"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TqKl2egrEeiflKyhNUkymA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ihm2ifn-EeiRCfEE-ivQmA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ihm2ivn-EeiRCfEE-ivQmA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ihm2i_n-EeiRCfEE-ivQmA"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Ih5xgPn-EeiRCfEE-ivQmA" type="StereotypeCommentLink" source="_Sk8DF-grEeiflKyhNUkymA" target="_Ih5xfPn-EeiRCfEE-ivQmA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Ih5xgfn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Ih5xhfn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_SkVmIOgrEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ih5xgvn-EeiRCfEE-ivQmA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ih5xg_n-EeiRCfEE-ivQmA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ih5xhPn-EeiRCfEE-ivQmA"/>
   </edges>
 </notation:Diagram>

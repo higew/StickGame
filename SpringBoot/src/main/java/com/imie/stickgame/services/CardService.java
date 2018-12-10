@@ -18,18 +18,29 @@ public class CardService extends BaseService<Card> {
 	protected BaseCRUDRepository<Card> getCRUDRepository() {
 		return cardRepository;
 	}
-
-	@Override
-	protected List<Card> setItemsByCriterias(Card item, List<Card> result) {
 		
-		if (!item.getName().equals("") ){
-			result = this.cardRepository.findByName(item.getName());
-		} else if (!item.getHp().equals("")) {
+	public List<Card> setItemsByCriterias(Card item, List<Card> result) {
+		
+		if (!item.getHp().equals("")) {
 			result = this.cardRepository.findByHp(item.getHp());
 		} else if (!item.getAtk().equals("")) {
 			result = this.cardRepository.findByAtk(item.getAtk());
+		} else if (!item.getInkCost().equals("")) {
+			result = this.cardRepository.findByInkCost(item.getInkCost());	
+		} else if (!item.getHp().equals("") && !item.getAtk().equals("")) {
+			result = this.cardRepository.findByHpAndAtk(item.getHp(), item.getAtk());
+		} else if (!item.getHp().equals("") && !item.getInkCost().equals("")) {
+			result = this.cardRepository.findByHpAndInkCost(item.getHp(), item.getInkCost());
+		} else if (!item.getAtk().equals("") && !item.getInkCost().equals("")) {
+			result = this.cardRepository.findByAtkAndInkCost(item.getAtk(), item.getInkCost());
+		} else if (!item.getHp().equals("") && !item.getAtk().equals("") && !item.getInkCost().equals("")) {
+			result = this.cardRepository.findByHpAndAtkAndInkCost(item.getHp(), item.getAtk(), item.getInkCost());		
 		}
 		return result;
+	}
+
+	public Card findByName(String name) {
+		return this.cardRepository.findByName(name);
 	}
 	
 }

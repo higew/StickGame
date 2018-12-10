@@ -9,13 +9,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.imie.stickgame.models.Role;
 import com.imie.stickgame.models.User;
 import com.imie.stickgame.services.RoleService;
 import com.imie.stickgame.services.UserService;
 import com.imie.stickgame.validators.UserValidator;
-
-
 
 @Controller
 public class RegistrationController {

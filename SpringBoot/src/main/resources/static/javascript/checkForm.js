@@ -47,7 +47,7 @@ function verifPassword(champ){
 }
 
 function comparePassword (champ){
-  var pass1 = document.getElementById('pass1');
+  var pass1 = document.getElementById('password');
   var pass2 = document.getElementById('pass2');
   if (pass1.value != pass2.value) {
      alert("Les 2 password ne sont pas identiques.");
@@ -60,32 +60,16 @@ function comparePassword (champ){
   }
 }
 
-/*function verifForm(f) {
+function verifForm(f) {
    var firstnameOk = verifName(f.firstname);
    var lastnameOk = verifName(f.lastname);
    var mailOk = verifMail(f.email);
    var passwordOk = verifPassword(f.password);
-   if(firstnameOk !== false && lastnameOK !== false && mailOk !== false && passwordOk !== false) {
-       console.log("Le formulaire est passé");
-       return true;
-   }
-   else {
-       console.log("GTFO");
-       alert("Veuillez remplir correctement tous les champs");
-       return false;
-   }
-}*/
 
-   function verifForm(f){
-       var firstnameOk = verifName(f.firstname);
-       var lastnameOk = verifName(f.lastname);
-       var mailOk = verifMail(f.email);
-    if(!verifName(f.firstname) && !verifName(f.lastname) && !verifMail(f.email) && !verifPassword(f.password)) {
-      console.log("Le formulaire est passé");
+   if(firstnameOk && lastnameOk && mailOk && passwordOk)
       return true;
-    }
-   else {
-      console.log("GTFO");
+   else
+   {
       alert("Veuillez remplir correctement tous les champs");
       return false;
    }

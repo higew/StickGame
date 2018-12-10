@@ -18,12 +18,14 @@ public class PlayerManager {
         }
     }
 
+    // Cette fonction plante avec le get(spot) quand MonsterZone vaut null
     public void putOnField(Player player, int nb, int spot) {
         if (player.getInkTurn() - player.getHand().get(nb).getInkCost() >= 0 &&
-                player.getBattlefield().getMonsterZone()[spot] == null) {
+                (player.getBattlefield().getMonsterZone().isEmpty() ||
+                player.getBattlefield().getMonsterZone().get(spot) == null)) {
             player.getHand().get(nb).setAtkTemp(player.getHand().get(nb).getAtk());
             player.getHand().get(nb).setAtk(0);
-            player.getBattlefield().getMonsterZone()[spot] = player.getHand().get(nb); // Does it work tough ?
+            player.getBattlefield().getMonsterZone().add(spot, player.getHand().get(nb)); // Does it work tough ?
             player.setInkTurn(player.getInkTurn() - player.getHand().get(nb).getInkCost());
             player.getHand().remove(nb);
         }
@@ -34,25 +36,25 @@ public class PlayerManager {
         int i = 0;
 
         while (i < 5 && enemy.getHp() > 0) {
-            if (player.getBattlefield().getMonsterZone()[i] != null
-                    && player.getBattlefield().getMonsterZone()[i].getAtk() != 0) {
+            if (player.getBattlefield().getMonsterZone().get(i) != null
+                    && player.getBattlefield().getMonsterZone().get(i).getAtk() != 0) {
                 // Si ma zone de monstre n'est pas nulle ou posée ce tour, je vérifie celle de l'ennemi
-                if (enemy.getBattlefield().getMonsterZone()[i] != null) {
+                if (enemy.getBattlefield().getMonsterZone().get(i) != null) {
                     // Non nulle, j'attaque la carte ennemie
-                    tempLife = enemy.getBattlefield().getMonsterZone()[i].getHp()
-                            - player.getBattlefield().getMonsterZone()[i].getAtk();
+                    tempLife = enemy.getBattlefield().getMonsterZone().get(i).getHp()
+                            - player.getBattlefield().getMonsterZone().get(i).getAtk();
                     if (tempLife < 0) {
                         tempLife = 0;
                     }
-                    enemy.getBattlefield().getMonsterZone()[i].setHp(tempLife);
+                    enemy.getBattlefield().getMonsterZone().get(i).setHp(tempLife);
                     // Si les HP de la carte tombent à zéro on la met dans le discard deck et on set à null la zone.
-                    if (enemy.getBattlefield().getMonsterZone()[i].getHp() == 0) {
-                        enemy.getBattlefield().getDiscardDeck().add(enemy.getBattlefield().getMonsterZone()[i]);
-                        enemy.getBattlefield().getMonsterZone()[i] = null;
+                    if (enemy.getBattlefield().getMonsterZone().get(i).getHp() == 0) {
+                        enemy.getBattlefield().getDiscardDeck().add(enemy.getBattlefield().getMonsterZone().get(i));
+                        enemy.getBattlefield().getMonsterZone().remove(i);
                     }
                 } else {
                     // Attaquer le héros ennemi
-                    tempLife = enemy.getHp() - player.getBattlefield().getMonsterZone()[i].getAtk();
+                    tempLife = enemy.getHp() - player.getBattlefield().getMonsterZone().get(i).getAtk();
                     if (tempLife < 0) {
                         tempLife = 0;
                     }
@@ -70,9 +72,9 @@ public class PlayerManager {
 
     private void changeAtkFirstTurn(Battlefield battlefield) {
         for (int i = 0; i < 5; i++) {
-            if (battlefield.getMonsterZone()[i].getAtk() == 0) {
-                battlefield.getMonsterZone()[i].setAtk(battlefield.getMonsterZone()[i].getAtkTemp());
-                battlefield.getMonsterZone()[i].setAtkTemp(0);
+            if (battlefield.getMonsterZone().get(i).getAtk() == 0) {
+                battlefield.getMonsterZone().get(i).setAtk(battlefield.getMonsterZone().get(i).getAtkTemp());
+                battlefield.getMonsterZone().get(i).setAtkTemp(0);
             }
         }
     }

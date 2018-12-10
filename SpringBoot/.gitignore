@@ -38,3 +38,5 @@
 /.project
         
 /.settings/
+lib/
+src/main/resources/stick-game-firebase-adminsdk.json

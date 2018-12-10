@@ -9,28 +9,20 @@ import javax.persistence.Table;
 import javax.persistence.Transient;
 import com.imie.stickgame.database.base.DBItem;
 
-@Entity
-@Table(name="Player")
 public class Player extends DBItem {
 
-	@Column(name="name")
+    private static final int INKSTART = 1;
+    private static final int HPSTART = 20;
+
 	private String name;
-	@Column(name="picture")
 	private String picture;
-	@Column(name="hp")
 	private Integer hp;
-	@OneToMany
-	private List<Deck> decks;
-	@Transient
 	private Deck deck;
-	@Transient
 	private Battlefield battlefield;
-	@Transient
-	private ArrayList<Card> hand;
-	@Transient
-	private int ink;
-	@Transient
-    private int inkTurn;
+	private List<Card> hand;
+	private Integer sizeHand;
+	private Integer ink;
+    private Integer inkTurn;
 
     public int getInkTurn() {
         return inkTurn;
@@ -48,19 +40,11 @@ public class Player extends DBItem {
 		this.ink = ink;
 	}
 
-	public List<Deck> getDecks() {
-		return decks;
-	}
-
-	public void setDecks(List<Deck> decks) {
-		this.decks = decks;
-	}
-
-	public ArrayList<Card> getHand() {
+	public List<Card> getHand() {
 		return hand;
 	}
 
-	public void setHand(ArrayList<Card> hand) {
+	public void setHand(List<Card> hand) {
 		this.hand = hand;
 	}
 
@@ -104,20 +88,28 @@ public class Player extends DBItem {
 		this.battlefield = battlefield;
 	}
 
+	public Integer getSizeHand() {
+		return sizeHand;
+	}
+
+	public void setSizeHand(Integer sizeHand) {
+		this.sizeHand = sizeHand;
+	}
+
 	public Player() {
 		super();
 	}
 
-	public Player(String name, Deck deck) {
+	public Player(String name, Deck deck, String picture) {
         super();
         this.name = name;
-        this.hp = 20;
+        this.picture = picture;
+        this.hp = HPSTART;
         this.deck = deck;
         this.battlefield = new Battlefield();
-        this.hand = new ArrayList<Card>();
-        this.ink = 1;
-        this.inkTurn = 1;
+        this.hand = new ArrayList<>();
+        this.ink = INKSTART;
+        this.inkTurn = this.ink;
+        this.sizeHand = this.hand.size();
     }
 }
-
-// Pioche une carte à chaque tour ou le nombre de carte manquante pour retourner au max ?
