@@ -2,11 +2,8 @@ package com.imie.stickgame.models;
 
 import java.util.ArrayList;
 import java.util.List;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.ManyToMany;
-import javax.persistence.ManyToOne;
-import javax.persistence.Table;
+import javax.persistence.*;
+
 import com.imie.stickgame.database.base.DBItem;
 
 @Entity
@@ -21,6 +18,8 @@ public class Deck extends DBItem {
 	private Classes classes;
 	@ManyToOne
 	private User user;
+	@Transient
+	private Integer size;
 
 	public List<Card> getCards() {
 		return cards;
@@ -37,9 +36,18 @@ public class Deck extends DBItem {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
-	public Deck() {
+
+    public Integer getSize() {
+        return size;
+    }
+
+    public void setSize(Integer size) {
+        this.size = size;
+    }
+
+    public Deck() {
 		super();
 		this.cards = new ArrayList<>();
+		this.size = cards.size();
 	}
 }

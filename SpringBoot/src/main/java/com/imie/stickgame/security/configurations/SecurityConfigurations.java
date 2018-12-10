@@ -59,7 +59,8 @@ public class SecurityConfigurations extends WebSecurityConfigurerAdapter {
 		.sessionCreationPolicy(SessionCreationPolicy.IF_REQUIRED)
 			.and()
 				.authorizeRequests()
-					.antMatchers("/", "/index", "/registration", "/css/**", "/javascript/**", "/media/**","/error/**")
+					.antMatchers("/", "/index", "/registration", "/css/**", "/javascript/**", "/media/**",
+							"/error/**", "/game")
 						.permitAll()
 					.anyRequest()
 						.authenticated()

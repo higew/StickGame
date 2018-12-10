@@ -20,8 +20,9 @@ public class Player extends DBItem {
 	private Deck deck;
 	private Battlefield battlefield;
 	private List<Card> hand;
-	private int ink;
-    private int inkTurn;
+	private Integer sizeHand;
+	private Integer ink;
+    private Integer inkTurn;
 
     public int getInkTurn() {
         return inkTurn;
@@ -87,6 +88,14 @@ public class Player extends DBItem {
 		this.battlefield = battlefield;
 	}
 
+	public Integer getSizeHand() {
+		return sizeHand;
+	}
+
+	public void setSizeHand(Integer sizeHand) {
+		this.sizeHand = sizeHand;
+	}
+
 	public Player() {
 		super();
 	}
@@ -101,5 +110,6 @@ public class Player extends DBItem {
         this.hand = new ArrayList<>();
         this.ink = INKSTART;
         this.inkTurn = this.ink;
+        this.sizeHand = this.hand.size();
     }
 }

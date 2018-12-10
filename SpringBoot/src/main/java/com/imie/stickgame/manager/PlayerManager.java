@@ -18,9 +18,11 @@ public class PlayerManager {
         }
     }
 
+    // Cette fonction plante avec le get(spot) quand MonsterZone vaut null
     public void putOnField(Player player, int nb, int spot) {
         if (player.getInkTurn() - player.getHand().get(nb).getInkCost() >= 0 &&
-                player.getBattlefield().getMonsterZone().get(spot) == null) {
+                (player.getBattlefield().getMonsterZone().isEmpty() ||
+                player.getBattlefield().getMonsterZone().get(spot) == null)) {
             player.getHand().get(nb).setAtkTemp(player.getHand().get(nb).getAtk());
             player.getHand().get(nb).setAtk(0);
             player.getBattlefield().getMonsterZone().add(spot, player.getHand().get(nb)); // Does it work tough ?
