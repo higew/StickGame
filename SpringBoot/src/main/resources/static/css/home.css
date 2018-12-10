@@ -149,14 +149,14 @@ header #stickrai {
 
 #story #contentStory p {
 	color: white;
-	width: 800px;
+	width: 65%;
 }
 
 #story #contentStory .fakeImageStory {
-	background-image: url("../media/elon-musk.jpg");
+	background-image: url("../media/stickbackground.jpg");
 	background-size: 110%;
 	height: 250px;
-	width: 400px;
+	width: 25%;
 }
 
 /* Fin de la section Histoire */
