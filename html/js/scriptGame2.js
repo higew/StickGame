@@ -63,7 +63,7 @@
   var droppers2 = document.querySelectorAll('.cardBoard2'),
     droppersLen2 = droppers2.length;
 
-  for (var i = 0; i < droppersLen2; i++) {
+  for (var i = 0; i <  droppersLen2 ; i++) {
     dndHandler2.applyDropEvents(droppers2[i]); // Application des événements nécessaires aux zones de drop
   }
 

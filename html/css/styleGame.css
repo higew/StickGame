@@ -56,9 +56,13 @@ body * {
   height: 100%;
   width: 150px;
   justify-content: center;
-  ;
+  background-image: url(../media/coeur.png);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: 8px 12px;
   align-items: center;
   font-size: 70px;
+  font-family: 'Indie Flower', cursive;
 }
 
 .hand {
@@ -109,6 +113,10 @@ body * {
   width: 100%;
 }
 
+#ink1, #ink2 {
+   visibility: hidden;
+}
+
 /*----------------------------- Boards --------------------------------------*/
 .discardContainer {
   justify-content: space-around;
@@ -129,7 +137,7 @@ body * {
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  background-color: black;
+  /* background-image: url(../media/bois2.png); */
 
 }
 
@@ -152,6 +160,11 @@ body * {
   height: 90%;
   width: 40%;
   border: black 1px solid;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../media/dosCarteY.png);
+  background-size: 110%;
+  background-position: center;
 }
 
 .drawPict {
@@ -159,13 +172,29 @@ body * {
   width: 100%;
 }
 
+
 .discard {
   height: 90%;
   width: 40%;
   border: black 1px solid;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../media/dosCarteD.png);
+  background-size: 110%;
+  background-position: center;
 }
 
 .discardPict {
   height: 100%;
   width: 100%;
+}
+
+#discard1, #discard2, #draw1, #draw2 {
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 40px;
+}
+
+#player1 {
+  flex-direction: column;
 }

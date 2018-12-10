@@ -57,3 +57,4 @@
         dndHandler.applyDropEvents(collectionss[i]); // Application des événements nécessaires aux zones de drop
     }
 })();
+ 

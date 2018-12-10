@@ -8,123 +8,90 @@
   <link rel="stylesheet" href="css/jquery-ui.css">
   <link rel="stylesheet" href="css/styleGame.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans" rel="stylesheet">
   <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
 </head>
 
 <body>
   <div class="gameContainer">
-    <div class="side" name="opponentside">
-      <div class="avatar">
-        <div class="picture">
-          <img src="media/profilBrice.jpeg" alt="Brice" class="avatarPict">s
+    <div id="player1">
+      <div class="side" name="opponentside">
+        <div class="avatar">
+          <div class="picture">
+            <img src="media/cat2.jpg" alt="Brice" class="avatarPict">
+          </div>
+          <div class="hp">
+            <p id="hp1"></p>
+          </div>
         </div>
-        <div class="hp">
-          <p id="hp1">20</p>
+        <div class="hand">
+          <div class="handCards2">
+            <img src="media/dosCarteY.png" draggable="true" class="cardPict" id="cardPict11" alt="">
+          </div>
+          <div class="handCards2">
+            <img src="media/dosCarteY.png" draggable="true" class="cardPict" id="cardPict12" alt="">
+          </div>
+          <div class="handCards2">
+            <img src="media/dosCarteY.png" draggable="true" class="cardPict" id="cardPict13" alt="">
+          </div>
+          <div class="handCards2">
+            <img src="media/dosCarteY.png" draggable="true" class="cardPict" id="cardPict14" alt="">
+          </div>
+          <div class="handCards2">
+            <img src="media/dosCarteY.png" draggable="true" class="cardPict" id="cardPict15" alt="">
+          </div>
+          <div class="handCards2">
+            <img src="media/dosCarteY.png" draggable="true" class="cardPict" id="cardPict16" alt="">
+          </div>
+          <div class="handCards2">
+            <img src="media/dosCarteY.png" draggable="true" class="cardPict" id="cardPict17" alt="">
+          </div>
+        </div>
+        <div class="mana" id="mana1">
+        </div>
+        <div class="inkCount">
+          <p id="ink1"></p>
         </div>
       </div>
-      <div class="hand">
-        <div class="handCards2">
-          <img src="media/dosCarteY.png" draggable="true" class="cardPict" id="cardPict11" alt="">
+
+      <div class="side2" name="opponentSide2">
+        <div class="discardContainer">
+          <div class="discard">
+            <p id="discard1"></p>
+          </div>
         </div>
-        <div class="handCards2">
-          <img src="media/dosCarteY.png" draggable="true" class="cardPict" id="cardPict12" alt="">
+        <div class="board">
+          <div class="cardBoard">
+          </div>
+          <div class="cardBoard">
+          </div>
+          <div class="cardBoard">
+          </div>
+          <div class="cardBoard">
+          </div>
+          <div class="cardBoard">
+          </div>
         </div>
-        <div class="handCards2">
-          <img src="media/dosCarteY.png" draggable="true" class="cardPict" id="cardPict13" alt="">
-        </div>
-        <div class="handCards2">
-          <img src="media/dosCarteY.png" draggable="true" class="cardPict" id="cardPict14" alt="">
-        </div>
-        <div class="handCards2">
-          <img src="media/dosCarteY.png" draggable="true" class="cardPict" id="cardPict15" alt="">
-        </div>
-        <div class="handCards2">
-          <img src="media/dosCarteY.png" draggable="true" class="cardPict" id="cardPict16" alt="">
-        </div>
-        <div class="handCards2">
-          <img src="media/dosCarteY.png" draggable="true" class="cardPict" id="cardPict17" alt="">
-        </div>
-      </div>
-      <div class="mana">
-        <div class="inkStain">
-          <img src="media/inkStain.png" class="inkStainPict" alt="">
-        </div>
-        <div class="inkStain">
-          <img src="media/inkStain.png" class="inkStainPict" alt="">
-        </div>
-        <div class="inkStain">
-          <img src="media/inkStain.png" class="inkStainPict" alt="">
-        </div>
-        <div class="inkStain">
-          <img src="media/inkStain.png" class="inkStainPict" alt="">
-        </div>
-        <div class="inkStain">
-          <img src="media/inkStain.png" class="inkStainPict" alt="">
-        </div>
-        <div class="inkStain">
-          <img src="media/inkStain.png" class="inkStainPict" alt="">
-        </div>
-        <div class="inkStain">
-          <img src="media/inkStain.png" class="inkStainPict" alt="">
-        </div>
-        <div class="inkStain">
-          <img src="media/inkStain.png" class="inkStainPict" alt="">
-        </div>
-        <div class="inkStain">
-          <img src="media/inkStain.png" class="inkStainPict" alt="">
-        </div>
-        <div class="inkStain">
-          <img src="media/inkStain.png" class="inkStainPict" alt="">
+        <div class="drawContainer">
+          <div class="draw">
+            <p id="draw1"></p>
+          </div>
         </div>
       </div>
     </div>
-
-    <div class="side2" name="opponentSide2">
-      <div class="discardContainer">
-        <div class="discard">
-          <img src="media/card9.jpg" class="discardPict" alt="" />
-        </div>
-      </div>
-      <div class="board">
-        <div class="cardBoard">
-        </div>
-        <div class="cardBoard">
-        </div>
-        <div class="cardBoard">
-        </div>
-        <div class="cardBoard">
-        </div>
-        <div class="cardBoard">
-        </div>
-      </div>
-      <div class="drawContainer">
-        <div class="draw">
-          <img src="media/dosCarteY.png" class="drawPict" alt="" />
-        </div>
-      </div>
-    </div>
-
     <div class="side2" name="playerSide2">
       <div class="discardContainer">
         <div class="discard">
-          <img src="media/card8.jpg" class="discardPict" alt="" />
+          <p id="discard2"></p>
         </div>
       </div>
       <div class="board">
         <div class="cardBoard2">
         </div>
-        <div class="cardBoard2">
-        </div>
-        <div class="cardBoard2">
-        </div>
-        <div class="cardBoard2">
-        </div>
-        <div class="cardBoard2">
-        </div>
       </div>
       <div class="drawContainer">
         <div class="draw">
-          <img src="media/dosCarteY.png" class="drawPict" alt="" />
+          <p id="draw2"></p>
         </div>
       </div>
     </div>
@@ -132,10 +99,10 @@
     <div class="side" name="playerSide">
       <div class="avatar">
         <div class="picture">
-          <img src="media/cat.jpg" alt="Antoine" class="avatarPict">
+          <img src="media/cat.jpg" alt="SurprisedCat" class="avatarPict">
         </div>
-        <div>
-          <p class="hp" id="hp2">20</p>
+        <div class="hp">
+          <p id="hp2"></p>
         </div>
       </div>
       <div class="hand">
@@ -161,37 +128,10 @@
           <img src="media/card7.jpg" draggable="true" class="cardPict2" id="cardPict27" alt="">
         </div>
       </div>
-      <div class="mana">
-        <div class="inkStain">
-          <img src="media/inkStain.png" class="inkStainPict" alt="">
-        </div>
-        <div class="inkStain">
-          <img src="media/inkStain.png" class="inkStainPict" alt="">
-        </div>
-        <div class="inkStain">
-          <img src="media/inkStain.png" class="inkStainPict" alt="">
-        </div>
-        <div class="inkStain">
-          <img src="media/inkStain.png" class="inkStainPict" alt="">
-        </div>
-        <div class="inkStain">
-          <img src="media/inkStain.png" class="inkStainPict" alt="">
-        </div>
-        <div class="inkStain">
-          <img src="media/inkStain.png" class="inkStainPict" alt="">
-        </div>
-        <div class="inkStain">
-          <img src="media/inkStain.png" class="inkStainPict" alt="">
-        </div>
-        <div class="inkStain">
-          <img src="media/inkStain.png" class="inkStainPict" alt="">
-        </div>
-        <div class="inkStain">
-          <img src="media/inkStain.png" class="inkStainPict" alt="">
-        </div>
-        <div class="inkStain">
-          <img src="media/inkStain.png" class="inkStainPict" alt="">
-        </div>
+      <div class="mana" id="mana2">
+      </div>
+      <div class="inkCount">
+        <p id="ink2"></p>
       </div>
     </div>
   </div>
