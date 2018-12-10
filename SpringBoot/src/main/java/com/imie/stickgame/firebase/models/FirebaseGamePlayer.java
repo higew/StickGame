@@ -2,12 +2,6 @@ package com.imie.stickgame.firebase.models;
 
 import com.imie.stickgame.models.Deck;
 import com.imie.stickgame.models.Player;
-import com.imie.stickgame.services.CardService;
-import com.imie.stickgame.services.DeckService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
-import java.io.IOException;
 import java.util.Random;
 
 public class FirebaseGamePlayer {
@@ -41,7 +35,8 @@ public class FirebaseGamePlayer {
         this.player2 = new Player("CKOOL", new Deck(), "la vi");
         this.player1.getDeck().setName("Elf");
         this.game = "Battle between " + this.player1.getName() + " and " + this.player2.getName() +
-                " uuidkey" + new Random().nextInt(Integer.MAX_VALUE);
+                " uuidkey282003293";
+        //+ new Random().nextInt(Integer.MAX_VALUE);
     }
 
     public FirebaseGamePlayer(Player player1, Player player2) {

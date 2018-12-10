@@ -42,6 +42,9 @@ public class GameManager {
         this.player2 = this.firebaseGamePlayer.getPlayer2();
     }
 
+    public GameManager() {
+    }
+
     public void decideFirst() {
         Random rand = new Random();
 
