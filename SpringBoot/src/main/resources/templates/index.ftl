@@ -138,8 +138,8 @@ Plebeiis de vicinitate coniunctis: postrema multitudo spadonum a senibus in puer
 			</article>
     </footer>
     
-<p>Session: <#if connection??> ${connection} </#if> </p>		
-         
+<p>Session: <#if user??> ${user.firstname} ${user.lastname} </#if> </p>		
+<div>Cookie: <#if myCookie??>${myCookie.getValue()}</#if></div>        
  <#if roles??>
         <#list roles as r>
         ${r}              
