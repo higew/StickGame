@@ -1,10 +1,16 @@
 package com.imie.stickgame.controllers;
 
 
+import javax.servlet.http.HttpSession;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.imie.stickgame.controllers.UserController;
 import com.imie.stickgame.services.RoleService;
@@ -15,6 +21,7 @@ import com.imie.stickgame.models.User;
 
 @Controller
 @RequestMapping(UserController.BASE_URL)
+@SessionAttributes("connection")
 public class UserController extends BaseController<User>{
 	
 	public static final String BASE_URL = "/users";
@@ -50,5 +57,27 @@ public class UserController extends BaseController<User>{
 	protected void setupOtherFields(User item) {
 		//item.setRole(serviceRole.find(item.getRole().getId()).get());
 	}
-
+	
+	//En test session
+	@RequestMapping(value="/profil")
+	public ModelAndView singleFieldPage() {
+		return new ModelAndView("/users/profil");
+	} 
+	
+	@RequestMapping(value="/remember", method= {RequestMethod.GET})
+	public ModelAndView rememberThought(@RequestParam String
+			connection) {
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.addObject("connection", connection);
+		modelAndView.setViewName("/users/profil");
+		return modelAndView;
+	}
+	
+	@RequestMapping(value="/sessionitems", method= {RequestMethod.GET})
+	public String sessionItems(HttpSession session) {
+		
+		System.out.println(session.getAttribute("connection"));
+		
+		return "redirect:/";
+	}
 }

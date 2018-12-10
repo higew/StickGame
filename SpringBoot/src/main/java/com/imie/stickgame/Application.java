@@ -42,21 +42,25 @@ public class Application {
             e.printStackTrace();
         }*/
         //db.getReference("notifications").setValueAsync(new GameManagerDTO());
-        //System.out.println("2");
-        }
+
+        System.out.println("2");
+	}
 
 
-//        @Autowired
-//        PreLaunchService service;
+//	@Autowired
+//	PreLaunchService service;
 //
-//        @Bean
-//        public CommandLineRunner commandLineRunner (ApplicationContext ctx) {
-//            return new CommandLineRunner() {
-//                public void run(String... args) throws Exception {
-//                    service.createFirstAdmin();
-//                    service.createRoleUser();
-//                    service.createFirstCardsDeck();
-//                }
-//            };
-//        }
-    }
+//	@Bean
+//    public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
+//        return new CommandLineRunner() {
+//			public void run(String... args) throws Exception {
+//				service.createFirstAdmin();
+//				service.createRoleUser();
+//				service.createFirstCardsDeck();
+//				service.insertSessionDatabase();
+//			}
+//		};
+//   }
+
+}
+

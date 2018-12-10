@@ -17,6 +17,7 @@
 		</#if>
      </#list>
 </ul>
+<p>Session: <#if user??> ${user.firstname} ${user.lastname} </#if> </p>		
 </div>
 
 <div><a href="/">Back</a></div>

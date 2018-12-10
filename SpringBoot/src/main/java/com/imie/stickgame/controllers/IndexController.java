@@ -1,11 +1,13 @@
 package com.imie.stickgame.controllers;
 
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Collection;
 
-import com.imie.stickgame.firebase.models.FirebaseGamePlayer;
-import com.imie.stickgame.models.Card;
-import com.imie.stickgame.services.CardService;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContext;
@@ -15,20 +17,45 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+
+import com.imie.stickgame.models.User;
+import com.imie.stickgame.services.UserService;
+
+
 @Controller
 public class IndexController {
 
+	@Autowired
+	UserService userService;
+
 	@RequestMapping(value= {"","/","/index"}, method=RequestMethod.GET)
-	public String index(Model model) {
+	public String index(Model model, HttpServletResponse response, HttpServletRequest request) throws UnsupportedEncodingException {
 		ArrayList<String> roles = new ArrayList<>();
         SecurityContext securityContext = SecurityContextHolder.getContext();
 		Collection<? extends GrantedAuthority> role = securityContext.getAuthentication().getAuthorities();
         for (GrantedAuthority grantedAuthority : role) {
-            roles.add(grantedAuthority.getAuthority());
+            roles.add(grantedAuthority.getAuthority());	 
         }
         model.addAttribute("roles", roles);
 
-        return "/index";
+        User user = userService.findByEmail(securityContext.getAuthentication().getName());
+  	    model.addAttribute("user", user);
+        
+
+        // En test pour session
+//		Cookie cookie = WebUtils.getCookie(request, "myCookie");
+//		
+//		if (cookie != null) {
+//			String cookieVal = URLDecoder.decode(cookie.getValue(),"UTF-8");
+//			System.out.println(cookieVal);
+//			model.addAttribute("myCookie",cookie);
+//		}else {
+//			Cookie cookieSend = new Cookie("myCookie", URLEncoder.encode("La maman de cookie c'est bérénice","UTF-8"));
+//			response.addCookie(cookieSend);
+//			model.addAttribute("myCookie",cookieSend);
+//		}
+        
+		return "/index";
 	}
 
 }

@@ -52,7 +52,7 @@ body {
 	top: 0;
 	right: 0;
 	margin: auto;
-	width: 1400px;
+	width: 90%;
 }
 
 #top a {
@@ -61,10 +61,11 @@ body {
 }
 
 #top #logo {
-	background-image: url("../media/94065_d0628_FULL.jpg");
-	background-position: 0px -90px;
+	background-image: url("../media/Stickman.png");
+	background-position: 0px -18px;
 	background-size: 100%;
 	width: 300px;
+	border-radius: 20px;
 }
 
 #top #account {
@@ -102,7 +103,7 @@ body {
 /* Fin Sticky Nav */
 
 .base {
-	width: 1400px;
+	width: 90%;
 	border-radius: 20px;
 	position: absolute;
 	top: 100px;
