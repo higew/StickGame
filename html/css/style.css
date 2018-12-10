@@ -32,10 +32,11 @@ body {
 }
 
 #top #logo {
-	background-image: url("../media/stickbackground.jpg");
-	background-position: 0px -65px;
+	background-image: url("../media/Stickman.png");
+	background-position: 0px -18px;
 	background-size: 100%;
 	width: 300px;
+	border-radius: 20px;
 }
 
 #top #account {
@@ -65,7 +66,7 @@ body {
     position: sticky;
     top: 0;
 		width: 100%;
-		z-index: 999;
+		z-index: 5;
 		transition-property: width;
     transition-duration: 1s;
 }
@@ -80,7 +81,7 @@ body {
 	left: 0;
 	right: 0;
 	margin: auto;
-	z-index: 999;
+	z-index: 5;
 	transition: 1s;
 }
 

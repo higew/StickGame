@@ -37,11 +37,11 @@ header {
 	width: 100%;
 }
 
-header h1 {
-	color: white;
-	font-size: 32px;
-	text-shadow: 2px 2px #383e42;
-	padding-top: 100px;
+header #stickrai {
+	margin-top: 90px;
+	background-image: url("../media/stickrai.png");
+	height: 200px;
+	width: 130px;
 }
 
 /* Fin du header */
@@ -78,25 +78,40 @@ header h1 {
 }
 
 #actu #contentActu .preview .fakeImage1 {
-	background-image: url("../media/landscape1.jpg");
+	background-color: #cccccc;
+	background-image: url("../media/stickfighter.png");
+	background-size: 300%;
+	background-position: -250px -100px;
 	height: 100px;
 	width: 300px;
 }
 
 #actu #contentActu .preview .fakeImage2 {
-	background-image: url("../media/landscape2.jpg");
+	background-color: #cccccc;
+	background-image: url("../media/stickfighter2.png");
+	background-size: 60%;
+	background-position: 60px -70px;
+	background-repeat: no-repeat;
 	height: 100px;
 	width: 300px;
 }
 
 #actu #contentActu .preview .fakeImage3 {
-	background-image: url("../media/landscape3.jpg");
+	background-color: #cccccc;
+	background-image: url("../media/stickfighter3.png");
+	background-size: 60%;
+	background-position: 60px -30px;
+	background-repeat: no-repeat;
 	height: 100px;
 	width: 300px;
 }
 
 #actu #contentActu .preview .fakeImage4 {
-	background-image: url("../media/landscape4.jpg");
+	background-color: #cccccc;
+	background-image: url("../media/stickfighter4.png");
+	background-size: 60%;
+	background-position: 50px -30px;
+	background-repeat: no-repeat;
 	height: 100px;
 	width: 300px;
 }

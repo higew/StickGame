@@ -40,7 +40,7 @@
       </div>
     </nav>
     <header>
-      <h1>This is the new OG of the CGC games !</h1>
+      <div id="stickrai"></div>
 		</header>
     <span class="anchor" id="section1"></span>
     <section id="actu">
