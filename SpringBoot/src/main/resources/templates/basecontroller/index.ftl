@@ -1,10 +1,11 @@
 <#import "/spring.ftl" as spring/>
 <link rel="stylesheet" type="text/css"
    href="<@spring.url '/css/default.css'/>"/>
-<link rel="stylesheet" type="text/css"
-   href="<@spring.url '/css/home.css'/>"/>
+<!-- <link rel="stylesheet" type="text/css"
+   href="<@spring.url '/css/home.css'/>"/> -->
 <!-- <link rel="stylesheet" type="text/css"
    href="<@spring.url '/css/reset.css'/>"/> -->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <script src="<@spring.url 'javascript/jQuery.js'/>"></script>
 <script src="<@spring.url 'javascript/jQueryUI.js'/>"></script>
 <script src="<@spring.url 'javascript/script.js'/>" type="text/javascript"></script>
@@ -23,7 +24,7 @@
   <a id="logo" href="#"></a>
   <a id="account" href="#">Mon compte</a>
 </nav>
-<style media="screen">
+<!-- <style media="screen">
   .cheat {
     height: 200px;
   }
@@ -37,6 +38,4 @@
   }
 </style>
 <div class="cheat"></div>
-<div class="center">
-
-
+<div class="center"> -->

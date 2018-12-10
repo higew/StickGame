@@ -20,10 +20,14 @@
       </ul>
       <ul>
         <li><a href="#">Wiki</a></li>
-        <li><a href="/registration">S'enregistrer</a><li>
+        <#list roles as r>
+          <#if "${r}" == "ROLE_ANONYMOUS">
+            <li><a href="/registration">S'enregistrer</a><li>
+          </#if>
+        </#list>
         <#list roles as r>
           <#if "${r}" != "ROLE_ANONYMOUS">
-			       <li><a href="/logout">Se déconnecter<a/><li>
+			       <li><a href="/logout">Se déconnecter</a><li>
 		      </#if>
         </#list>
       </ul>
@@ -149,9 +153,9 @@
 			</article>
     </footer>
 
-    
-<p>Session: <#if user??> ${user.firstname} ${user.lastname} </#if> </p>		
-<div>Cookie: <#if myCookie??>${myCookie.getValue()}</#if></div>        
+
+<p>Session: <#if user??> ${user.firstname} ${user.lastname} </#if> </p>
+<div>Cookie: <#if myCookie??>${myCookie.getValue()}</#if></div>
 
  <#if roles??>
         <#list roles as r>
