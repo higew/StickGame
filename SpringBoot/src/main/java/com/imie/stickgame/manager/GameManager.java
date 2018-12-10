@@ -28,7 +28,9 @@ public class GameManager {
     public GameManager(String player1, String player2, Deck deck1, Deck deck2, String picture1, String picture2) {
         this.playerManager = new PlayerManager();
         this.effectBuilder = new EffectBuilder();
-        this.firebaseGamePlayer = new FirebaseGamePlayer(new Player (player1, deck1, picture1), new Player (player2, deck2, picture2));
+        this.firebaseGamePlayer = new FirebaseGamePlayer();
+       // this.firebaseGamePlayer = new FirebaseGamePlayer(new Player (player1, deck1, picture1), new Player (player2,
+         //       deck2, picture2));
 
         try {
             FirebaseOpenHelper.getInstance().getDatabase().getReference("games/").
@@ -36,6 +38,8 @@ public class GameManager {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        this.player1 = this.firebaseGamePlayer.getPlayer1();
+        this.player2 = this.firebaseGamePlayer.getPlayer2();
     }
 
     public void decideFirst() {

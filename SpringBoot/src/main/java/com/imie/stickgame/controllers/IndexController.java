@@ -4,9 +4,9 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Collection;
 
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
@@ -27,7 +27,7 @@ public class IndexController {
 
 	@Autowired
 	UserService userService;
-	
+
 	@RequestMapping(value= {"","/","/index"}, method=RequestMethod.GET)
 	public String index(Model model, HttpServletResponse response, HttpServletRequest request) throws UnsupportedEncodingException {
 		ArrayList<String> roles = new ArrayList<>();
@@ -37,6 +37,7 @@ public class IndexController {
             roles.add(grantedAuthority.getAuthority());	 
         }
         model.addAttribute("roles", roles);
+
         User user = userService.findByEmail(securityContext.getAuthentication().getName());
   	    model.addAttribute("user", user);
         
