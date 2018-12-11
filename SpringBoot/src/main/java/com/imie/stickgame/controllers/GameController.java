@@ -1,34 +1,42 @@
 package com.imie.stickgame.controllers;
 
+import com.google.firebase.database.ChildEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.ValueEventListener;
 import com.imie.stickgame.firebase.FirebaseOpenHelper;
 import com.imie.stickgame.firebase.FirebaseWaitingRoomObserver;
 import com.imie.stickgame.firebase.models.FirebaseWaitingRoom;
+import com.imie.stickgame.firebase.models.WaitingRoom;
 import com.imie.stickgame.manager.GameManager;
 import com.imie.stickgame.services.CardService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContext;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.io.IOException;
+import java.util.concurrent.Executor;
 
 @Controller
 public class GameController {
 
-    @Autowired
-    private CardService cardService;
+    /*@Autowired
+    private CardService cardService;*/
 
     @RequestMapping(value= {"/game"}, method=RequestMethod.GET)
     public String index(Model model) throws IOException {
         boolean isReady = false;
         GameManager gameManager = new GameManager();
-        FirebaseWaitingRoom firebaseWaitingRoom = new FirebaseWaitingRoom();
+        /*FirebaseWaitingRoom firebaseWaitingRoom = new FirebaseWaitingRoom();
         FirebaseOpenHelper.getInstance().getDatabase().getReference("/waitingroom").
-                setValueAsync(firebaseWaitingRoom);
+                setValueAsync(firebaseWaitingRoom);*/
 
         /*
-        Map<Salle d'attente, User> --> Il possède en fait l'id de la game dans la DB
+        Map<User, Salle d'attente> --> Il possède en fait l'id de la game dans la DB
 
         addUser(User user) {
             if la map > 0
@@ -41,8 +49,24 @@ public class GameController {
           createGame(User user) {
             Map wait<game, user>
           }
-
         */
+
+        SecurityContext securityContext = SecurityContextHolder.getContext();
+        String username = securityContext.getAuthentication().getName();
+
+        WaitingRoom waitingRoom = new WaitingRoom();
+        if (waitingRoom.getWaitingRoom().size() > 0) {
+            gameManager.addToGame(username, waitingRoom);
+        } else {
+            waitingRoom = gameManager.createGame(username);
+            FirebaseOpenHelper.getInstance().getDatabase().getReference("waitingroom/").setValueAsync(waitingRoom);
+
+
+
+
+
+
+        }
 
         model.addAttribute("play", isReady);
 

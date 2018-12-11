@@ -31,11 +31,11 @@ public class FirebaseGamePlayer {
     }
 
     public FirebaseGamePlayer() {
-        this.player1 = new Player("cc", new Deck(), "TAMER");
+        /*this.player1 = new Player("cc", new Deck(), "TAMER");
         this.player2 = new Player("CKOOL", new Deck(), "la vi");
         this.player1.getDeck().setName("Elf");
         this.game = "Battle between " + this.player1.getName() + " and " + this.player2.getName() +
-                " uuidkey282003293";
+                " uuidkey282003293";*/
         //+ new Random().nextInt(Integer.MAX_VALUE);
     }
 
@@ -50,4 +50,18 @@ public class FirebaseGamePlayer {
         this.player1 = new Player();
         firebaseNotificationsObserver(this.notification);
     }*/
+
+    public void createPlayer1(String username) {
+        this.player1 = new Player(username, new Deck(), "Default Pic");
+        this.player1.getDeck().setName("Elf");
+    }
+
+    public void createRoom() {
+        this.game = "Battle uuidkey" + new Random().nextInt(Integer.MAX_VALUE);
+    }
+
+    public void createPlayer2(String username) {
+        this.player2 = new Player(username, new Deck(), "Default pic");
+        this.player2.getDeck().setName("Elf");
+    }
 }
