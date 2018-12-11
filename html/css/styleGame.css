@@ -75,8 +75,6 @@ body * {
 .handCards, .handCards2 {
   height: 100%;
   width: 12%;
-  background-color: white;
-  border: black 1px solid;
   border-radius: 10%;}
 }
 
@@ -102,10 +100,10 @@ body * {
   align-content: center;
   flex-direction:row;
   flex-wrap: wrap;
-  background-image: url(../media/encrier2.png);
+  background-image: url(../media/encrier.png);
   background-repeat: no-repeat;
-  background-size: 30%;
-  background-position: 200px 65px;
+  background-size: 20%;
+  background-position: 245px 75px;
 }
 
 .inkStain {
@@ -142,8 +140,6 @@ body * {
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  /* background-image: url(../media/bois2.png); */
-
 }
 
 .board {
@@ -167,7 +163,7 @@ body * {
   border-radius: 10%;
   justify-content: flex-start;
   align-items: flex-end;
-  background-image: url(../media/cardBackDraw2.jpeg);
+  background-image: url(../media/cardBackDraw.jpeg);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -179,13 +175,20 @@ body * {
   border-radius: 10%;
   justify-content: flex-start;
   align-items: flex-end;
-  background-image: url(../media/dosCarteD.png);
+  background-image: url(../media/cardBackDraw2.jpeg);
   background-size: 110%;
   background-position: center;
 }
 
-#draw1, #draw2, #discard1, #discard2 {
+#draw1, #draw2 {
   color: white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+#discard1, #discard2 {
+  color: black;
   font-family: 'Indie Flower', cursive;
   font-size: 40px;
   margin-left: 10px;
