@@ -30,18 +30,25 @@
 			       <li><a href="/logout">Se déconnecter</a><li>
 		      </#if>
         </#list>
+        <#list roles as r>
+          <#if "${r}" == "ROLE_ADMIN">
+			       <li>
+               <div class="dropdown" style="color: white; font-weight: bold;">Administration
+                 <div class="dropdown-content">
+                    <a href="/cards" style="color: black;">Cards</a><br/>
+                    <a href="/classes" style="color: black;">Classes</a></br>
+                    <a href="/effects" style="color: black;">Effects</a><br/>
+                    <a href="/players" style="color: black;">Players</a>
+                 </div>
+               </div>
+             </li>
+		      </#if>
+        </#list>
       </ul>
     </nav>
     <nav id="top">
       <a id="logo" href="#"></a>
-      <div id="account" class="dropdown" href="#">Administration
-        <div class="dropdown-content">
-           <a href="/cards">Cards</a><br/>
-           <a href="/classes">Classes</a></br>
-           <a href="/effects">Effects</a><br/>
-           <a href="/players">Players</a>
-        </div>
-      </div>
+      <a id="account" href="/profil">Mon compte</a>
     </nav>
     <header>
       <div id="stickrai"></div>
@@ -158,7 +165,7 @@
 <div>Cookie: <#if myCookie??>${myCookie.getValue()}</#if></div>
 
  <#if roles??>
-        <#list roles as r>
-        ${r}
-     </#list>
-    </#if>
+  <#list roles as r>
+    ${r}
+  </#list>
+</#if>

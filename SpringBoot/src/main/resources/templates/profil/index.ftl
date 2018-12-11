@@ -17,7 +17,7 @@
         <input class="form-control" type="email" name="email" placeholder="Entrez votre email ici..." value="">
         <label for="nickname">Mot de passe</label>
         <input class="form-control" type="password" name="password" placeholder="********" value="">
-        <p class="help-block">8 caractère minimum dont une lettre majuscule, une lettre miniscule, un caractère spécial, un chiffre.</p>
+        <p class="help-block">8 caractères minimum dont une lettre majuscule, une lettre miniscule, un caractère spécial, un chiffre.</p>
         <label for="nickname">Confirmez Mot de passe</label>
         <input class="form-control" type="password" name="confirmPass" placeholder="********" value="">
         <button class="sending" type="button" name="button">Envoyer</button>

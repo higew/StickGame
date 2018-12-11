@@ -1,4 +1,6 @@
 <#import "/spring.ftl" as spring/>
+<link rel="stylesheet" type="text/css"
+   href="<@spring.url '/css/default.css'/>"/>
 <title tiles:fragment="title">Login</title>
     <#include "../utils/bootstrap.ftl"/>
     <h1>Spring Security Login (Freemarker)</h1>
