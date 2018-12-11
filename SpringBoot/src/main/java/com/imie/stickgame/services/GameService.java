@@ -20,7 +20,6 @@ public class GameService {
     private static final String GAME_PACKAGE = "com.imie.stickgame.firebase.models.";
     private static final String USER_PACKAGE = "com.imie.stickgame.models.";
 
-
     Map<Player, Map<String,FirebaseGamePlayer>> gameMap;
 
     public String[] addUser(Player player) throws IOException {
@@ -46,12 +45,11 @@ public class GameService {
                 }
             }
             this.gameMap.put(player, entry.getValue());
-            while(this.gameMap.entrySet().iterator().hasNext()){
-                if(!this.gameMap.entrySet().iterator().hasNext()){
-                    result[1] = this.gameMap.entrySet().iterator().next().toString().replace(USER_PACKAGE, "");
-                }
-            }
-            result[1] = this.gameMap.entrySet().iterator().next().toString().replace(USER_PACKAGE, "");
+            Map.Entry<Player, Map<String, FirebaseGamePlayer>> data;
+
+            this.gameMap.forEach((key, value) -> {
+                result[1] = key.toString().replace(USER_PACKAGE, "");
+            });
 
             if (this.gameMap.size() == 2) {
 
@@ -91,7 +89,6 @@ public class GameService {
         Map.Entry<Player, Map<String, FirebaseGamePlayer>> entry = gameMap.entrySet().iterator().next();
         String gameName = entry.getValue().entrySet().iterator().next().getKey();
         FirebaseOpenHelper.getInstance().getDatabase().getReference(gameName).setValueAsync(game);
-
     }
 
     final class GameEventListener implements ChildEventListener {
@@ -105,7 +102,7 @@ public class GameService {
         @Override
         public void onChildChanged(DataSnapshot snapshot, String previousChildName) {
             // TODO Auto-generated method stub
-
+            System.out.println("Changed "+snapshot.getKey());
         }
 
         @Override
@@ -117,13 +114,13 @@ public class GameService {
         @Override
         public void onChildMoved(DataSnapshot snapshot, String previousChildName) {
             // TODO Auto-generated method stub
-
+            System.out.println("Removed "+snapshot.getKey());
         }
 
         @Override
         public void onCancelled(DatabaseError error) {
             // TODO Auto-generated method stub
-
+            System.out.println("Cancelled "+error);
         }
     }
 }
