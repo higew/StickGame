@@ -25,7 +25,7 @@ public class SocialController {
     User user = userService.findByEmail(securityContext.getAuthentication().getName());
 	model.addAttribute("user", user);
 		
-		return "/social/index";
+	return "/social/index";
 	}
 
 }

@@ -41,10 +41,8 @@ public class RegistrationController {
         	return "redirect:/registration";
         }
 
-        user.getRoles().addAll(roleService.findByName("ROLE_USER"));
+        user.getRoles().add(roleService.findByName("ROLE_USER"));
         userService.save(user);
-        
-
         
         
         return "redirect:/";
