@@ -76,6 +76,8 @@ body * {
   height: 100%;
   width: 12%;
   background-color: white;
+  border: black 1px solid;
+  border-radius: 10%;}
 }
 
 .handCards:hover {
@@ -85,8 +87,8 @@ body * {
 .cardPict, .cardPict2 {
   height: 100%;
   width: 100%;
-  border: solid black 1px;
-}
+  border: black 1px solid;
+  border-radius: 10%;}
 
 /* .handCards:hover .cardpict{
   transition: 1s;
@@ -156,16 +158,16 @@ body * {
 .cardBoard, .cardboard2 {
   width: 20%;
   height: 100%;
-  border: black 0.5px solid;
 }
 
 .draw {
   height: 90%;
   width: 40%;
   border: black 1px solid;
+  border-radius: 10%;
   justify-content: flex-start;
   align-items: flex-end;
-  background-image: url(../media/cardBackDraw.jpeg);
+  background-image: url(../media/cardBackDraw2.jpeg);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -174,6 +176,7 @@ body * {
   height: 90%;
   width: 40%;
   border: black 1px solid;
+  border-radius: 10%;
   justify-content: flex-start;
   align-items: flex-end;
   background-image: url(../media/dosCarteD.png);
