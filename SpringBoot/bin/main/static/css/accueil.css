@@ -1,0 +1,308 @@
+/* Classes Global */
+
+hr {
+	border: 1px solid #E4002B;
+	background-color: #E4002B;
+	width: 500px;
+	margin-bottom: 40px;
+	margin-left: 60px;
+}
+
+.anchor {
+	display: block;
+	height: 56px; /* Même taille que l'header */
+	margin-top: -56px; /* Même taille que l'header */
+	visibility: hidden;
+}
+
+.cheatingClass {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+/* Fin Classes Global */
+
+/* Début du header */
+
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  background-image: url("../media/stage2.gif");
+  background-position: 0px -200px;
+	background-size: 100%;
+	color: white;
+	height: 500px;
+	width: 100%;
+	margin-top: 100px;
+}
+
+header #stickrai {
+	margin-top: 90px;
+	background-image: url("../media/stickrai.png");
+	height: 200px;
+	width: 130px;
+}
+
+#boutons{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 700px;
+}
+
+.bouton {
+	padding: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	border-radius: 20px;
+	transition: 1s;
+	text-decoration: none;
+}
+
+.bouton:hover {
+	color: white ;
+	background-color: black;
+	transition: 1s;
+}
+
+#titre{
+	font-family: 'Indie Flower', cursive;
+	color: black;
+	font-size: 100px;
+}
+
+/* Fin du header */
+
+/* Début de la section Actualités */
+
+#actu {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+#actu h1 {
+	padding: 30px;
+	margin-left: 30px;
+	font-size: 30px;
+}
+
+#actu #contentActu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#actu #contentActu .preview {
+	padding: 30px;
+	width: 360px;
+	height: 270px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	transition: 0.7s;
+}
+
+#actu #contentActu .preview:hover {
+	background-color: #E4002B;
+	transition: 0.7s;
+}
+
+#actu #contentActu .preview .fakeImage1 {
+	background-color: #cccccc;
+	background-image: url("../media/stickfighter.png");
+	background-size: 300%;
+	background-position: -250px -100px;
+	height: 100px;
+	width: 300px;
+}
+
+#actu #contentActu .preview .fakeImage2 {
+	background-color: #cccccc;
+	background-image: url("../media/stickfighter2.png");
+	background-size: 60%;
+	background-position: 60px -70px;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 300px;
+}
+
+#actu #contentActu .preview .fakeImage3 {
+	background-color: #cccccc;
+	background-image: url("../media/stickfighter3.png");
+	background-size: 60%;
+	background-position: 60px -30px;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 300px;
+}
+
+#actu #contentActu .preview .fakeImage4 {
+	background-color: #cccccc;
+	background-image: url("../media/stickfighter4.png");
+	background-size: 60%;
+	background-position: 50px -30px;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 300px;
+}
+
+/* Fin de la section Actualités */
+
+/* Début de la section Histoire */
+
+#story {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	background-color: #383838;
+	margin-bottom: 20px;
+}
+
+#story h1 {
+	color: white;
+	padding: 30px;
+	margin-left: 30px;
+	font-size: 30px;
+}
+
+#story #contentStory {
+	padding-top: -30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#story #contentStory p {
+	color: white;
+	width: 65%;
+}
+
+#story #contentStory .fakeImageStory {
+	background-image: url("../media/stickbackground.jpg");
+	background-size: 110%;
+	height: 250px;
+	width: 25%;
+}
+
+/* Fin de la section Histoire */
+
+/* Début de la section Classes */
+
+#class {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+#class h1 {
+	padding: 30px;
+	margin-left: 30px;
+	font-size: 30px;
+}
+
+#class #contentClass {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#class #contentClass .previewClass {
+	padding: 30px;
+	width: 360px;
+	height: 410px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	transition: 0.7s;
+}
+
+#class #contentClass .previewClass:hover {
+	background-color: #E4002B;
+	transition: 0.7s;
+}
+
+#class #contentClass .previewClass .fakeClass1 {
+	background-image: url("../media/strenght.png");
+	background-size: 100%;
+	height: 300px;
+	width: 300px;
+}
+
+#class #contentClass .previewClass .fakeClass2 {
+	background-image: url("../media/wisdom.png");
+	background-size: 100%;
+	height: 300px;
+	width: 300px;
+}
+
+#class #contentClass .previewClass .fakeClass3 {
+	background-image: url("../media/mage.png");
+	background-size: 95%;
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 300px;
+}
+
+#class #contentClass .previewClass .fakeClass4 {
+	background-image: url("../media/rogue.png");
+	background-size: 100%;
+	height: 300px;
+	width: 300px;
+}
+
+#class #contentClass h3 {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Fin de la section Classes */
+
+/* Début de la section Cartes */
+
+#cards {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	background-color: #383838;
+	padding-bottom: 50px;
+}
+
+#cards h1 {
+	color: white;
+	padding: 30px;
+	margin-left: 30px;
+	font-size: 30px;
+}
+
+.card {
+		border-radius: 10%;
+}
+
+.carousel {
+    width: 60%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/* Fin de la section Cartes */
