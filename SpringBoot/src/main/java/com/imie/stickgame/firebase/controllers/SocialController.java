@@ -19,13 +19,13 @@ public class SocialController {
 	@Autowired
 	UserService userService;
 	
-	@RequestMapping(value = {"", "/"})
+	@RequestMapping(value= {"", "/"})
 	public String index(Model model) throws IOException {
 	SecurityContext securityContext = SecurityContextHolder.getContext();
     User user = userService.findByEmail(securityContext.getAuthentication().getName());
 	model.addAttribute("user", user);
 		
-		return "/social/index";
+	return "/social/index";
 	}
 
 }
