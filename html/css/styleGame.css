@@ -15,7 +15,7 @@ body * {
 .gameContainer {
   height: 100vh;
   width: 100vw;
-  /* background-image: url(../media/fond4.jpeg); */
+  background-image: url(../media/fondmetal.jpeg);
   flex-direction: column;
   align-content: center;
   justify-content: center;
@@ -56,10 +56,10 @@ body * {
   height: 100%;
   width: 150px;
   justify-content: center;
-  background-image: url(../media/coeur.png);
+  /* background-image: url(../media/coeur.png); */
   background-repeat: no-repeat;
-  background-size: 90%;
-  background-position: 8px 12px;
+  background-size: 30%;
+  background-position: 8px 80px;
   align-items: center;
   font-size: 70px;
   font-family: 'Indie Flower', cursive;
@@ -68,7 +68,6 @@ body * {
 .hand {
   height: 100%;
   width: 50%;
-  /* background-image: url(../media/fond2.jpeg); */
   justify-content: space-around;
   align-items: center;
 }
@@ -76,7 +75,7 @@ body * {
 .handCards, .handCards2 {
   height: 100%;
   width: 12%;
-
+  background-color: white;
 }
 
 .handCards:hover {
@@ -86,6 +85,7 @@ body * {
 .cardPict, .cardPict2 {
   height: 100%;
   width: 100%;
+  border: solid black 1px;
 }
 
 /* .handCards:hover .cardpict{
@@ -98,9 +98,12 @@ body * {
   padding-left: 20px;
   justify-content: flex-start;
   align-content: center;
-  align-items: center;
-  flex-direction: row;
+  flex-direction:row;
   flex-wrap: wrap;
+  background-image: url(../media/encrier2.png);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: 200px 65px;
 }
 
 .inkStain {
@@ -160,39 +163,29 @@ body * {
   height: 90%;
   width: 40%;
   border: black 1px solid;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../media/dosCarteY.png);
-  background-size: 110%;
-  background-position: center;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background-image: url(../media/cardBackDraw.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
-
-.drawPict {
-  height: 100%;
-  width: 100%;
-}
-
 
 .discard {
   height: 90%;
   width: 40%;
   border: black 1px solid;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-end;
   background-image: url(../media/dosCarteD.png);
   background-size: 110%;
   background-position: center;
 }
 
-.discardPict {
-  height: 100%;
-  width: 100%;
-}
-
-#discard1, #discard2, #draw1, #draw2 {
+#draw1, #draw2, #discard1, #discard2 {
   color: white;
   font-family: 'Indie Flower', cursive;
   font-size: 40px;
+  margin-left: 10px;
 }
 
 #player1 {

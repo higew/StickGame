@@ -76,6 +76,10 @@ $('#mana2').append('<div class="inkStain"><img src="media/inkStain.png" class="i
 
 //
 // // ---------------------------------------- UPDATES
+// FirebaseDatabase database = FirebaseDatabase.getInstance();
+// DatabaseReference mDatabaseRef = database.getReference();
+//
+//  mDatabaseRef.child('games/').child("Battle between cc and CKOOL uuidkey282003293/").child("player2/").child("hp").setvalue(50);
 // function changeHp() {
 // var hpContent = document.getElementById('hp1');
 // console.log(hp.textContent);
