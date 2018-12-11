@@ -1,0 +1,1792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_RmCKwOQNEeiqHpUkZzAjuw" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_mPw88OQPEeisFacG0dJzlw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_mQTIcOQPEeisFacG0dJzlw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mQTIceQPEeisFacG0dJzlw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mQTIcuQPEeisFacG0dJzlw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_mQZPEOQPEeisFacG0dJzlw" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_xFBu8OQSEeisFacG0dJzlw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_pvbaYOQSEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xFBu8eQSEeisFacG0dJzlw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_xFCWAOQSEeisFacG0dJzlw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_uorBQOQSEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xFCWAeQSEeisFacG0dJzlw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_5SIJ4OQrEeisFacG0dJzlw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_vLX8UuQrEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5SIJ4eQrEeisFacG0dJzlw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_mQZPEeQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_mQZPEuQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_mQZPE-QPEeisFacG0dJzlw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mQZPFOQPEeisFacG0dJzlw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_mQZ2IOQPEeisFacG0dJzlw" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_EEi4sOQuEeisFacG0dJzlw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_EEPWsOQuEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_EEi4seQuEeisFacG0dJzlw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_GeEU0OQuEeisFacG0dJzlw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_GeAqcOQuEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_GeEU0eQuEeisFacG0dJzlw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_mQZ2IeQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_mQZ2IuQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_mQZ2I-QPEeisFacG0dJzlw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mQZ2JOQPEeisFacG0dJzlw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_mQZ2JeQPEeisFacG0dJzlw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_mQZ2JuQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_mQZ2J-QPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_mQZ2KOQPEeisFacG0dJzlw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mQZ2KeQPEeisFacG0dJzlw"/>
+    </children>
+    <element xmi:type="uml:Class" href="StickGame%20v1.uml#_mOcuUOQPEeisFacG0dJzlw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mPw88eQPEeisFacG0dJzlw" x="540" y="360" width="201" height="201"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_sJfJYOQPEeisFacG0dJzlw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sJfwcOQPEeisFacG0dJzlw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sJfwceQPEeisFacG0dJzlw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sJfwcuQPEeisFacG0dJzlw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_sJfwc-QPEeisFacG0dJzlw" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_aTz0YuQnEeisFacG0dJzlw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_F-wMUuQSEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_aTz0Y-QnEeisFacG0dJzlw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_aTz0ZOQnEeisFacG0dJzlw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_HEXwkuQSEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_aTz0ZeQnEeisFacG0dJzlw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_aTz0aOQnEeisFacG0dJzlw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_kJlLMOQdEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_aTz0aeQnEeisFacG0dJzlw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_aTz0auQnEeisFacG0dJzlw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_wnYIoOQdEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_aTz0a-QnEeisFacG0dJzlw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_aTz0bOQnEeisFacG0dJzlw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_zu5TMOQdEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_aTz0beQnEeisFacG0dJzlw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_aTz0buQnEeisFacG0dJzlw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#__8iUwOQdEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_aTz0b-QnEeisFacG0dJzlw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_aTz0cOQnEeisFacG0dJzlw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_UsqUwOQeEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_aTz0ceQnEeisFacG0dJzlw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_sJfwdOQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_sJfwdeQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_sJfwduQPEeisFacG0dJzlw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sJfwd-QPEeisFacG0dJzlw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_sJfweOQPEeisFacG0dJzlw" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_L0ME8OQuEeisFacG0dJzlw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_Lz4i8OQuEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_L0ME8eQuEeisFacG0dJzlw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Np30MOQuEeisFacG0dJzlw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_NpuDMOQuEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Np30MeQuEeisFacG0dJzlw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_gEgjgOQuEeisFacG0dJzlw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_gDUQsOQuEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gEgjgeQuEeisFacG0dJzlw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_sJfweeQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_sJfweuQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_sJfwe-QPEeisFacG0dJzlw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sJfwfOQPEeisFacG0dJzlw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_sJgXgOQPEeisFacG0dJzlw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_sJgXgeQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_sJgXguQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_sJgXg-QPEeisFacG0dJzlw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sJgXhOQPEeisFacG0dJzlw"/>
+    </children>
+    <element xmi:type="uml:Class" href="StickGame%20v1.uml#_sJaQ4OQPEeisFacG0dJzlw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sJfJYeQPEeisFacG0dJzlw" x="560" y="20" width="201" height="261"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wIBbgOQPEeisFacG0dJzlw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wICCkeQPEeisFacG0dJzlw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wICCkuQPEeisFacG0dJzlw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wICCk-QPEeisFacG0dJzlw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wICClOQPEeisFacG0dJzlw" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_LOhBgOQtEeisFacG0dJzlw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_5rwVYOQsEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_LOhBgeQtEeisFacG0dJzlw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_LOhokOQtEeisFacG0dJzlw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_AqozEOQtEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_LOhokeQtEeisFacG0dJzlw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_LOhokuQtEeisFacG0dJzlw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_H_jyMOQtEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_LOhok-QtEeisFacG0dJzlw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wICCleQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wICCluQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wICCl-QPEeisFacG0dJzlw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wICCmOQPEeisFacG0dJzlw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wICpoOQPEeisFacG0dJzlw" type="Class_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wICpoeQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wICpouQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wICpo-QPEeisFacG0dJzlw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wICppOQPEeisFacG0dJzlw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wICppeQPEeisFacG0dJzlw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wICppuQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wICpp-QPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wICpqOQPEeisFacG0dJzlw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wICpqeQPEeisFacG0dJzlw"/>
+    </children>
+    <element xmi:type="uml:Class" href="StickGame%20v1.uml#_wIANYOQPEeisFacG0dJzlw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wICCkOQPEeisFacG0dJzlw" x="820" y="40" width="200" height="114"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_x5HlsOQPEeisFacG0dJzlw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_x5HlsuQPEeisFacG0dJzlw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_x5Hls-QPEeisFacG0dJzlw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_x5HltOQPEeisFacG0dJzlw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_x5HlteQPEeisFacG0dJzlw" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_E2srMOQqEeisFacG0dJzlw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_IVG_suQSEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_E2srMeQqEeisFacG0dJzlw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_a1RT8OQtEeisFacG0dJzlw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_Tw0ZwOQtEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_a1RT8eQtEeisFacG0dJzlw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_a1RT8uQtEeisFacG0dJzlw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_ZmksMOQtEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_a1RT8-QtEeisFacG0dJzlw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_x5HltuQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_x5Hlt-QPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_x5HluOQPEeisFacG0dJzlw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x5HlueQPEeisFacG0dJzlw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_x5IMwOQPEeisFacG0dJzlw" type="Class_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_x5IMweQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_x5IMwuQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_x5IMw-QPEeisFacG0dJzlw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x5IMxOQPEeisFacG0dJzlw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_x5IMxeQPEeisFacG0dJzlw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_x5IMxuQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_x5IMx-QPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_x5IMyOQPEeisFacG0dJzlw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x5IMyeQPEeisFacG0dJzlw"/>
+    </children>
+    <element xmi:type="uml:Class" href="StickGame%20v1.uml#_x5FwgOQPEeisFacG0dJzlw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x5HlseQPEeisFacG0dJzlw" x="320" y="20" width="200" height="120"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_zB7A0OQPEeisFacG0dJzlw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zB7A0uQPEeisFacG0dJzlw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zB7A0-QPEeisFacG0dJzlw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_zB7A1OQPEeisFacG0dJzlw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_zB7A1eQPEeisFacG0dJzlw" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_8xHHUOQtEeisFacG0dJzlw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_kjiJAOQtEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8xHHUeQtEeisFacG0dJzlw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_8w9WUOQtEeisFacG0dJzlw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_f2ZEcOQtEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8w9WUeQtEeisFacG0dJzlw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_8xHHUuQtEeisFacG0dJzlw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_pZ6pIOQtEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8xHHU-QtEeisFacG0dJzlw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_8xHHVOQtEeisFacG0dJzlw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_7nX4EOQtEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8xHHVeQtEeisFacG0dJzlw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_zB7A1uQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_zB7A1-QPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_zB7A2OQPEeisFacG0dJzlw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zB7A2eQPEeisFacG0dJzlw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_zB7A2uQPEeisFacG0dJzlw" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_rMIYMOQuEeisFacG0dJzlw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_rL1dQOQuEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_rMIYMeQuEeisFacG0dJzlw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_zB7A2-QPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_zB7A3OQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_zB7A3eQPEeisFacG0dJzlw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zB7A3uQPEeisFacG0dJzlw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_zB7n4OQPEeisFacG0dJzlw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_zB7n4eQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_zB7n4uQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_zB7n4-QPEeisFacG0dJzlw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zB7n5OQPEeisFacG0dJzlw"/>
+    </children>
+    <element xmi:type="uml:Class" href="StickGame%20v1.uml#_zB5LoOQPEeisFacG0dJzlw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zB7A0eQPEeisFacG0dJzlw" x="60" y="20" width="180" height="220"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_9GZWcOQPEeisFacG0dJzlw" type="Interface_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_9GZWcuQPEeisFacG0dJzlw" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9GZWc-QPEeisFacG0dJzlw" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9GZWdOQPEeisFacG0dJzlw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_9GZ9gOQPEeisFacG0dJzlw" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_9GZ9geQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_9GZ9guQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_9GZ9g-QPEeisFacG0dJzlw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9GZ9hOQPEeisFacG0dJzlw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_9GZ9heQPEeisFacG0dJzlw" type="Interface_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_IEkUMOQQEeisFacG0dJzlw" type="Operation_InterfaceOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_IEVqsOQQEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_IEkUMeQQEeisFacG0dJzlw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_JhzuQOQQEeisFacG0dJzlw" type="Operation_InterfaceOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_JhmS4OQQEeisFacG0dJzlw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JhzuQeQQEeisFacG0dJzlw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_9GZ9huQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_9GZ9h-QPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_9GZ9iOQPEeisFacG0dJzlw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9GZ9ieQPEeisFacG0dJzlw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_9GZ9iuQPEeisFacG0dJzlw" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_9GZ9i-QPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_9GZ9jOQPEeisFacG0dJzlw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_9GZ9jeQPEeisFacG0dJzlw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9GZ9juQPEeisFacG0dJzlw"/>
+    </children>
+    <element xmi:type="uml:Interface" href="StickGame%20v1.uml#_9GW6MOQPEeisFacG0dJzlw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9GZWceQPEeisFacG0dJzlw" x="240" y="320" width="159" height="161"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_awiA8OgqEeiflKyhNUkymA" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_awioAOgqEeiflKyhNUkymA" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_awioAegqEeiflKyhNUkymA" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_awioAugqEeiflKyhNUkymA" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_awioA-gqEeiflKyhNUkymA" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_c5gfoOgqEeiflKyhNUkymA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_aupxoOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5gfoegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5htwOgqEeiflKyhNUkymA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_aurm0OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5htwegqEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_awioBOgqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_awioBegqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_awioBugqEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_awioB-gqEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_awioCOgqEeiflKyhNUkymA" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_c5htwugqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_ausN4OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5htw-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5iU0OgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_au2l8egqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5iU0egqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5iU0ugqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_au4bIOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5iU0-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5i74OgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_au8skOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5i74egqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5i74ugqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_avMkMOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5i74-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5ji8OgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_avamoOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5ji8egqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5ji8ugqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_avmz4OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5ji8-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5ji9OgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_av2rgOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5ji9egqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5kKAOgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_av8LEOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5kKAegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5kKAugqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_awGjIOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5kKA-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5kxEOgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_awQ7MOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5kxEegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5kxEugqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_awVzsOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5kxE-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5lYIOgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_awaFIOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5lYIegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5lYIugqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_aweWkOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5lYI-gqEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_awioCegqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_awioCugqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_awioC-gqEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_awioDOgqEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_awioDegqEeiflKyhNUkymA" type="Class_NestedClassifierCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_c5lYJOgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_au96sOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5lYJegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5l_MOgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_avYKYOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5l_MegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5mmQOgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_avffIOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5mmQegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5nNUOgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_avthkOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5nNUegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5n0YOgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_av6V4OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5n0YegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5n0YugqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_awEG4OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5n0Y-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5obcOgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_awN34OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5obcegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5obcugqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_awVMoOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5obc-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5obdOgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_awYP8OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5obdegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5pCgOgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_awdIcOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5pCgegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_c5pCgugqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_awgy0OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_c5pCg-gqEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_awioDugqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_awioD-gqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_awioEOgqEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_awioEegqEeiflKyhNUkymA"/>
+    </children>
+    <element xmi:type="uml:Class" href="StickGame%20v1.uml#_aumuUOgqEeiflKyhNUkymA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_awiA8egqEeiflKyhNUkymA" x="1320"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ftWgQOgqEeiflKyhNUkymA" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ftXHUOgqEeiflKyhNUkymA" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ftXHUegqEeiflKyhNUkymA" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ftXHUugqEeiflKyhNUkymA" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ftXHU-gqEeiflKyhNUkymA" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_pB84IOgqEeiflKyhNUkymA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_fruIkOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pB84IegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pB9fMOgqEeiflKyhNUkymA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_frzBEOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pB9fMegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pB9fMugqEeiflKyhNUkymA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_fr-AMOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pB9fM-gqEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ftXHVOgqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ftXHVegqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ftXHVugqEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ftXHV-gqEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ftXuYOgqEeiflKyhNUkymA" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_pB-GQOgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_fsCRoOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pB-GQegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pB_7cOgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_fsK0gOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pB_7cegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pB_7cugqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_fsPtAOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pB_7c-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCAigOgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_ausN4OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCAigegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCAigugqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_au2l8egqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCAig-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCAihOgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_au4bIOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCAihegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCBJkOgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_au8skOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCBJkegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCBwoOgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_avMkMOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCBwoegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCBwougqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_avamoOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCBwo-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCCXsOgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_avmz4OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCCXsegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCCXsugqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_av2rgOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCCXs-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCCXtOgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_av8LEOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCC-wOgqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCC-wegqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_awGjIOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCC-wugqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCC-w-gqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_awQ7MOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCC-xOgqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCEM4OgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_awVzsOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCEM4egqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCFbAOgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_awaFIOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCFbAegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCFbAugqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_aweWkOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCFbA-gqEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ftXuYegqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ftXuYugqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ftXuY-gqEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ftXuZOgqEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ftXuZegqEeiflKyhNUkymA" type="Class_NestedClassifierCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_pCFbBOgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_fsI_UOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCFbBegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCGCEOgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_fsNQwOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCGCEegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCGCEugqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_fsTXYOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCGCE-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCGpIOgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_au96sOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCGpIegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCGpIugqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_avYKYOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCGpI-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCGpJOgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_avffIOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCGpJegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCHQMOgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_avthkOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCHQMegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCHQMugqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_av6V4OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCHQM-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCHQNOgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_awEG4OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCHQNegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCH3QOgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_awN34OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCH3QegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCH3QugqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_awVMoOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCH3Q-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCIeUOgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_awYP8OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCIeUegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCIeUugqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_awdIcOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCIeU-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pCIeVOgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_awgy0OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pCIeVegqEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ftXuZugqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ftXuZ-gqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ftXuaOgqEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ftXuaegqEeiflKyhNUkymA"/>
+    </children>
+    <element xmi:type="uml:Class" href="StickGame%20v1.uml#_frjwgOgqEeiflKyhNUkymA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ftWgQegqEeiflKyhNUkymA" x="1800" y="300"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ftYVeugqEeiflKyhNUkymA" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ftYVfOgqEeiflKyhNUkymA" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ftYVfegqEeiflKyhNUkymA" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ftYVfugqEeiflKyhNUkymA" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ftYVf-gqEeiflKyhNUkymA" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_qsJJEOgqEeiflKyhNUkymA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_ftDlUOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsJJEegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsJwIOgqEeiflKyhNUkymA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_ftHPsOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsJwIegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsKXMOgqEeiflKyhNUkymA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_ftOkcOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsKXMegqEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ftYVgOgqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ftYVgegqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ftYVgugqEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ftYVg-gqEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ftYVhOgqEeiflKyhNUkymA" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_qsK-QugqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_ftTc8egqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsK-Q-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsKXMugqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_ftQZoOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsKXM-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsK-QOgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_ftS14OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsK-QegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsLlUOgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_ausN4OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsLlUegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsLlUugqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_au2l8egqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsLlU-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsMMYOgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_au4bIOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsMMYegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsMMYugqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_au8skOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsMMY-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsMMZOgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_avMkMOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsMMZegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsMMZugqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_avamoOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsMMZ-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsMMaOgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_avmz4OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsMMaegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsMzcOgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_av2rgOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsMzcegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsNagOgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_av8LEOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsNagegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsOooOgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_awGjIOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsOooegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsPPsOgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_awQ7MOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsPPsegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsPPsugqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_awVzsOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsPPs-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsPPtOgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_awaFIOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsPPtegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsP2wOgqEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_aweWkOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsP2wegqEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ftYVhegqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ftYVhugqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ftYVh-gqEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ftYViOgqEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ftYViegqEeiflKyhNUkymA" type="Class_NestedClassifierCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_qsP2wugqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_ftSO0OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsP2w-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsP2xOgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_ftTc8OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsP2xegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsQd0OgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_ftUEAOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsQd0egqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsQd0ugqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_au96sOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsQd0-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsQd1OgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_avYKYOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsQd1egqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsRE4OgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_avffIOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsRE4egqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsRE4ugqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_avthkOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsRE4-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsRE5OgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_av6V4OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsRE5egqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsRr8OgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_awEG4OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsRr8egqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsRr8ugqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_awN34OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsRr8-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsRr9OgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_awVMoOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsRr9egqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsRr9ugqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_awYP8OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsRr9-gqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsSTAOgqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_awdIcOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsSTAegqEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qsSTAugqEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_awgy0OgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qsSTA-gqEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ftYViugqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ftYVi-gqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ftYVjOgqEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ftYVjegqEeiflKyhNUkymA"/>
+    </children>
+    <element xmi:type="uml:Class" href="StickGame%20v1.uml#_ftAiAOgqEeiflKyhNUkymA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ftYVe-gqEeiflKyhNUkymA" x="2220" y="300"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_7LcNEOgqEeiflKyhNUkymA" type="Interface_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_7Lc0IOgqEeiflKyhNUkymA" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_7Lc0IegqEeiflKyhNUkymA" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7Lc0IugqEeiflKyhNUkymA" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_7Lc0I-gqEeiflKyhNUkymA" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_7Lc0JOgqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7Lc0JegqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7Lc0JugqEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7Lc0J-gqEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_7Lc0KOgqEeiflKyhNUkymA" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_7Lc0KegqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7Lc0KugqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7Lc0K-gqEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7Lc0LOgqEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_7Lc0LegqEeiflKyhNUkymA" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_7Lc0LugqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7Lc0L-gqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7Lc0MOgqEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7Lc0MegqEeiflKyhNUkymA"/>
+    </children>
+    <element xmi:type="uml:Interface" href="StickGame%20v1.uml#_7LURQOgqEeiflKyhNUkymA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7LcNEegqEeiflKyhNUkymA" x="1040" y="640"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="__B9ysOgqEeiflKyhNUkymA" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="__B-ZwOgqEeiflKyhNUkymA" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="__B-ZwegqEeiflKyhNUkymA" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__B-ZwugqEeiflKyhNUkymA" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="__B-Zw-gqEeiflKyhNUkymA" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_HoEF0OgrEeiflKyhNUkymA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#__BobgOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HoEF0egrEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="__B-ZxOgqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="__B-ZxegqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="__B-ZxugqEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__B-Zx-gqEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="__B-ZyOgqEeiflKyhNUkymA" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_HoEF0ugrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#__BpCkOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HoEF0-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HoEF1OgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#__BppoegqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HoEF1egrEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="__B-ZyegqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="__B-ZyugqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="__B-Zy-gqEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__B-ZzOgqEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="__B-ZzegqEeiflKyhNUkymA" type="Class_NestedClassifierCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_HoEF1ugrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#__BppoOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HoEF1-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HoEF2OgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#__BqQsegqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HoEF2egrEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="__B-ZzugqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="__B-Zz-gqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="__B-Z0OgqEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__B-Z0egqEeiflKyhNUkymA"/>
+    </children>
+    <element xmi:type="uml:Class" href="StickGame%20v1.uml#__BnNYOgqEeiflKyhNUkymA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__B9ysegqEeiflKyhNUkymA" x="960" y="800"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="__B-Z0ugqEeiflKyhNUkymA" type="Interface_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="__B-Z1OgqEeiflKyhNUkymA" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="__B-Z1egqEeiflKyhNUkymA" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__B-Z1ugqEeiflKyhNUkymA" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="__B_A0OgqEeiflKyhNUkymA" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="__B_A0egqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="__B_A0ugqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="__B_A0-gqEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__B_A1OgqEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="__B_A1egqEeiflKyhNUkymA" type="Interface_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_Flw24OgrEeiflKyhNUkymA" type="Operation_InterfaceOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#__BxlcOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Flw24egrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Flw24ugrEeiflKyhNUkymA" type="Operation_InterfaceOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#__BzaoOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Flw24-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Flw25OgrEeiflKyhNUkymA" type="Operation_InterfaceOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#__B0owOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Flw25egrEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="__B_A1ugqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="__B_A1-gqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="__B_A2OgqEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__B_A2egqEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="__B_A2ugqEeiflKyhNUkymA" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="__B_A2-gqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="__B_A3OgqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="__B_A3egqEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__B_A3ugqEeiflKyhNUkymA"/>
+    </children>
+    <element xmi:type="uml:Interface" href="StickGame%20v1.uml#__BuiIOgqEeiflKyhNUkymA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__B-Z0-gqEeiflKyhNUkymA" x="560" y="620"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="__B_A3-gqEeiflKyhNUkymA" type="Interface_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="__B_A4egqEeiflKyhNUkymA" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="__B_A4ugqEeiflKyhNUkymA" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__B_A4-gqEeiflKyhNUkymA" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="__B_A5OgqEeiflKyhNUkymA" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="__B_A5egqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="__B_A5ugqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="__B_A5-gqEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__B_A6OgqEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="__B_A6egqEeiflKyhNUkymA" type="Interface_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_EKmgcOgrEeiflKyhNUkymA" type="Operation_InterfaceOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#__B3FAegqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_EKmgcegrEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="__B_A6ugqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="__B_A6-gqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="__B_A7OgqEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__B_A7egqEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="__B_n4OgqEeiflKyhNUkymA" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="__B_n4egqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="__B_n4ugqEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="__B_n4-gqEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__B_n5OgqEeiflKyhNUkymA"/>
+    </children>
+    <element xmi:type="uml:Interface" href="StickGame%20v1.uml#__B2d8OgqEeiflKyhNUkymA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__B_A4OgqEeiflKyhNUkymA" x="691" y="800"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_NpwigugrEeiflKyhNUkymA" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_NpwihOgrEeiflKyhNUkymA" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_NpwihegrEeiflKyhNUkymA" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_NpwihugrEeiflKyhNUkymA" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Npwih-grEeiflKyhNUkymA" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_XOb9wOgrEeiflKyhNUkymA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_NpdnlegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_XOb9wegrEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_NpwiiOgrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_NpwiiegrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_NpwiiugrEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Npwii-grEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_NpwijOgrEeiflKyhNUkymA" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_XOluwOgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_NpdnmOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_XOluwegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XOluwugrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_NpnYkOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_XOluw-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XOluxOgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_NpnYlegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_XOluxegrEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_NpwijegrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_NpwijugrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Npwij-grEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NpwikOgrEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_NpwikegrEeiflKyhNUkymA" type="Class_NestedClassifierCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_XOluxugrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_NpdnnOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_XOlux-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XOluyOgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_NpnYlOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_XOluyegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XOluyugrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_NpwigegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_XOluy-grEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_NpwikugrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Npwik-grEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_NpwilOgrEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NpwilegrEeiflKyhNUkymA"/>
+    </children>
+    <element xmi:type="uml:Class" href="StickGame%20v1.uml#_NpdnkugrEeiflKyhNUkymA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Npwig-grEeiflKyhNUkymA" x="240" y="800"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Owx08egrEeiflKyhNUkymA" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Owx08-grEeiflKyhNUkymA" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Owx09OgrEeiflKyhNUkymA" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Owx09egrEeiflKyhNUkymA" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Owx09ugrEeiflKyhNUkymA" type="Class_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Owx09-grEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Owx0-OgrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Owx0-egrEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Owx0-ugrEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Owx0--grEeiflKyhNUkymA" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_ZhEHsOgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_NpdnmOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZhEHsegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ZhEHsugrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_NpnYkOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZhEHs-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ZhEHtOgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_NpnYlegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZhEHtegrEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Owx0_OgrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Owx0_egrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Owx0_ugrEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Owx0_-grEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Owx1AOgrEeiflKyhNUkymA" type="Class_NestedClassifierCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_ZhEHtugrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_NpdnnOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZhEHt-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ZhEHuOgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_NpnYlOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZhEHuegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ZhEHuugrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_NpwigegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZhEHu-grEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Owx1AegrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Owx1AugrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Owx1A-grEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Owx1BOgrEeiflKyhNUkymA"/>
+    </children>
+    <element xmi:type="uml:Class" href="StickGame%20v1.uml#_OworAOgrEeiflKyhNUkymA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Owx08ugrEeiflKyhNUkymA" x="420" y="1100"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Owx1BegrEeiflKyhNUkymA" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Owx1B-grEeiflKyhNUkymA" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Owx1COgrEeiflKyhNUkymA" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Owx1CegrEeiflKyhNUkymA" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Owx1CugrEeiflKyhNUkymA" type="Class_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Owx1C-grEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Owx1DOgrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Owx1DegrEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Owx1DugrEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Owx1D-grEeiflKyhNUkymA" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_akEc0OgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_NpdnmOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_akEc0egrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_akEc0ugrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_NpnYkOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_akEc0-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_akEc1OgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_NpnYlegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_akEc1egrEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Owx1EOgrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Owx1EegrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Owx1EugrEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Owx1E-grEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Owx1FOgrEeiflKyhNUkymA" type="Class_NestedClassifierCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_akEc1ugrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_NpdnnOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_akEc1-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_akEc2OgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_NpnYlOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_akEc2egrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_akEc2ugrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_NpwigegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_akEc2-grEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Owx1FegrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Owx1FugrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Owx1F-grEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Owx1GOgrEeiflKyhNUkymA"/>
+    </children>
+    <element xmi:type="uml:Class" href="StickGame%20v1.uml#_OworA-grEeiflKyhNUkymA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Owx1BugrEeiflKyhNUkymA" x="100" y="1100"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Q0ziMOgrEeiflKyhNUkymA" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Q0ziMugrEeiflKyhNUkymA" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Q0ziM-grEeiflKyhNUkymA" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Q0ziNOgrEeiflKyhNUkymA" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Q0ziNegrEeiflKyhNUkymA" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_d5JiQOgrEeiflKyhNUkymA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_Q0D7UugrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d5JiQegrEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Q0ziNugrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Q0ziN-grEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Q0ziOOgrEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q0ziOegrEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Q0ziOugrEeiflKyhNUkymA" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_d5JiQugrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_Q0D7U-grEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d5JiQ-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_d5KJUOgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_Q0D7VugrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d5KJUegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_d5KJUugrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_Q0D7WegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d5KJU-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_d5KwYOgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_Q0NsUugrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d5KwYegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_d5KwYugrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#__BpCkOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d5KwY-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_d5KwZOgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#__BppoegqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d5KwZegrEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Q0ziO-grEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Q0ziPOgrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Q0ziPegrEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q0ziPugrEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Q0ziP-grEeiflKyhNUkymA" type="Class_NestedClassifierCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_d5KwZugrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_Q0D7VegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d5KwZ-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_d5LXcOgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_Q0D7WOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d5LXcegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_d5LXcugrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_Q0NsUegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d5LXc-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_d5L-gOgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_Q0NsVOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d5L-gegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_d5MlkOgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#__BppoOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d5MlkegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_d5NMoOgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#__BqQsegqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d5NMoegrEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Q0ziQOgrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Q0ziQegrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Q0ziQugrEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q0ziQ-grEeiflKyhNUkymA"/>
+    </children>
+    <element xmi:type="uml:Class" href="StickGame%20v1.uml#_Qz6xYegrEeiflKyhNUkymA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q0ziMegrEeiflKyhNUkymA" x="1180" y="980"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Q0ziROgrEeiflKyhNUkymA" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Q0ziRugrEeiflKyhNUkymA" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Q0ziR-grEeiflKyhNUkymA" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Q0ziSOgrEeiflKyhNUkymA" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Q0ziSegrEeiflKyhNUkymA" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_cQ7AMOgrEeiflKyhNUkymA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_Q0XdUOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cQ7AMegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cQ7AMugrEeiflKyhNUkymA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_Q0XdUegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cQ7AM-grEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Q0ziSugrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Q0ziS-grEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Q0ziTOgrEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q0ziTegrEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Q0ziTugrEeiflKyhNUkymA" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_cQ7ANOgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_Q0XdUugrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cQ7ANegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cQ7ANugrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_Q0XdVegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cQ7AN-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cRExMOgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_Q0XdWOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cRExMegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cRExMugrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_Q0gnQegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cRExM-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cRExNOgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_Q0gnROgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cRExNegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cRExNugrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_Q0qYQugrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cRExN-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cRExOOgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#__BpCkOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cRExOegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cRExOugrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#__BppoegqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cRExO-grEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Q0ziT-grEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Q0ziUOgrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Q0ziUegrEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q0ziUugrEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Q0ziU-grEeiflKyhNUkymA" type="Class_NestedClassifierCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_cRFYQOgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_Q0XdVOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cRFYQegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cRFYQugrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_Q0XdV-grEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cRFYQ-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cRFYROgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_Q0gnQOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cRFYRegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cRFYRugrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_Q0gnQ-grEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cRFYR-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cRF_UOgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_Q0qYQegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cRF_UegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cRF_UugrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_Q0qYROgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cRF_U-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cRF_VOgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#__BppoOgqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cRF_VegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cRGmYOgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#__BqQsegqEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cRGmYegrEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Q0ziVOgrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Q0ziVegrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Q0ziVugrEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q0ziV-grEeiflKyhNUkymA"/>
+    </children>
+    <element xmi:type="uml:Class" href="StickGame%20v1.uml#_Q0NsVegrEeiflKyhNUkymA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q0ziRegrEeiflKyhNUkymA" x="760" y="1000"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Sk8DF-grEeiflKyhNUkymA" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Sk8DGegrEeiflKyhNUkymA" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Sk8DGugrEeiflKyhNUkymA" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Sk8DG-grEeiflKyhNUkymA" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Sk8DHOgrEeiflKyhNUkymA" type="Class_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Sk8DHegrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Sk8DHugrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Sk8DH-grEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Sk8DIOgrEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_SlFNAOgrEeiflKyhNUkymA" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_gTUeoOgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkVmIegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gTUeoegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_gTUeougrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkVmJegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gTUeo-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_gTUepOgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkfXI-grEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gTUepegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_gTUepugrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkfXJugrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gTUep-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_gTUeqOgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkpIIOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gTUeqegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_gTUequgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkpII-grEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gTUeq-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_gTUerOgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkySEegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gTUeregrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_gTUerugrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkySFugrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gTUer-grEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_SlFNAegrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_SlFNAugrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_SlFNA-grEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SlFNBOgrEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_SlFNBegrEeiflKyhNUkymA" type="Class_NestedClassifierCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_gTUesOgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_SkfXJegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gTUesegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_gTUesugrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_SkfXKOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gTUes-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_gTUetOgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_SkpIIugrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gTUetegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_gTUetugrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_SkySEOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gTUet-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_gTUeuOgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_SkySFegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gTUeuegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_gTUeuugrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_Sk8DE-grEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gTUeu-grEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_SlFNBugrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_SlFNB-grEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_SlFNCOgrEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SlFNCegrEeiflKyhNUkymA"/>
+    </children>
+    <element xmi:type="uml:Class" href="StickGame%20v1.uml#_SkVmIOgrEeiflKyhNUkymA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Sk8DGOgrEeiflKyhNUkymA" x="120" y="1480"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_TqA0wOgrEeiflKyhNUkymA" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_TqA0wugrEeiflKyhNUkymA" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TqA0w-grEeiflKyhNUkymA" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_TqA0xOgrEeiflKyhNUkymA" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_TqA0xegrEeiflKyhNUkymA" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_hrr_wOgrEeiflKyhNUkymA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_Tpa-4ugrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hrr_wegrEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_TqA0xugrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_TqA0x-grEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_TqA0yOgrEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TqA0yegrEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_TqA0yugrEeiflKyhNUkymA" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_hrr_wugrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_Tpa-5OgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hrr_w-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_hrr_xOgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_TpkI1-grEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hrr_xegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_hrr_xugrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkVmIegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hrr_x-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_hrr_yOgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkVmJegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hrr_yegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_hrr_yugrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkfXI-grEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hrr_y-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_hrr_zOgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkfXJugrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hrr_zegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_hrr_zugrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkpIIOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hrr_z-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_hrr_0OgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkpII-grEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hrr_0egrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_hrr_0ugrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkySEegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hrr_0-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_hrr_1OgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkySFugrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hrr_1egrEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_TqA0y-grEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_TqA0zOgrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_TqA0zegrEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TqA0zugrEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_TqA0z-grEeiflKyhNUkymA" type="Class_NestedClassifierCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_hrr_1ugrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_TpkI1ugrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hrr_1-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_hrr_2OgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_TpkI2egrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hrr_2egrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_hrr_2ugrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_SkfXJegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hrr_2-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_hrr_3OgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_SkfXKOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hrr_3egrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_hrr_3ugrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_SkpIIugrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hrr_3-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_hrr_4OgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_SkySEOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hrr_4egrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_hrr_4ugrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_SkySFegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hrr_4-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_hrr_5OgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_Sk8DE-grEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hrr_5egrEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_TqA00OgrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_TqA00egrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_TqA00ugrEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TqA00-grEeiflKyhNUkymA"/>
+    </children>
+    <element xmi:type="uml:Class" href="StickGame%20v1.uml#_TpRN4OgrEeiflKyhNUkymA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TqA0wegrEeiflKyhNUkymA" x="460" y="1500"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_TqA01OgrEeiflKyhNUkymA" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_TqA01ugrEeiflKyhNUkymA" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TqA01-grEeiflKyhNUkymA" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_TqA02OgrEeiflKyhNUkymA" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_TqA02egrEeiflKyhNUkymA" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_jUGvEOgrEeiflKyhNUkymA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StickGame%20v1.uml#_Tpt50-grEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jUGvEegrEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_TqA02ugrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_TqA02-grEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_TqA03OgrEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TqA03egrEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_TqA03ugrEeiflKyhNUkymA" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_jUGvEugrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_Tpt51OgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jUGvE-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_jUGvFOgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_Tp3q0egrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jUGvFegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_jUGvFugrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkVmIegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jUGvF-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_jUGvGOgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkVmJegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jUGvGegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_jUGvGugrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkfXI-grEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jUGvG-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_jUGvHOgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkfXJugrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jUGvHegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_jUGvHugrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkpIIOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jUGvH-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_jUGvIOgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkpII-grEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jUGvIegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_jUGvIugrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkySEegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jUGvI-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_jUGvJOgrEeiflKyhNUkymA" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StickGame%20v1.uml#_SkySFugrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jUGvJegrEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_TqA03-grEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_TqA04OgrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_TqA04egrEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TqA04ugrEeiflKyhNUkymA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_TqA04-grEeiflKyhNUkymA" type="Class_NestedClassifierCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_jUGvJugrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_Tpt51ugrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jUGvJ-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_jUGvKOgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_Tp3q2egrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jUGvKegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_jUGvKugrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_SkfXJegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jUGvK-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_jUGvLOgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_SkfXKOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jUGvLegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_jUGvLugrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_SkpIIugrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jUGvL-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_jUGvMOgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_SkySEOgrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jUGvMegrEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_jUGvMugrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_SkySFegrEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jUGvM-grEeiflKyhNUkymA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_jUGvNOgrEeiflKyhNUkymA" type="Class_ClassNestedClassifierLabel">
+        <element xmi:type="uml:OpaqueBehavior" href="StickGame%20v1.uml#_Sk8DE-grEeiflKyhNUkymA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jUGvNegrEeiflKyhNUkymA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_TqA05OgrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_TqA05egrEeiflKyhNUkymA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_TqA05ugrEeiflKyhNUkymA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TqA05-grEeiflKyhNUkymA"/>
+    </children>
+    <element xmi:type="uml:Class" href="StickGame%20v1.uml#_Tpt50OgrEeiflKyhNUkymA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TqA01egrEeiflKyhNUkymA" x="860" y="1540"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Ico28_n-EeiRCfEE-ivQmA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_Ico29Pn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Ico29vn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_aumuUOgqEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ico29fn-EeiRCfEE-ivQmA" x="1520"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_IfNCzPn-EeiRCfEE-ivQmA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_IfNCzfn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_IfNCz_n-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="StickGame%20v1.uml#_7LURQOgqEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IfNCzvn-EeiRCfEE-ivQmA" x="1240" y="640"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_IfhL2fn-EeiRCfEE-ivQmA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_IfhL2vn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_IfhL3Pn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#__BnNYOgqEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IfhL2_n-EeiRCfEE-ivQmA" x="1160" y="800"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_If0Gyfn-EeiRCfEE-ivQmA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_If0Gyvn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_If0GzPn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="StickGame%20v1.uml#__BuiIOgqEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_If0Gy_n-EeiRCfEE-ivQmA" x="760" y="620"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_IgHBs_n-EeiRCfEE-ivQmA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_IgHBtPn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_IgHBtvn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="StickGame%20v1.uml#__B2d8OgqEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IgHBtfn-EeiRCfEE-ivQmA" x="891" y="800"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_IgQyufn-EeiRCfEE-ivQmA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_IgQyuvn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_IgQyvPn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_NpdnkugrEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IgQyu_n-EeiRCfEE-ivQmA" x="440" y="800"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_IhKKk_n-EeiRCfEE-ivQmA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_IhKKlPn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_IhKKlvn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_Qz6xYegrEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IhKKlfn-EeiRCfEE-ivQmA" x="1380" y="980"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Ihm2g_n-EeiRCfEE-ivQmA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_Ihm2hPn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Ihm2hvn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_Q0NsVegrEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ihm2hfn-EeiRCfEE-ivQmA" x="960" y="1000"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Ih5xfPn-EeiRCfEE-ivQmA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_Ih5xffn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Ih5xf_n-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_SkVmIOgrEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ih5xfvn-EeiRCfEE-ivQmA" x="320" y="1480"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_RmCKweQNEeiqHpUkZzAjuw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_RmCKwuQNEeiqHpUkZzAjuw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_RmCKw-QNEeiqHpUkZzAjuw" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+    <owner xmi:type="uml:Model" href="StickGame%20v1.uml#_Rjd-8OQNEeiqHpUkZzAjuw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="StickGame%20v1.uml#_Rjd-8OQNEeiqHpUkZzAjuw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_jUpaMOQQEeisFacG0dJzlw" type="InterfaceRealization_Edge" source="_mPw88OQPEeisFacG0dJzlw" target="_9GZWcOQPEeisFacG0dJzlw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jUqBQOQQEeisFacG0dJzlw" type="InterfaceRealization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_kAE80OQQEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jUqBQeQQEeisFacG0dJzlw" y="39"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jUqBQuQQEeisFacG0dJzlw" type="InterfaceRealization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_kAOGwOQQEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jUqBQ-QQEeisFacG0dJzlw" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_jUpaMeQQEeisFacG0dJzlw"/>
+    <element xmi:type="uml:InterfaceRealization" href="StickGame%20v1.uml#_jUJq8OQQEeisFacG0dJzlw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jUpaMuQQEeisFacG0dJzlw" points="[661, 180, -643984, -643984]$[1040, 180, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jW2ZoOQQEeisFacG0dJzlw" id="(0.0,0.39800995024875624)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jW3AsOQQEeisFacG0dJzlw" id="(0.9874213836477987,0.7453416149068323)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_F-8ZkOQSEeisFacG0dJzlw" type="Association_Edge" source="_sJfJYOQPEeisFacG0dJzlw" target="_wIBbgOQPEeisFacG0dJzlw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_F-9nsOQSEeisFacG0dJzlw" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_NUKToOQSEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_F-9nseQSEeisFacG0dJzlw" y="-19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_F-9nsuQSEeisFacG0dJzlw" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_NUUEoOQSEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_F-9ns-QSEeisFacG0dJzlw" x="1" y="17"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_F-9ntOQSEeisFacG0dJzlw" type="Association_TargetRoleLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_NUgR4OQSEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_F-9nteQSEeisFacG0dJzlw" x="58" y="-27"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_F-9ntuQSEeisFacG0dJzlw" type="Association_SourceRoleLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_NUylwOQSEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_F-9nt-QSEeisFacG0dJzlw" x="-47" y="33"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_F-9nuOQSEeisFacG0dJzlw" type="Association_SourceMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_NU-zAOQSEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_F-9nueQSEeisFacG0dJzlw" x="55" y="33"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_F-9nuuQSEeisFacG0dJzlw" type="Association_TargetMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_NVLAQOQSEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_F-9nu-QSEeisFacG0dJzlw" x="-25" y="-27"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_F-8ZkeQSEeisFacG0dJzlw"/>
+    <element xmi:type="uml:Association" href="StickGame%20v1.uml#_F-vlQOQSEeisFacG0dJzlw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_F-8ZkuQSEeisFacG0dJzlw" points="[420, 600, -643984, -643984]$[240, 760, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_F_cI0OQSEeisFacG0dJzlw" id="(0.9950248756218906,0.22988505747126436)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_F_cI0eQSEeisFacG0dJzlw" id="(0.0,0.3508771929824561)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_HEiIoOQSEeisFacG0dJzlw" type="Association_Edge" source="_sJfJYOQPEeisFacG0dJzlw" target="_x5HlsOQPEeisFacG0dJzlw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HEiIo-QSEeisFacG0dJzlw" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_MAWiYOQSEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HEiIpOQSEeisFacG0dJzlw" x="1" y="-17"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HEiIpeQSEeisFacG0dJzlw" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_MAivoOQSEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HEiIpuQSEeisFacG0dJzlw" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HEiIp-QSEeisFacG0dJzlw" type="Association_TargetRoleLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_MAu84OQSEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HEiIqOQSEeisFacG0dJzlw" x="38" y="-18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HEiIqeQSEeisFacG0dJzlw" type="Association_SourceRoleLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_MA7xMOQSEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HEiIquQSEeisFacG0dJzlw" x="-39" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HEiIq-QSEeisFacG0dJzlw" type="Association_SourceMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_MBJMkOQSEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HEiIrOQSEeisFacG0dJzlw" x="39" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HEiIreQSEeisFacG0dJzlw" type="Association_TargetMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_MBWA4OQSEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HEiIruQSEeisFacG0dJzlw" x="-39" y="-18"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_HEiIoeQSEeisFacG0dJzlw"/>
+    <element xmi:type="uml:Association" href="StickGame%20v1.uml#_HEXJgOQSEeisFacG0dJzlw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HEiIouQSEeisFacG0dJzlw" points="[580, 641, -643984, -643984]$[800, 780, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HFEUIOQSEeisFacG0dJzlw" id="(0.0,0.22988505747126436)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HFEUIeQSEeisFacG0dJzlw" id="(1.0,0.5)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IVTM8OQSEeisFacG0dJzlw" type="Association_Edge" source="_x5HlsOQPEeisFacG0dJzlw" target="_zB7A0OQPEeisFacG0dJzlw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_IVTM8-QSEeisFacG0dJzlw" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_L_N58OQSEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_IVTM9OQSEeisFacG0dJzlw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_IVT0AOQSEeisFacG0dJzlw" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_L_ZgIOQSEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_IVT0AeQSEeisFacG0dJzlw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_IVT0AuQSEeisFacG0dJzlw" type="Association_TargetRoleLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_L_lGUOQSEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_IVT0A-QSEeisFacG0dJzlw" x="27" y="61"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_IVT0BOQSEeisFacG0dJzlw" type="Association_SourceRoleLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_L_wFcOQSEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_IVT0BeQSEeisFacG0dJzlw" x="-33" y="-47"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_IVT0BuQSEeisFacG0dJzlw" type="Association_SourceMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_L_8SsOQSEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_IVT0B-QSEeisFacG0dJzlw" x="33" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_IVT0COQSEeisFacG0dJzlw" type="Association_TargetMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_MAJuEOQSEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_IVT0CeQSEeisFacG0dJzlw" x="-33" y="-114"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_IVTM8eQSEeisFacG0dJzlw"/>
+    <element xmi:type="uml:Association" href="StickGame%20v1.uml#_IVGYoOQSEeisFacG0dJzlw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IVTM8uQSEeisFacG0dJzlw" points="[420, 140, -643984, -643984]$[220, 40, -643984, -643984]$[160, 100, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IV1YcOQSEeisFacG0dJzlw" id="(0.0,0.3333333333333333)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IV1YceQSEeisFacG0dJzlw" id="(1.0,0.18181818181818182)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_vLml0OQrEeisFacG0dJzlw" type="Association_Edge" source="_mPw88OQPEeisFacG0dJzlw" target="_sJfJYOQPEeisFacG0dJzlw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_vLnM4OQrEeisFacG0dJzlw" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_JVO5wOQvEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vLnM4eQrEeisFacG0dJzlw" x="1" y="-19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vLnM4uQrEeisFacG0dJzlw" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_JVYqwOQvEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vLnM4-QrEeisFacG0dJzlw" x="-1" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vLnM5OQrEeisFacG0dJzlw" type="Association_TargetRoleLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_JVrlsOQvEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vLnM5eQrEeisFacG0dJzlw" x="48" y="-48"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vLnM5uQrEeisFacG0dJzlw" type="Association_SourceRoleLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_JV1WsOQvEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vLnM5-QrEeisFacG0dJzlw" x="-16" y="37"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vLnM6OQrEeisFacG0dJzlw" type="Association_SourceMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_JWIRoOQvEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vLnM6eQrEeisFacG0dJzlw" x="14" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vLnM6uQrEeisFacG0dJzlw" type="Association_TargetMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_JWRbkOQvEeisFacG0dJzlw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vLnM6-QrEeisFacG0dJzlw" x="-33" y="-24"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_vLml0eQrEeisFacG0dJzlw"/>
+    <element xmi:type="uml:Association" href="StickGame%20v1.uml#_vLXVQOQrEeisFacG0dJzlw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vLml0uQrEeisFacG0dJzlw" points="[520, 240, -643984, -643984]$[580, 380, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vMIKQOQrEeisFacG0dJzlw" id="(0.5970149253731343,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vMIKQeQrEeisFacG0dJzlw" id="(0.4975124378109453,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Ico29_n-EeiRCfEE-ivQmA" type="StereotypeCommentLink" source="_awiA8OgqEeiflKyhNUkymA" target="_Ico28_n-EeiRCfEE-ivQmA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Ico2-Pn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Ico2_Pn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_aumuUOgqEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ico2-fn-EeiRCfEE-ivQmA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ico2-vn-EeiRCfEE-ivQmA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ico2-_n-EeiRCfEE-ivQmA"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IfWMsPn-EeiRCfEE-ivQmA" type="StereotypeCommentLink" source="_7LcNEOgqEeiflKyhNUkymA" target="_IfNCzPn-EeiRCfEE-ivQmA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IfWMsfn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_IfWMtfn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="StickGame%20v1.uml#_7LURQOgqEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IfWMsvn-EeiRCfEE-ivQmA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IfWMs_n-EeiRCfEE-ivQmA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IfWMtPn-EeiRCfEE-ivQmA"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IfhL3fn-EeiRCfEE-ivQmA" type="StereotypeCommentLink" source="__B9ysOgqEeiflKyhNUkymA" target="_IfhL2fn-EeiRCfEE-ivQmA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IfhL3vn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_IfhL4vn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#__BnNYOgqEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IfhL3_n-EeiRCfEE-ivQmA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IfhL4Pn-EeiRCfEE-ivQmA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IfhL4fn-EeiRCfEE-ivQmA"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_If0Gzfn-EeiRCfEE-ivQmA" type="StereotypeCommentLink" source="__B-Z0ugqEeiflKyhNUkymA" target="_If0Gyfn-EeiRCfEE-ivQmA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_If0Gzvn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_If0G0vn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="StickGame%20v1.uml#__BuiIOgqEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_If0Gz_n-EeiRCfEE-ivQmA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_If0G0Pn-EeiRCfEE-ivQmA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_If0G0fn-EeiRCfEE-ivQmA"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IgHBt_n-EeiRCfEE-ivQmA" type="StereotypeCommentLink" source="__B_A3-gqEeiflKyhNUkymA" target="_IgHBs_n-EeiRCfEE-ivQmA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IgHBuPn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_IgHBvPn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="StickGame%20v1.uml#__B2d8OgqEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IgHBufn-EeiRCfEE-ivQmA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IgHBuvn-EeiRCfEE-ivQmA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IgHBu_n-EeiRCfEE-ivQmA"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IgQyvfn-EeiRCfEE-ivQmA" type="StereotypeCommentLink" source="_NpwigugrEeiflKyhNUkymA" target="_IgQyufn-EeiRCfEE-ivQmA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IgQyvvn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_IgQywvn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_NpdnkugrEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IgQyv_n-EeiRCfEE-ivQmA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IgQywPn-EeiRCfEE-ivQmA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IgQywfn-EeiRCfEE-ivQmA"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IhKKl_n-EeiRCfEE-ivQmA" type="StereotypeCommentLink" source="_Q0ziMOgrEeiflKyhNUkymA" target="_IhKKk_n-EeiRCfEE-ivQmA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IhKKmPn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_IhKKnPn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_Qz6xYegrEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IhKKmfn-EeiRCfEE-ivQmA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IhKKmvn-EeiRCfEE-ivQmA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IhKKm_n-EeiRCfEE-ivQmA"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Ihm2h_n-EeiRCfEE-ivQmA" type="StereotypeCommentLink" source="_Q0ziROgrEeiflKyhNUkymA" target="_Ihm2g_n-EeiRCfEE-ivQmA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Ihm2iPn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Ihm2jPn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_Q0NsVegrEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ihm2ifn-EeiRCfEE-ivQmA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ihm2ivn-EeiRCfEE-ivQmA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ihm2i_n-EeiRCfEE-ivQmA"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Ih5xgPn-EeiRCfEE-ivQmA" type="StereotypeCommentLink" source="_Sk8DF-grEeiflKyhNUkymA" target="_Ih5xfPn-EeiRCfEE-ivQmA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Ih5xgfn-EeiRCfEE-ivQmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Ih5xhfn-EeiRCfEE-ivQmA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="StickGame%20v1.uml#_SkVmIOgrEeiflKyhNUkymA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ih5xgvn-EeiRCfEE-ivQmA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ih5xg_n-EeiRCfEE-ivQmA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ih5xhPn-EeiRCfEE-ivQmA"/>
+  </edges>
+</notation:Diagram>
