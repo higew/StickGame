@@ -179,8 +179,8 @@
             draggedElement2 = dndHandler2.draggedElement,
             clonedElement2 = draggedElement2.cloneNode(true);
 
-          while (target2.className.indexOf('cardBoard2') == -1) {
-            target2 = target2.parentNode;
+          if (target2.className.indexOf('cardBoard2') == -1) {
+            target2 = null;
           }
 
           target2.className = 'cardBoard2';

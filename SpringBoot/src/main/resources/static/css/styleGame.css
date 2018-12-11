@@ -85,10 +85,15 @@ body * {
   transform: translate(-30px, -120px) scale(3);
 }
 
+.handCards:active {
+transform: scale(1);
+}
+
+
 .cardPict, .cardPict2 {
   height: 100%;
   width: 100%;
-  border: black 1px solid;
+  border: black 3px solid;
   border-radius: 10%;}
 
 /* .handCards:hover .cardpict{
@@ -163,7 +168,7 @@ body * {
 .draw {
   height: 90%;
   width: 40%;
-  border: black 1px solid;
+  border: black 3px solid;
   border-radius: 10%;
   justify-content: flex-start;
   align-items: flex-end;
@@ -175,7 +180,7 @@ body * {
 .discard {
   height: 90%;
   width: 40%;
-  border: black 1px solid;
+  border: black 3px solid;
   border-radius: 10%;
   justify-content: flex-start;
   align-items: flex-end;
