@@ -1,10 +1,6 @@
 <#import "/spring.ftl" as spring/>
 <link rel="stylesheet" type="text/css"
    href="<@spring.url '/css/default.css'/>"/>
-<!-- <link rel="stylesheet" type="text/css"
-   href="<@spring.url '/css/home.css'/>"/> -->
-<!-- <link rel="stylesheet" type="text/css"
-   href="<@spring.url '/css/reset.css'/>"/> -->
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <script src="<@spring.url 'javascript/jQuery.js'/>"></script>
 <script src="<@spring.url 'javascript/jQueryUI.js'/>"></script>

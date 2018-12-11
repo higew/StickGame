@@ -47,7 +47,7 @@
       </ul>
     </nav>
     <nav id="top">
-      <a id="logo" href="#"></a>
+      <a id="logo" href="/"></a>
       <a id="account" href="/profil">Mon compte</a>
     </nav>
     <header>
