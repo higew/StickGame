@@ -161,14 +161,11 @@
   <body>
     <div class="gameContainer">
       <div class="side" name="opponentside">
-          <div class="avatar">
-            <div class="picture">
-              <img src="/media/cat2.png" alt="" class="avatarPict">
-            </div>
-            <div class="hp">
-              <p id="hp1"></p>
-            </div>
+        <div class="avatar">
+          <div id="picture2">
+            <p id="hp1"></p>
           </div>
+        </div>
           <div class="hand">
             <div class="handCards2">
               <img src="/media/cardBackDraw.jpeg" draggable="true" class="cardPict" id="cardPict11" alt="">
@@ -198,13 +195,11 @@
             <p id="ink1"></p>
           </div>
         </div>
-      <div class="side2" name="opponentSide2">
+      <div class="side2" id="opponentSide2">
           <div class="discardContainer">
-            <div class="discard">
-              <p id="discard1"></p>
-            </div>
+            <button type="button" name="button" id="btn2">Options</button>
           </div>
-          <div class="board">
+          <div class="board" id="opponentBoard">
             <div class="cardBoard">
             </div>
             <div class="cardBoard">
@@ -222,13 +217,11 @@
             </div>
           </div>
         </div>
-      <div class="side2" name="playerSide2">
+      <div class="side2" id="playerSide2">
         <div class="discardContainer">
-          <div class="discard">
-            <p id="discard2"></p>
-          </div>
+          <button type="button" name="button" id="btn2">Fin de tour</button>
         </div>
-        <div class="board">
+        <div class="board" id="playerBoard">
           <div class="cardBoard2" id="0">
           </div>
           <div class="cardBoard2" id="1">
@@ -248,10 +241,7 @@
       </div>
       <div class="side" name="playerSide">
         <div class="avatar">
-          <div class="picture">
-            <img src="/media/cat.png" alt="SurprisedCat" class="avatarPict">
-          </div>
-          <div class="hp">
+          <div id="picture1">
             <p id="hp2"></p>
           </div>
         </div>
