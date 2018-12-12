@@ -12,9 +12,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.example.demo.database.UserRepository;
-import com.example.demo.models.User;
-
 class UserServiceTest {
 
 	@Test

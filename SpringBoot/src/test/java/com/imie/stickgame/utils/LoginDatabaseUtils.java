@@ -6,11 +6,6 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.demo.database.RoleRepository;
-import com.example.demo.database.UserRepository;
-import com.example.demo.models.User;
-import com.example.demo.security.services.PreLaunchService;
-
 @Service
 class LoginDatabaseUtils {
 

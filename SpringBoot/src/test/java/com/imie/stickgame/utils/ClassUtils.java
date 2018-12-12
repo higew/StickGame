@@ -11,7 +11,7 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-class ClassUtils {
+public class ClassUtils {
 
 	/**
 	 * Scans all classes accessible from the context class loader which belong to
