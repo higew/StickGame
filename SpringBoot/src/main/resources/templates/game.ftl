@@ -18,6 +18,7 @@
 
 
 <body>
+<div>gameReference : ${gameReference}, playerReference : ${playerReference}</div>
   <div class="gameContainer">
     <div id="player1">
       <div class="side" name="opponentside">
