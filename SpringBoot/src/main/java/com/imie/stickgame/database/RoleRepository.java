@@ -8,6 +8,7 @@ import com.imie.stickgame.models.Role;
 @org.springframework.stereotype.Repository
 public interface RoleRepository extends BaseCRUDRepository<Role>{
 
-	List<Role> findByName(String name);
+	Role findByName(String name);
+	List<Role> findAllByName(String name);
 	
 }
