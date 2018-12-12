@@ -23,6 +23,10 @@ body * {
 
 }
 
+#gameReference {
+  visibility: hidden;
+}
+
 /*----------------------------- Hands --------------------------------------*/
 .side {
   height: 20%;
@@ -42,7 +46,7 @@ body * {
 .picture {
   height: 100%;
   width: 150px;
-  margin-left: -100px;
+  margin-left: -10px;
   border: black 3px solid;
   border-radius: 10%;
 }
@@ -56,10 +60,10 @@ body * {
   height: 100%;
   width: 150px;
   justify-content: center;
-  /* background-image: url(../media/coeur.png); */
+  background-image: url(../media/coeur.png);
   background-repeat: no-repeat;
   background-size: 30%;
-  background-position: 8px 80px;
+  background-position: center;
   align-items: center;
   font-size: 70px;
   font-family: 'Indie Flower', cursive;
@@ -89,17 +93,13 @@ body * {
 transform: scale(1);
 }
 
-
 .cardPict, .cardPict2 {
   height: 100%;
   width: 100%;
   border: black 3px solid;
-  border-radius: 10%;}
+  border-radius: 10%;
+}
 
-/* .handCards:hover .cardpict{
-  transition: 1s;
-  transform: scale(5);
-} */
 .mana {
   height: 100%;
   width: 20%;
