@@ -23,6 +23,15 @@ public class Player extends DBItem {
 	private Integer sizeHand;
 	private Integer ink;
     private Integer inkTurn;
+    private Boolean isWaiting;
+
+    public Boolean getWaiting() {
+        return isWaiting;
+    }
+
+    public void setWaiting(Boolean waiting) {
+        isWaiting = waiting;
+    }
 
     public int getInkTurn() {
         return inkTurn;

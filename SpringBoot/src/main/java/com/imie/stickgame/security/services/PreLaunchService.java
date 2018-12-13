@@ -76,46 +76,43 @@ public class PreLaunchService {
 	
 	/**
 	 * Creation d'une liste de 30 cartes et d'un deck par default.
-	 * @param card 
-	 * @param card 
 	 */
-
 	@Transactional()
 	public void createFirstCardsDeck()  {
 		
 		if ((this.serviceCard.findByName("card1")) == null) {
 		//(name, picture, hp, atk, inCost, baseEffect, classes)
 	    List<Card> cards = new ArrayList<>();
-		cards.add(new Card ("card1","src/main/resources/static/media/card1.png", 6,2,3, null, null));		
-		cards.add(new Card ("card2","src/main/resources/static/media/card2.png", 6,3,5, null, null));
-		cards.add(new Card ("card3","src/main/resources/static/media/card3.png", 6,2,3, null, null));
-		cards.add(new Card ("card4","src/main/resources/static/media/card4.png", 6,2,3, null, null));
-		cards.add(new Card ("card5","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card6","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card7","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card8","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card9","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card10","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card11","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card12","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card13","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card14","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card15","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card16","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card17","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card18","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card19","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card20","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card21","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card22","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card23","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card24","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card25","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card26","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card27","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card28","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card29","src/main/resources/static/media/card5.png", 6,2,3, null, null));
-		cards.add(new Card ("card30","src/main/resources/static/media/card5.png", 6,2,3, null, null));
+		cards.add(new Card ("card1","/media/stickfighter2.png", 6,2,3, null, null));
+		cards.add(new Card ("card2","/media/stickfighter3.png", 6,3,5, null, null));
+		cards.add(new Card ("card3","/media/stickfighter4.png", 6,2,3, null, null));
+		cards.add(new Card ("card4","/media/stickfighter5.png", 6,2,3, null, null));
+		cards.add(new Card ("card5","/media/stickfighter6.png", 6,2,3, null, null));
+		cards.add(new Card ("card6","/media/stickfighter7.png", 6,2,3, null, null));
+		cards.add(new Card ("card7","/media/stickfighter8.png", 6,2,3, null, null));
+		cards.add(new Card ("card8","/media/stickfighter9.png", 6,2,3, null, null));
+		cards.add(new Card ("card9","/media/stickfighter10.png", 6,2,3, null, null));
+		cards.add(new Card ("card10","/media/stickfighter11.png", 6,2,3, null, null));
+		cards.add(new Card ("card11","/media/stickfighter12.png", 6,2,3, null, null));
+		cards.add(new Card ("card12","/media/stickfighter13.png", 6,2,3, null, null));
+		cards.add(new Card ("card13","/media/stickfighter14.png", 6,2,3, null, null));
+		cards.add(new Card ("card14","/media/stickfighter15.png", 6,2,3, null, null));
+		cards.add(new Card ("card15","/media/stickfighter16.png", 6,2,3, null, null));
+		cards.add(new Card ("card16","/media/stickfighter17.png", 6,2,3, null, null));
+		cards.add(new Card ("card17","/media/stickfighter18.png", 6,2,3, null, null));
+		cards.add(new Card ("card18","/media/stickfighter2.png", 6,2,3, null, null));
+		cards.add(new Card ("card19","/media/stickfighter3.png", 6,2,3, null, null));
+		cards.add(new Card ("card20","/media/stickfighter4.png", 6,2,3, null, null));
+		cards.add(new Card ("card21","/media/stickfighter5.png", 6,2,3, null, null));
+		cards.add(new Card ("card22","/media/stickfighter6.png", 6,2,3, null, null));
+		cards.add(new Card ("card23","/media/stickfighter7.png", 6,2,3, null, null));
+		cards.add(new Card ("card24","/media/stickfighter8.png", 6,2,3, null, null));
+		cards.add(new Card ("card25","/media/stickfighter9.png", 6,2,3, null, null));
+		cards.add(new Card ("card26","/media/stickfighter10.png", 6,2,3, null, null));
+		cards.add(new Card ("card27","/media/stickfighter11.png", 6,2,3, null, null));
+		cards.add(new Card ("card28","/media/stickfighter12.png", 6,2,3, null, null));
+		cards.add(new Card ("card29","/media/stickfighter13.png", 6,2,3, null, null));
+		cards.add(new Card ("card30","/media/stickfighter14.png", 6,2,3, null, null));
 
 		cards.forEach((i) -> this.serviceCard.save(i)); 
 	
@@ -166,8 +163,6 @@ public class PreLaunchService {
 							"	CONSTRAINT SPRING_SESSION_ATTRIBUTES_FK FOREIGN KEY (SESSION_PRIMARY_ID) REFERENCES SPRING_SESSION(PRIMARY_ID) ON DELETE CASCADE" + 
 							") ENGINE=InnoDB ROW_FORMAT=DYNAMIC;");
 		}
-		
 		connection.close();
 	}
-
 }

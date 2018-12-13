@@ -3,8 +3,9 @@ package com.imie.stickgame.models;
 import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.*;
-
 import com.imie.stickgame.database.base.DBItem;
+import com.imie.stickgame.services.DeckService;
+import org.springframework.beans.factory.annotation.Autowired;
 
 @Entity
 @Table(name = "deck")
