@@ -159,13 +159,3 @@
 				<p>Designed by <span>Jean-jean Jean</span></p>
 			</article>
     </footer>
-
-
-<p>Session: <#if user??> ${user.firstname} ${user.lastname} </#if> </p>
-<div>Cookie: <#if myCookie??>${myCookie.getValue()}</#if></div>
-
- <#if roles??>
-  <#list roles as r>
-    ${r}
-  </#list>
-</#if>

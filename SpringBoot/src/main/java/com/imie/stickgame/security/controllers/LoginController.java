@@ -27,11 +27,6 @@ public class LoginController {
 		model.addAttribute("form_username",FORM_USERNAME);
 		model.addAttribute("form_password",FORM_PASSWORD);
 		
-		//Ajout Test
-//		String referer = request.getHeader("Referer");
-//		
-//		request.getSession().setAttribute(CustomAuthenticationSuccessHandler.REDIRECT_URL_SESSION_ATTRIBUTE_NAME, referer); 
-		
 		return SECURITY_LOGIN;
 	}
 

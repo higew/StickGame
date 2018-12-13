@@ -21,7 +21,7 @@ import com.imie.stickgame.models.User;
 
 @Controller
 @RequestMapping(UserController.BASE_URL)
-@SessionAttributes("connection")
+//@SessionAttributes("connection")
 public class UserController extends BaseController<User>{
 	
 	public static final String BASE_URL = "/users";
@@ -56,28 +56,5 @@ public class UserController extends BaseController<User>{
 	@Override
 	protected void setupOtherFields(User item) {
 		//item.setRole(serviceRole.find(item.getRole().getId()).get());
-	}
-	
-	//En test session
-	@RequestMapping(value="/profil")
-	public ModelAndView singleFieldPage() {
-		return new ModelAndView("/users/profil");
-	} 
-	
-	@RequestMapping(value="/remember", method= {RequestMethod.GET})
-	public ModelAndView rememberThought(@RequestParam String
-			connection) {
-		ModelAndView modelAndView = new ModelAndView();
-		modelAndView.addObject("connection", connection);
-		modelAndView.setViewName("/users/profil");
-		return modelAndView;
-	}
-	
-	@RequestMapping(value="/sessionitems", method= {RequestMethod.GET})
-	public String sessionItems(HttpSession session) {
-		
-		System.out.println(session.getAttribute("connection"));
-		
-		return "redirect:/";
 	}
 }

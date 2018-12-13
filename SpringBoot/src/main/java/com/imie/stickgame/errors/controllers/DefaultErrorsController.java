@@ -26,9 +26,6 @@ public class DefaultErrorsController {
 		}else if (ex instanceof InternalServerError) {
 			modelAndView.setViewName("/error/500");	
 		} 
-//		else {
-//			modelAndView.setViewName("/errors/500");
-//		}
 		return modelAndView;
 	}
 	

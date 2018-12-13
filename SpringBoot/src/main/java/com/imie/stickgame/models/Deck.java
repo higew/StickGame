@@ -50,4 +50,8 @@ public class Deck extends DBItem {
 		this.cards = new ArrayList<>();
 		this.size = cards.size();
 	}
+
+	public Deck(String string) {
+		// TODO Auto-generated constructor stub
+	}
 }

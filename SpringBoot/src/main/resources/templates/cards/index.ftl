@@ -9,15 +9,14 @@
     <#list roles as r>           
 		 <#if "${r}" == "ROLE_ADMIN">
 		  <li><a class="menumodif" href="/cards/edit/">Create New</a></li>
-      <li><a class="menumodif" href="/cards/find/">Find</a></li>
-		  <li><a class="menumodif" href="/cards/delete/">Delete</a></div></li>
+		  <li><a class="menumodif" href="/cards/delete/">Delete</a></li>
 		</#if>
 		<#if "${r}" != "ROLE_ANONYMOUS">
 		 <li><a class="menumodif" href="/cards/find/">Find</a></li>
 		</#if>
      </#list>
 </ul>
-<p>Session: <#if user??> ${user.firstname} ${user.lastname} </#if> </p>		
+	
 </div>
-
-<div><a href="/">Back</a></div>
+<br><br>
+<div><a href="/">Acceuil</a></div>
