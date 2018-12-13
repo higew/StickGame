@@ -1,4 +1,5 @@
 <#import "/spring.ftl" as spring/>
+<#include "../basecontroller/index.ftl"/>
 <link rel="stylesheet" type="text/css"
    href="<@spring.url '/css/profil.css'/>"/>
 <link rel="stylesheet" type="text/css"
@@ -19,7 +20,10 @@
   <a id="logo" href="/"></a>
   <a id="account" href="/profil">Mon compte</a>
 </nav>
-<p>Session: <#if user??> ${user.firstname} ${user.lastname} </#if> </p>
 
 
-<p><li><a class="menumodif" href="/profil/edit/">Edit Profil</a></li></p>
+<div class="contMenu">
+<ul>
+	<li><a class="menumodif" href="/profil/edit/">Edit Profil</li>
+</ul>
+

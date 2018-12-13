@@ -2,6 +2,8 @@ package com.imie.stickgame.database;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import java.util.List;
+
 import org.junit.FixMethodOrder;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
@@ -28,11 +30,17 @@ public class UserServiceTest {
         User user = new User("email@site.com","heavyTest81442873",1,"test","user");
         userRepository.save(user);
      
-        User found = userRepository.findByEmail(user.getEmail());
+        User foundEmail = userRepository.findByEmail(user.getEmail());
      
-        assertThat(found.getEmail())
+        assertThat(foundEmail.getEmail())
           .isEqualTo(user.getEmail());
+        
+        List<User> foundFirstname = userRepository.findByFirstname(user.getFirstname());
+        
+        List<User> foundLastname = userRepository.findByLastname(user.getLastname());
+        
     }
+
     
     @Test
     public void findAndDelete() {
