@@ -1,4 +1,5 @@
 <#import "/spring.ftl" as spring/>
+<#include "../basecontroller/index.ftl"/>
 
 <form action="/cards/find" method="POST">
 <#include "../cards/specific/emptyshowform.ftl"/>

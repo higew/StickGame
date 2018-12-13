@@ -1,27 +1,22 @@
 <#import "/spring.ftl" as spring/>
-
-   
+<#include "../utils/bootstrap.ftl"/>
 <h1>${pageName}</h1>
+<div><a href="/">Home</a></div>
 
-<form action="/item/find" method="POST">
-    <div>Firstname</div>
-    <input type="text" name="firstname" value="">
-    <div>Lastname</div>
-    <input type="text" name="lastname" value="">
-    <input type="hidden"
-            name="${_csrf.parameterName}"
-            value="${_csrf.token}"/>
-    <input type="submit" value="Search">
-	}
+<form action="${detailPath}/find" method="POST">
+<#include "..${detailPath}/specific/emptyshowform.ftl"/>
+<input type="submit" value="Search">
 </form> 
 
 <div>
-<#if item??>
-    <#list item as u>
-        <#include "show.ftl"/>
+<#if items??>
+    <#list items as i>
+        <#include "..${detailPath}/specific/show.ftl"/>
     </#list>
 </#if>
 <#if notFound??>
     ${notFound}
 </#if>
 </div>
+
+<div><a href="${detailPath}/index">Back</a></div>

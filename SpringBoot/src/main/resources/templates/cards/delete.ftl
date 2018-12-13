@@ -1,4 +1,5 @@
 <#import "/spring.ftl" as spring/>
+<#include "../basecontroller/index.ftl"/>
 
 <form action="/delete" method="POST">
     <div>Nom de la carte</div>

@@ -1,5 +1,5 @@
 <#import "/spring.ftl" as spring/>
-
+<#include "../basecontroller/index.ftl"/>
    
 <h1>${pageName}</h1>
 <div>
