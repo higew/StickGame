@@ -70,14 +70,6 @@ public class LoginTest {
 		}
 	}
 
-//	@After
-//	public void deferal() {
-//		if (notInit) {
-//			loginDatabaseUtils.RemoveAdminAndUser();
-//			notInit = false;
-//		}
-//	}
-
 	@Test
 	public void testAnonymous() throws Exception {
 		mockMvc.perform(get("/users/index")).andExpect(status().is4xxClientError());

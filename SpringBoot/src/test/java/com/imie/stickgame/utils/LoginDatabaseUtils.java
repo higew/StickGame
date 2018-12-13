@@ -8,7 +8,6 @@ import com.imie.stickgame.database.UserRepository;
 import com.imie.stickgame.models.User;
 import com.imie.stickgame.security.services.PreLaunchService;
 
-
 @Service
 public class LoginDatabaseUtils {
 

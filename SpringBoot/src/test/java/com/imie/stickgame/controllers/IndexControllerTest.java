@@ -20,6 +20,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
+import com.imie.stickgame.utils.ClassUtils;
 
 import com.imie.stickgame.controllers.IndexController;
 
