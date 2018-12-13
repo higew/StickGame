@@ -17,6 +17,7 @@
         <li><a href="#section2">Histoire</a></li>
         <li><a href="#section3">Classes</a></li>
         <li><a href="#section4">Cartes</a></li>
+          <li><a href="game">Jouer</a></li>
       </ul>
       <ul>
         <li><a href="#">Wiki</a></li>
