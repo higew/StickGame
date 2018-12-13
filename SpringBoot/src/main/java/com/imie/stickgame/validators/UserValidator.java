@@ -23,9 +23,9 @@ public class UserValidator {
             + "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
     private static final String regex_password = "((?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{8,32})";
 
-    /*
-      Validation du formulaire d'inscription
-     On verifie sur chaque champs le fait qu'il ne soit pas vide, ne soit pas null et valide la regex correspondante au champ.
+    /**
+    *  Validation du formulaire d'inscription
+    *  On verifie sur chaque champs le fait qu'il ne soit pas vide, ne soit pas null et valide la regex correspondante au champ.
     */ 
      
     public void validate(Object o, Errors errors) {

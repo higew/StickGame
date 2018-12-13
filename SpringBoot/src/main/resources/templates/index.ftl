@@ -20,24 +20,35 @@
       </ul>
       <ul>
         <li><a href="#">Wiki</a></li>
-        <li><a href="/registration">S'enregistrer</a><li>
+        <#list roles as r>
+          <#if "${r}" == "ROLE_ANONYMOUS">
+            <li><a href="/registration">S'enregistrer</a><li>
+          </#if>
+        </#list>
         <#list roles as r>
           <#if "${r}" != "ROLE_ANONYMOUS">
-			       <li><a href="/logout">Se déconnecter<a/><li>
+			       <li><a href="/logout">Se déconnecter</a><li>
+		      </#if>
+        </#list>
+        <#list roles as r>
+          <#if "${r}" == "ROLE_ADMIN">
+			       <li>
+               <div class="dropdown" style="color: white; font-weight: bold;">Administration
+                 <div class="dropdown-content">
+                    <a href="/cards" style="color: black;">Cards</a><br/>
+                    <a href="/classes" style="color: black;">Classes</a></br>
+                    <a href="/effects" style="color: black;">Effects</a><br/>
+                    <a href="/players" style="color: black;">Players</a>
+                 </div>
+               </div>
+             </li>
 		      </#if>
         </#list>
       </ul>
     </nav>
     <nav id="top">
-      <a id="logo" href="#"></a>
-      <div id="account" class="dropdown" href="#">Administration
-        <div class="dropdown-content">
-           <a href="/cards">Cards</a><br/>
-           <a href="/classes">Classes</a></br>
-           <a href="/effects">Effects</a><br/>
-           <a href="/players">Players</a>
-        </div>
-      </div>
+      <a id="logo" href="/"></a>
+      <a id="account" href="/profil">Mon compte</a>
     </nav>
     <header>
       <div id="stickrai"></div>
@@ -148,13 +159,3 @@
 				<p>Designed by <span>Jean-jean Jean</span></p>
 			</article>
     </footer>
-
-    
-<p>Session: <#if user??> ${user.firstname} ${user.lastname} </#if> </p>		
-<div>Cookie: <#if myCookie??>${myCookie.getValue()}</#if></div>        
-
- <#if roles??>
-        <#list roles as r>
-        ${r}
-     </#list>
-    </#if>

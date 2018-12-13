@@ -40,50 +40,50 @@ public class PreLaunchService {
 	@Autowired
 	private DataSource dataSource;
 	
-	//Modif en cours
-//	
-//	public Role RoleTableExist (EntityManager em, String name) {
-//	    TypedQuery<Role> query = em.createQuery(
-//	        "SELECT c FROM Role c WHERE c.name = :name", Role.class);
-//	    return query.setParameter("name", name).getSingleResult();
-//	  } 
-	
 	/**
 	 * Creation Role_Admin ainsi qu'un administrateur par default.
 	 */
 	public void createFirstAdmin() {
-		
-		Role role = new Role("ROLE_ADMIN");
-		
-		this.serviceRole.save(role);
-
-		
-		User user = new User("admin@admin.admin", "admin", 1, "stick", "game");
-		user.getRoles().add(role);
-		this.serviceUser.save(user);
 	
+		User user = new User("admin@admin.fr", "admin", 1, "myAdmin", "forSite");
+		createUserWithRole(user,"ROLE_ADMIN");	
 	}
+	
+	@Transactional()
+	public void createUserWithRole(User user, String roleName)  {
 
-	/**
-	 * Creation du role utilisateur
-	 */
+		Role role = null;
+		if ((role = this.serviceRole.findByName(roleName)) == null) {
+			role = new Role(roleName);
+			this.serviceRole.save(role);
+		}
+		
+		User userTest = null;
+		if ((userTest = this.serviceUser.findByEmail(user.getEmail())) == null
+				|| userTest.getRoles().size() == 0) {
+			user.getRoles().add(role);
+			this.serviceUser.save(user);
+		}
+	}
+	
 	public void createRoleUser() {
-		Role role = new Role("ROLE_USER");
 		
+		if ((this.serviceRole.findByName("ROLE_USER")) == null) {
+		Role role = new Role("ROLE_USER");		
 		this.serviceRole.save(role);
-		
-		//Ajout d'un utilisateur pour les tests
-		User user = new User("user@user.fr", "user", 1, "user", "user");
-		user.getRoles().add(role);
-		this.serviceUser.save(user);
-		
+		}
 	}
 	
 	/**
 	 * Creation d'une liste de 30 cartes et d'un deck par default.
+	 * @param card 
+	 * @param card 
 	 */
-	public void createFirstCardsDeck() {
+
+	@Transactional()
+	public void createFirstCardsDeck()  {
 		
+		if ((this.serviceCard.findByName("card1")) == null) {
 		//(name, picture, hp, atk, inCost, baseEffect, classes)
 	    List<Card> cards = new ArrayList<>();
 		cards.add(new Card ("card1","src/main/resources/static/media/card1.png", 6,2,3, null, null));		
@@ -123,6 +123,7 @@ public class PreLaunchService {
 		deck.setName("Elf");
 		deck.setCards(cards);
 		this.serviceDeck.save(deck);
+		}			
 	}
 	
 	@Transactional()
@@ -133,14 +134,14 @@ public class PreLaunchService {
 		
 		Boolean haveTable = false;
 		while (rs.next()) {
-			if (rs.getString(1).equals("SPRING_SESSION")) {
+			if (rs.getString(1).equals("spring_session")) {
 				haveTable = true;
 			}
 		}
 
 		if (!haveTable) {
 			connection.createStatement()
-					.execute("CREATE TABLE SPRING_SESSION (" + 
+					.execute("CREATE TABLE SPRING_SESSION (" +
 							"	PRIMARY_ID CHAR(36) NOT NULL," + 
 							"	SESSION_ID CHAR(36) NOT NULL," + 
 							"	CREATION_TIME BIGINT NOT NULL," + 

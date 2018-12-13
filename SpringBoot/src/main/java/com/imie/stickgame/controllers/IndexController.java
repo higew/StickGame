@@ -41,20 +41,6 @@ public class IndexController {
         User user = userService.findByEmail(securityContext.getAuthentication().getName());
   	    model.addAttribute("user", user);
         
-
-        // En test pour session
-//		Cookie cookie = WebUtils.getCookie(request, "myCookie");
-//		
-//		if (cookie != null) {
-//			String cookieVal = URLDecoder.decode(cookie.getValue(),"UTF-8");
-//			System.out.println(cookieVal);
-//			model.addAttribute("myCookie",cookie);
-//		}else {
-//			Cookie cookieSend = new Cookie("myCookie", URLEncoder.encode("La maman de cookie c'est bérénice","UTF-8"));
-//			response.addCookie(cookieSend);
-//			model.addAttribute("myCookie",cookieSend);
-//		}
-        
 		return "/index";
 	}
 

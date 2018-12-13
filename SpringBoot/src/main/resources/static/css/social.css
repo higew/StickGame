@@ -25,7 +25,7 @@
   justify-content: space-around;
   align-items: center;
   height: 100px;
-  width: 300px;
+  width: 100%;
   background-color: white;
   /* box-shadow: 8px 8px 0 rgba(137, 137, 137, 0.5); */
 }
@@ -53,7 +53,7 @@
 }
 
 #wrapper #friendList .contact .text {
-  width: 190px;
+  width: 65%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -93,6 +93,7 @@
 
 #wrapper #contentRight .dialog .messageReceived {
   margin-bottom: 10px;
+  margin-right: 20px;
 }
 
 #wrapper #contentRight .dialog .messageReceived .speech-bubble {
@@ -103,16 +104,33 @@
   margin-bottom: 10px;
 }
 
-#wrapper #contentRight .dialog .messageReceived .speech-bubble:after {
+/*#wrapper #contentRight .dialog .messageReceived .speech-bubble:after {
+	background: #eaeaea;
+	border-radius: .4em;
+  padding: 20px;
+  margin-bottom: 10px;
+  width: auto;
+}*/
+
+/* #wrapper #contentRight .dialog .messageReceived .speech-bubble:after {
+>>>>>>> master
 	content: '';
 	position: absolute;
 	top: 50%;
 	border: 20px solid transparent;
 	border-right-color: #80ff80;
+<<<<<<< HEAD
 }
 
 #wrapper #contentRight .dialog .messageSent {
   margin-bottom: 10px;
+=======
+} */
+
+#wrapper #contentRight .dialog .messageSent {
+  text-align: right;
+  margin-bottom: 10px;
+  margin-right: 20px;
   /* min-height: 100px;
   max-height: 500px;
   min-width: 100px;
@@ -121,19 +139,27 @@
 
 #wrapper #contentRight .dialog .messageSent .speech-bubble {
 	position: relative;
-	background: #ff8080;
+	background: #bababa;
 	border-radius: .4em;
   padding: 20px;
   margin-bottom: 10px;
 }
 
+/*<<<<<<< HEAD
 #wrapper #contentRight .dialog .messageSent .speech-bubble:after {
+=======
+ #wrapper #contentRight .dialog .messageSent .speech-bubble:after {
+>>>>>>> master
 	content: '';
 	position: absolute;
 	top: 50%;
 	border: 20px solid transparent;
 	border-right-color: #ff8080;
+<<<<<<< HEAD
 }
+=======
+} 
+>>>>>>> master*/
 
 #wrapper #contentRight .dialog .nameSenders {
   margin-bottom: 5px;
