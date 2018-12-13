@@ -1,10 +1,8 @@
 package com.imie.stickgame.firebase.models;
 
-import com.imie.stickgame.models.Deck;
 import com.imie.stickgame.models.Player;
 
 import java.util.Map;
-import java.util.Random;
 
 public class FirebaseGamePlayer {
 
