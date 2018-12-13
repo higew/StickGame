@@ -19,7 +19,6 @@ import java.io.IOException;
 @SpringBootApplication
 @Configuration
 @EnableAutoConfiguration
-@EnableJdbcHttpSession
 public class Application {
 
     public static void main(String[] args) {
